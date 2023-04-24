@@ -11,7 +11,8 @@ import SwiftUI
 struct qandaApp: App {
     var body: some Scene {
         WindowGroup {
-          FishQuiz(quizData: fishData)
+          MultiView(qandas: [fishData,dogData,catData,xData])
+            .navigationTitle("20,000 Questions")
         }
     }
 }

@@ -7,7 +7,13 @@ struct Challenge : Hashable, Codable {
   let explanation: [String] // reasoning behind the correctAnswer
 }
 
-struct GameData : Codable {
+struct GameData : Codable, Identifiable {
+  internal init(subject: String, challenges: [Challenge]) {
+    self.subject = subject
+    self.challenges = challenges.shuffled()  //randomize
+  }
+  
+  let id = UUID().uuidString
   let subject: String
   let challenges: [Challenge]
 }
