@@ -11,7 +11,7 @@ import SwiftUI
 struct qandaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          FishQuiz(quizData: fishData)
         }
     }
 }

@@ -11,6 +11,8 @@
 		8823695829ED0AF900A16E14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823695729ED0AF900A16E14 /* ContentView.swift */; };
 		8823695A29ED0AFA00A16E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695929ED0AFA00A16E14 /* Assets.xcassets */; };
 		8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */; };
+		8823696429EEFEE400A16E14 /* FromChatGPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696329EEFEE400A16E14 /* FromChatGPT.swift */; };
+		8823696629EFC0D600A16E14 /* FishQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696529EFC0D600A16E14 /* FishQuiz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		8823695729ED0AF900A16E14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8823695929ED0AFA00A16E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8823696329EEFEE400A16E14 /* FromChatGPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromChatGPT.swift; sourceTree = "<group>"; };
+		8823696529EFC0D600A16E14 /* FishQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishQuiz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				8823695529ED0AF900A16E14 /* qandaApp.swift */,
 				8823695729ED0AF900A16E14 /* ContentView.swift */,
+				8823696329EEFEE400A16E14 /* FromChatGPT.swift */,
+				8823696529EFC0D600A16E14 /* FishQuiz.swift */,
 				8823695929ED0AFA00A16E14 /* Assets.xcassets */,
 				8823695B29ED0AFA00A16E14 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8823696629EFC0D600A16E14 /* FishQuiz.swift in Sources */,
 				8823695829ED0AF900A16E14 /* ContentView.swift in Sources */,
+				8823696429EEFEE400A16E14 /* FromChatGPT.swift in Sources */,
 				8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
