@@ -27,7 +27,7 @@ struct SingleTopicView: View {
     
     var body: some View {
       //let _ = printJSon()
-        NavigationView {
+        NavigationStack {
           
         let finally = (currentQuestionIndex == quizData.challenges.count-1) && showingAnswer
             VStack {
@@ -135,7 +135,7 @@ struct MultiView: View {
 
 struct MultiView_Previews: PreviewProvider {
   static var previews: some View {
-    MultiView(qandas: [fishData,dogData,catData])
+    MultiView(qandas: [fishData,dogData,catData,xData])
       .navigationTitle("20,000 Questions")
   }
 }

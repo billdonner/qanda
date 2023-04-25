@@ -55,8 +55,8 @@
 		8823695429ED0AF900A16E14 /* qanda */ = {
 			isa = PBXGroup;
 			children = (
-				8823695529ED0AF900A16E14 /* qandaApp.swift */,
 				8823696329EEFEE400A16E14 /* ForChatGPT.swift */,
+				8823695529ED0AF900A16E14 /* qandaApp.swift */,
 				8823696529EFC0D600A16E14 /* SingleTopicView.swift */,
 				8823696729F7418600A16E14 /* DataFromChatGPT.swift */,
 				8823695929ED0AFA00A16E14 /* Assets.xcassets */,
