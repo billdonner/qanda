@@ -135,7 +135,7 @@ struct MultiView: View {
 
 struct MultiView_Previews: PreviewProvider {
   static var previews: some View {
-    MultiView(qandas: [fishData,dogData,catData,xData])
+    MultiView(qandas: [fishData,dogData,catData,xData,gemData])
       .navigationTitle("20,000 Questions")
   }
 }

@@ -11,11 +11,14 @@ struct GameData : Codable, Identifiable {
   internal init(subject: String, challenges: [Challenge]) {
     self.subject = subject
     self.challenges = challenges.shuffled()  //randomize
+    self.id = UUID().uuidString
+    self.generated = Date()
   }
   
-  let id = UUID().uuidString
+  let id : String
   let subject: String
   let challenges: [Challenge]
+  let generated: Date
 }
 
 

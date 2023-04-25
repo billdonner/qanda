@@ -1,5 +1,281 @@
 
 // Generate GameData with TWENTY Challenges about FISH
+
+let gemData = GameData(subject: "Famous Gemstones", challenges: [
+  Challenge(question: "The Hope Diamond is how many carats?", answers: ["45.52", "109.1", "53.6", "35.42"], correctAnswer: 0, explanation: ["The Hope Diamond is a 45.52 carat deep-blue diamond that is believed to have originated in India. It is currently on public display in the Smithsonian Institution in Washington, D.C."]),
+  Challenge(question: "What is the name of the largest cut diamond in the world?", answers: ["The Great Star of Africa", "The Black Orlov", "The Golden Jubilee", "The Grand Mogul"], correctAnswer: 2, explanation: ["The Golden Jubilee is the largest cut diamond in the world, weighing an astonishing 755.5 carats. It was discovered in South Africa in 1985 and was cut from a 3,106-carat rough diamond."]),
+  Challenge(question: "Which of these is NOT a precious gemstone?", answers: ["Opal", "Amethyst", "Onyx", "Quartz"], correctAnswer: 3, explanation: ["Quartz is an abundant mineral that is widely used in jewelry and ornamental purposes, but it is not considered a precious gemstone."]),
+  Challenge(question: "Which type of gemstone is the largest in size?", answers: ["Opal", "Diamond", "Sapphire", "Emerald"], correctAnswer: 0, explanation: ["Opals are typically the largest gemstones in size, with some specimens weighing hundreds of carats. They are also the most colorful gemstones and come in a wide range of hues and patterns."]),
+  Challenge(question: "What is the name of the largest emerald ever discovered?", answers: ["The Bahia Emerald", "The Teodora Emerald", "The Chalk Emerald", "The Gachala Emerald"], correctAnswer: 0, explanation: ["The Bahia Emerald is the largest emerald ever discovered. It is an 840-pound specimen that was found in Brazil in 2001. It is estimated to be worth around $400 million."]),
+  Challenge(question: "The Star of India is the world’s largest cut star sapphire. How many carats does it weigh?", answers: ["563.35", "390.85", "182.95", "123.45"], correctAnswer: 0, explanation: ["The Star of India is a 563.35 carat star sapphire that was discovered in Sri Lanka in the late 19th century. It is currently on display at the American Museum of Natural History in New York City."]),
+  Challenge(question: "Which gemstone is considered to be the rarest in the world?", answers: ["Alexandrite", "Taaffeite", "Red Beryl", "Black Diamond"], correctAnswer: 1, explanation: ["Taaffeite is considered to be the rarest gemstone in the world. It was first discovered in 1945 in Dublin, Ireland and is estimated to be one million times rarer than diamonds."]),
+  Challenge(question: "Which of these is NOT a popular blue gemstone?", answers: ["Sapphire", "Opal", "Aquamarine", "Spinel"], correctAnswer: 1, explanation: ["Opals are typically white or multicolored with a rainbow-like play of color, but they are not typically found in shades of blue."]),
+  Challenge(question: "Which of these is a type of quartz?", answers: ["Aventurine", "Citrine", "Onyx", "Chalcedony"], correctAnswer: 0, explanation: ["Aventurine is a type of quartz that is typically found in shades of green, but it can also be found in shades of blue and yellow."]),
+  Challenge(question: "Which gemstone is known to be the birthstone of April?", answers: ["Diamond", "Pearl", "Emerald", "Opal"], correctAnswer: 2, explanation: ["Emerald is the birthstone of April. It is a green variety of the mineral beryl and is believed to bring good luck and health to its wearer."]),
+  Challenge(question: "What is the name of the rare pink diamond owned by the Sultan of Brunei?", answers: ["The Regent Diamond", "The Pink Star", "The Sultan Diamond", "The Pink Jubilee"], correctAnswer: 3, explanation: ["The Pink Jubilee is a rare pink diamond that was discovered in South Africa in 1995. It was purchased by the Sultan of Brunei in 2000 and is estimated to be worth around $100 million."]),
+  Challenge(question: "Which gemstone is the traditional symbol of royalty?", answers: ["Diamond", "Sapphire", "Ruby", "Pearl"], correctAnswer: 2, explanation: ["Ruby is the traditional symbol of royalty. It is a red variety of the mineral corundum and is believed to bring its wearer strength, courage, and success."]),
+  Challenge(question: "Which gemstone is often associated with the month of June?", answers: ["Amber", "Garnet", "Pearl", "Sapphire"], correctAnswer: 2, explanation: ["Pearl is often associated with the month of June. It is a organic gemstone produced by living mollusk creatures and is believed to bring its wearer luck and prosperity."]),
+  Challenge(question: "Which of these is NOT a type of jade?", answers: ["Nephrite", "Opal", "Jadeite", "Aventurine"], correctAnswer: 3, explanation: ["Aventurine is a type of quartz, not jade. Jade is an ornamental stone composed of either the mineral jadeite or nephrite, and it is found in a variety of colors including green, white, and black."]),
+  Challenge(question: "Which gemstone is known as the “stone of prosperity”?", answers: ["Amber", "Coral", "Jade", "Turquoise"], correctAnswer: 3, explanation: ["Turquoise is known as the “stone of prosperity”. It is an opaque blue-green gemstone that is believed to bring its wearer luck, protection, and good fortune."]),
+  Challenge(question: "Which of these is NOT a type of diamond?", answers: ["Pink Diamond", "White Diamond", "Black Diamond", "Purple Diamond"], correctAnswer: 3, explanation: ["Purple diamonds do not exist. Diamonds are typically found in shades of white, yellow, brown, and black, but they can also be found in shades of pink and blue."]),
+  Challenge(question: "Which of these is a type of quartz?", answers: ["Chalcedony", "Tanzanite", "Ametrine", "Kunzite"], correctAnswer: 0, explanation: ["Chalcedony is a type of quartz, commonly found in shades of blue, grey, and white. It is often used in jewelry and is believed to bring its wearer peace and harmony."]),
+  Challenge(question: "What is the name of the largest diamond ever found?", answers: ["The Cullinan Diamond", "The Excelsior Diamond", "The Great Star of Africa", "The Sancy Diamond"], correctAnswer: 0, explanation: ["The Cullinan Diamond is the largest diamond ever found. It was discovered in South Africa in 1905 and weighed a staggering 3,106 carats. It was eventually cut into nine separate diamonds, the largest of which is now part of the British Crown Jewels."]),
+  Challenge(question: "Which of these is NOT a precious gemstone?", answers: ["Aquamarine", "Topaz", "Peridot", "Tiger’s Eye"], correctAnswer: 3, explanation: ["Tiger’s Eye is not considered a precious gemstone. It is a banded variety of quartz that is typically found in shades of golden-brown and is believed to bring its wearer courage and strength."]),
+  Challenge(question: "Which of these is the birthstone of July?", answers: ["Ruby", "Garnet", "Diamond", "Pearl"], correctAnswer: 1, explanation: ["Garnet is the birthstone of July. It is a group of minerals composed of silicates, and it is typically found in shades of red and purple."]),
+  Challenge(question: "Which gemstone is known as the “stone of courage”?", answers: ["Sapphire", "Opal", "Turquoise", "Jade"], correctAnswer: 2, explanation: ["Turquoise is known as the “stone of courage”. It is an opaque blue-green gemstone that is believed to bring its wearer luck, protection, and courage."]),
+  Challenge(question: "Which of these is a type of agate?", answers: ["Carnelian", "Peridot", "Ametrine", "Beryl"], correctAnswer: 0, explanation: ["Carnelian is a type of agate, commonly found in shades of red, orange, and yellow. It is often used in jewelry and is believed to bring its wearer energy and vitality."]),
+  Challenge(question: "Which of these is NOT a popular yellow gemstone?", answers: ["Citrine", "Jade", "Topaz", "Peridot"], correctAnswer: 1, explanation: ["Jade is typically found in shades of green, white, and black, but it is not typically found in shades of yellow."]),
+  Challenge(question: "What is the name of the blue diamond owned by the Sultan of Brunei?", answers: ["The Star of India", "The Blue Jubilee", "The Hope Diamond", "The Blue Belle"], correctAnswer: 1, explanation: ["The Blue Jubilee is a blue diamond owned by the Sultan of Brunei. It is a 7.59 carat diamond that was discovered in South Africa in 1999. It is estimated to be worth around $20 million."]),
+  Challenge(question: "Which gemstone is the traditional symbol of love?", answers: ["Diamond", "Garnet", "Pearl", "Ruby"], correctAnswer: 0, explanation: ["Diamond is the traditional symbol of love. It is a transparent form of the mineral carbon and is believed to bring its wearer strength, courage, and eternal love."]),
+  Challenge(question: "Which of these is a type of chalcedony?", answers: ["Carnelian", "Onyx", "Ametrine", "Aquamarine"], correctAnswer: 1, explanation: ["Onyx is a type of chalcedony, commonly found in shades of black, grey, and white. It is often used in jewelry and is believed to bring its wearer protection and strength."]),
+  Challenge(question: "Which gemstone is known as the “stone of inner peace”?", answers: ["Opal", "Jade", "Aquamarine", "Amethyst"], correctAnswer: 3, explanation: ["Amethyst is known as the “stone of inner peace”. It is a purple variety of the mineral quartz and is believed to bring its wearer calmness and serenity."]),
+  Challenge(question: "Which of these is a type of corundum?", answers: ["Ruby", "Emerald", "Aquamarine", "Opal"], correctAnswer: 0, explanation: ["Ruby is a type of corundum, commonly found in shades of red and pink. It is one of the most valuable gemstones and is believed to bring its wearer strength, courage, and success."]),
+  Challenge(question: "Which gemstone is known as the “stone of healing”?", answers: ["Jade", "Aquamarine", "Topaz", "Turquoise"], correctAnswer: 0, explanation: ["Jade is known as the “stone of healing”. It is an ornamental stone composed of either the mineral jadeite or nephrite, and it is believed to bring its wearer good health and emotional balance."]),
+  Challenge(question: "Which of these is NOT a popular red gemstone?", answers: ["Ruby", "Opal", "Garnet", "Aquamarine"], correctAnswer: 3, explanation: ["Aquamarine is typically found in shades of blue and green, but it is not typically found in shades of red."]),
+  Challenge(question: "Which gemstone is the traditional symbol of wisdom?", answers: ["Sapphire", "Aquamarine", "Citrine", "Emerald"], correctAnswer: 0, explanation: ["Sapphire is the traditional symbol of wisdom. It is a transparent form of the mineral corundum and is believed to bring its wearer knowledge and understanding."]),
+  Challenge(question: "Which gemstone is the birthstone of October?", answers: ["Opal", "Diamond", "Garnet", "Tourmaline"], correctAnswer: 3, explanation: ["Tourmaline is the birthstone of October. It is a group of minerals composed of silicates, and it is typically found in shades of pink, green, and blue."]),
+  Challenge(question: "The Hope Diamond is how many carats?", answers: ["45.52", "109.1", "53.6", "35.42"], correctAnswer: 0, explanation: ["The Hope Diamond is a 45.52 carat deep-blue diamond that is believed to have originated in India. It is currently on public display in the Smithsonian Institution in Washington, D.C."]),
+  Challenge(question: "What is the name of the largest cut diamond in the world?", answers: ["The Great Star of Africa", "The Black Orlov", "The Golden Jubilee", "The Grand Mogul"], correctAnswer: 2, explanation: ["The Golden Jubilee is the largest cut diamond in the world, weighing an astonishing 755.5 carats. It was discovered in South Africa in 1985 and was cut from a 3,106-carat rough diamond."]),
+  Challenge(question: "Which of these is NOT a precious gemstone?", answers: ["Opal", "Amethyst", "Onyx", "Quartz"], correctAnswer: 3, explanation: ["Quartz is an abundant mineral that is widely used in jewelry and ornamental purposes, but it is not considered a precious gemstone."]),
+  Challenge(question: "Which type of gemstone is the largest in size?", answers: ["Opal", "Diamond", "Sapphire", "Emerald"], correctAnswer: 0, explanation: ["Opals are typically the largest gemstones in size, with some specimens weighing hundreds of carats. They are also the most colorful gemstones and come in a wide range of hues and patterns."]),
+  Challenge(question: "What is the name of the largest emerald ever discovered?", answers: ["The Bahia Emerald", "The Teodora Emerald", "The Chalk Emerald", "The Gachala Emerald"], correctAnswer: 0, explanation: ["The Bahia Emerald is the largest emerald ever discovered. It is an 840-pound specimen that was found in Brazil in 2001. It is estimated to be worth around $400 million."]),
+  Challenge(question: "The Star of India is the world’s largest cut star sapphire. How many carats does it weigh?", answers: ["563.35", "390.85", "182.95", "123.45"], correctAnswer: 0, explanation: ["The Star of India is a 563.35 carat star sapphire that was discovered in Sri Lanka in the late 19th century. It is currently on display at the American Museum of Natural History in New York City."]),
+      Challenge(
+        question: "Which gemstone is found in a variety of colors?",
+        answers: ["Diamond", "Ruby", "Sapphire", "Quartz"],
+        correctAnswer: 3,
+        explanation: ["Quartz is found in a variety of different colors, including pink, white, brown and yellow."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known as the 'Queen of Gems'?",
+        answers: ["Ruby", "Diamond", "Emerald", "Sapphire"],
+        correctAnswer: 0,
+        explanation: ["Rubies are often referred to as the 'Queen of Gems' due to their deep red color and rarity."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its strong blue color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Opal"],
+        correctAnswer: 0,
+        explanation: ["Sapphires are known for their strong blue color, but can also be found in other colors, such as pink and yellow."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the hardest?",
+        answers: ["Diamond", "Emerald", "Sapphire", "Quartz"],
+        correctAnswer: 0,
+        explanation: ["Diamonds are the hardest gemstone, as they are made up of pure carbon and have a hardness rating of 10 on the Mohs scale."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the rarest?",
+        answers: ["Diamond", "Ruby", "Emerald", "Opal"],
+        correctAnswer: 3,
+        explanation: ["Opals are the rarest gemstone, as they are only found in certain parts of the world and can be difficult to find."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its 'cat's eye' effect?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Opal"],
+        correctAnswer: 3,
+        explanation: ["Opals are known for their \"cat's eye\" effect, which is a band of light that moves across the stone when it is moved."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known as the 'King of Gems'?",
+        answers: ["Diamond", "Ruby", "Emerald", "Sapphire"],
+        correctAnswer: 0,
+        explanation: ["Diamonds are often referred to as the 'King of Gems' due to their rarity and brilliance."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the softest?",
+        answers: ["Diamond", "Ruby", "Emerald", "Opal"],
+        correctAnswer: 3,
+        explanation: ["Opals are the softest gemstone, as they have a hardness rating of only 5.5 on the Mohs scale."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its green color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Opal"],
+        correctAnswer: 1,
+        explanation: ["Emeralds are known for their deep green color and are the birthstone for people born in the month of May."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its ability to refract light?",
+        answers: ["Diamond", "Ruby", "Emerald", "Opal"],
+        correctAnswer: 0,
+        explanation: ["Diamonds are known for their ability to refract light, which is why they are so brilliant and sparkly."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the most expensive?",
+        answers: ["Diamond", "Ruby", "Emerald", "Sapphire"],
+        correctAnswer: 0,
+        explanation: ["Diamonds are the most expensive gemstone due to their rarity and the difficulty of mining them."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its yellow color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Topaz"],
+        correctAnswer: 3,
+        explanation: ["Topaz is known for its yellow color, but can also be found in other colors, such as pink and blue."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known as the 'Stone of Love'?",
+        answers: ["Diamond", "Ruby", "Emerald", "Sapphire"],
+        correctAnswer: 1,
+        explanation: ["Rubies are often referred to as the 'Stone of Love' due to their deep red color and rarity."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its pink color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Tourmaline"],
+        correctAnswer: 3,
+        explanation: ["Tourmaline is known for its pink color, but can also be found in other colors, such as green and blue."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its ability to change color in different lights?",
+        answers: ["Diamond", "Ruby", "Emerald", "Opal"],
+        correctAnswer: 3,
+        explanation: ["Opals are known for their ability to change color in different lights, which is why they are so unique and beautiful."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the most popular?",
+        answers: ["Diamond", "Ruby", "Emerald", "Sapphire"],
+        correctAnswer: 0,
+        explanation: ["Diamonds are the most popular gemstone due to their brilliance and durability."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of April?",
+        answers: ["Diamond", "Ruby", "Emerald", "Sapphire"],
+        correctAnswer: 2,
+        explanation: ["Emeralds are the birthstone for people born in the month of April, due to their deep green color and symbolism of rebirth."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its purplish-red color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Spinel"],
+        correctAnswer: 3,
+        explanation: ["Spinels are known for their purplish-red color, but can also be found in other colors, such as pink and blue."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of June?",
+        answers: ["Diamond", "Ruby", "Emerald", "Pearl"],
+        correctAnswer: 3,
+        explanation: ["Pearls are the birthstone for people born in the month of June, due to their symbolism of innocence and purity."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its orange color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Citrine"],
+        correctAnswer: 3,
+        explanation: ["Citrine is known for its orange color, but can also be found in other colors, such as yellow and pink."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known as the 'Stone of Wisdom'?",
+        answers: ["Diamond", "Ruby", "Emerald", "Sapphire"],
+        correctAnswer: 2,
+        explanation: ["Emeralds are often referred to as the 'Stone of Wisdom' due to their deep green color and symbolism of knowledge."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of March?",
+        answers: ["Diamond", "Ruby", "Emerald", "Aquamarine"],
+        correctAnswer: 3,
+        explanation: ["Aquamarine is the birthstone for people born in the month of March, due to its blue color and symbolism of youth and health."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its yellow-green color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Peridot"],
+        correctAnswer: 3,
+        explanation: ["Peridot is known for its yellow-green color, but can also be found in other colors, such as yellow and brown."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of January?",
+        answers: ["Diamond", "Ruby", "Emerald", "Garnet"],
+        correctAnswer: 3,
+        explanation: ["Garnets are the birthstone for people born in the month of January, due to their deep red color and symbolism of protection."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its blue-green color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Turquoise"],
+        correctAnswer: 3,
+        explanation: ["Turquoise is known for its blue-green color, but can also be found in other colors, such as blue and yellow."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of February?",
+        answers: ["Diamond", "Ruby", "Emerald", "Amethyst"],
+        correctAnswer: 3,
+        explanation: ["Amethysts are the birthstone for people born in the month of February, due to their purple color and symbolism of courage and strength."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its milky white color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Pearl"],
+        correctAnswer: 3,
+        explanation: ["Pearls are known for their milky white color, but can also be found in other colors, such as pink and yellow."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of December?",
+        answers: ["Diamond", "Ruby", "Emerald", "Blue Topaz"],
+        correctAnswer: 3,
+        explanation: ["Blue Topaz is the birthstone for people born in the month of December, due to its blue color and symbolism of joy and peace."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its blue color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Tanzanite"],
+        correctAnswer: 0,
+        explanation: ["Sapphires are known for their deep blue color, but can also be found in other colors, such as pink and yellow."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of July?",
+        answers: ["Diamond", "Ruby", "Emerald", "Onyx"],
+        correctAnswer: 1,
+        explanation: ["Rubies are the birthstone for people born in the month of July, due to their deep red color and symbolism of passion and love."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its pink-violet color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Amethyst"],
+        correctAnswer: 3,
+        explanation: ["Amethysts are known for their pink-violet color, but can also be found in other colors, such as purple and blue."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of August?",
+        answers: ["Diamond", "Ruby", "Peridot", "Sapphire"],
+        correctAnswer: 2,
+        explanation: ["Peridots are the birthstone for people born in the month of August, due to their yellow-green color and symbolism of prosperity."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its green-blue color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Aquamarine"],
+        correctAnswer: 3,
+        explanation: ["Aquamarines are known for their green-blue color, but can also be found in other colors, such as pink and yellow."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of November?",
+        answers: ["Diamond", "Topaz", "Emerald", "Citrine"],
+        correctAnswer: 1,
+        explanation: ["Topaz is the birthstone for people born in the month of November, due to its yellow color and symbolism of friendship and loyalty."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its yellow color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Citrine"],
+        correctAnswer: 3,
+        explanation: ["Citrine is known for its yellow color, but can also be found in other colors, such as orange and pink."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of May?",
+        answers: ["Diamond", "Ruby", "Emerald", "Sapphire"],
+        correctAnswer: 2,
+        explanation: ["Emeralds are the birthstone for people born in the month of May, due to their deep green color and symbolism of rebirth."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its pink color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Tourmaline"],
+        correctAnswer: 3,
+        explanation: ["Tourmaline is known for its pink color, but can also be found in other colors, such as green and blue."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is the birthstone for people born in the month of September?",
+        answers: ["Diamond", "Ruby", "Sapphire", "Peridot"],
+        correctAnswer: 3,
+        explanation: ["Peridots are the birthstone for people born in the month of September, due to their yellow-green color and symbolism of prosperity."]
+      ),
+      Challenge(
+        question: "Which of the following gemstones is known for its red-brown color?",
+        answers: ["Sapphire", "Emerald", "Diamond", "Garnet"],
+        correctAnswer: 3,
+        explanation: ["Garnets are known for their red-brown color, but can also be found in other colors, such as purple and green."]
+      ),
+  ])
+  
 let xData = GameData(
   subject: "Existentially Speaking",
   challenges: [
