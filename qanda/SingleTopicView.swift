@@ -10,40 +10,49 @@ import SwiftUI
 // SwiftUI Code
 
 class STV : ObservableObject {
-  @Published var currentQuestionIndex = 0
-  @Published  var showingAnswer = false
-  @Published  var score = 0
+  internal init(id: Int = 0, currentQuestionIndex: Int = 0, showingAnswer: Bool = false, score: Int = 0) {
+    self.id = id
+    self.currentQuestionIndex = currentQuestionIndex
+    self.showingAnswer = showingAnswer
+    self.score = score
+  }
+  
+
+  var id:Int = 0
+  @Published var currentQuestionIndex: Int
+  @Published var showingAnswer: Bool
+  @Published var score:Int 
 }
 
 struct SingleTopicView: View {
-    @State private var currentQuestionIndex = 0
-    @State private var showingAnswer = false
-    @State private var score = 0
+  
+  @StateObject var stv: STV
+
     
     let quizData: GameData
   
     var body: some View {
       //let _ = printJSon()
         NavigationStack {
-        let finally = (currentQuestionIndex == quizData.challenges.count-1) && showingAnswer
+          let finally = (stv.currentQuestionIndex == quizData.challenges.count-1) && stv.showingAnswer
             VStack {
-                Text("Question \(currentQuestionIndex+1)")
+              Text("Question \(stv.currentQuestionIndex+1)")
                     .font(.subheadline)
-                Text(quizData.challenges[currentQuestionIndex].question)
+              Text(quizData.challenges[stv.currentQuestionIndex].question)
                 .font(.title).padding()
-              ForEach(0 ..< quizData.challenges[currentQuestionIndex].answers.count, id:\.self) { number in
+              ForEach(0 ..< quizData.challenges[stv.currentQuestionIndex].answers.count, id:\.self) { number in
                     Button(action: {
                         self.checkAnswer(number)
-                        self.showingAnswer = true
+                          stv.showingAnswer = true
                     }) {
-                        Text("\(self.quizData.challenges[self.currentQuestionIndex].answers[number])")
+                        Text("\(self.quizData.challenges[stv.currentQuestionIndex].answers[number])")
                     }
                     .padding()
                 }
-                if showingAnswer {
-                    Text("Answer: \(quizData.challenges[currentQuestionIndex].answers[quizData.challenges[currentQuestionIndex].correctAnswer])")
+              if stv.showingAnswer {
+                Text("Answer: \(quizData.challenges[stv.currentQuestionIndex].answers[quizData.challenges[stv.currentQuestionIndex].correctAnswer])")
                     .font(.title).padding()
-                    Text("Explanation: \(quizData.challenges[currentQuestionIndex].explanation[0])")
+                Text("Explanation: \(quizData.challenges[stv.currentQuestionIndex].explanation[0])")
                     .font(.headline).padding()
                 }
                 Spacer()
@@ -57,53 +66,53 @@ struct SingleTopicView: View {
                   } else {
                     self.priorQuestion()
                   }
-                }.disabled(currentQuestionIndex == 0)
+                }.disabled(stv.currentQuestionIndex == 0)
               }
               ToolbarItem(placement: .bottomBar){
                 Button("Next") {
                         self.nextQuestion()
-                }.disabled(currentQuestionIndex == quizData.challenges.count-1)
+                }.disabled(stv.currentQuestionIndex == quizData.challenges.count-1)
               }
             }
-            .navigationBarItems(trailing: Button("\(finally ? "Final " : "")Score: \(score)") {
+            .navigationBarItems(trailing: Button("\(finally ? "Final " : "")Score: \(stv.score)") {
           
             })
         }
     }
     
     func checkAnswer(_ number: Int) {
-        if number == quizData.challenges[currentQuestionIndex].correctAnswer {
-            score += 1
+      if number == quizData.challenges[stv.currentQuestionIndex].correctAnswer {
+        stv.score += 1
         }
     }
     
     func nextQuestion() {
-        if currentQuestionIndex + 1 < quizData.challenges.count {
-            currentQuestionIndex += 1
-            showingAnswer = false
+      if stv.currentQuestionIndex + 1 < quizData.challenges.count {
+        stv.currentQuestionIndex += 1
+        stv.showingAnswer = false
         } else {
             // game is over
         }
     }
   
   func priorQuestion() {
-    if currentQuestionIndex > 0 {
-          currentQuestionIndex -= 1
-          showingAnswer = false
+    if stv.currentQuestionIndex > 0 {
+      stv.currentQuestionIndex -= 1
+      stv.showingAnswer = false
       } else {
           // g???
       }
   }
   func startOver() {
-          currentQuestionIndex = 0
-          showingAnswer = false
-          score = 0
+    stv.currentQuestionIndex = 0
+    stv.showingAnswer = false
+    stv.score = 0
   }
 }
 
 struct SingleTopicView_Previews: PreviewProvider {
   static var previews: some View {
-    SingleTopicView(quizData: chatGPT_GENERATED_DATA[0])
+    SingleTopicView(stv: STV(), quizData: chatGPT_GENERATED_DATA[0])
   }
 }
 

@@ -26,7 +26,7 @@ struct MultiView: View {
       Spacer()
       VStack {
         ForEach (gameData) { qanda in
-          NavigationLink(destination: SingleTopicView(quizData: qanda)) {
+          NavigationLink(destination: SingleTopicView(stv: STV(), quizData: qanda)) {
             Text(qanda.subject).font(.title)
           }
         }
