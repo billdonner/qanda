@@ -6,15 +6,7 @@
 //
 import SwiftUI
 
-// Print JSON to Console
-func printJSon() {
-  let encoder = JSONEncoder()
-  encoder.outputFormatting = .prettyPrinted
-  if let jsonData = try? encoder.encode(fishData) {
-    let jsonString = String(data: jsonData, encoding: .utf8)!
-    print(jsonString)
-  }
-}
+
 // SwiftUI Code
 
 struct SingleTopicView: View {
@@ -24,20 +16,16 @@ struct SingleTopicView: View {
     
     let quizData: GameData
   
-    
     var body: some View {
       //let _ = printJSon()
         NavigationStack {
-          
         let finally = (currentQuestionIndex == quizData.challenges.count-1) && showingAnswer
             VStack {
               Spacer()
                 Text("Question \(currentQuestionIndex+1)")
                     .font(.subheadline)
-                
                 Text(quizData.challenges[currentQuestionIndex].question)
                 .font(.title).padding()
-        
               ForEach(0 ..< quizData.challenges[currentQuestionIndex].answers.count, id:\.self) { number in
                     Button(action: {
                         self.checkAnswer(number)
@@ -56,13 +44,12 @@ struct SingleTopicView: View {
                 Spacer()
                 Text("\(finally ? "Final " : "")Score: \(score)")
                 .font(finally ? .largeTitle:.title)
-                
             }
             .navigationBarTitle(Text(quizData.subject + "\(finally ? " Finally Done " : "")"))
             .navigationBarItems(trailing:  Button("Next") {
                     self.nextQuestion()
             }.disabled(currentQuestionIndex == quizData.challenges.count-1))
-            .navigationBarItems(leading: Button(finally ? "Start Over":"Previous") {
+            .navigationBarItems(trailing: Button(finally ? "Start Over":"Previous") {
               if finally {
                 self.startOver()
               } else {
@@ -101,15 +88,12 @@ struct SingleTopicView: View {
           score = 0
   }
 }
+
 struct SingleTopicView_Previews: PreviewProvider {
   static var previews: some View {
     SingleTopicView(quizData: fishData)
   }
 }
-
-
-//
-
 
 struct MultiView: View {
   let qandas: [GameData]
@@ -117,7 +101,7 @@ struct MultiView: View {
   var body: some View {
     NavigationStack { 
      Spacer()
-      Text("Choose your game:")
+      Text("Today's Topics:")
       Spacer()
       VStack {
         ForEach (qandas) { qanda in
