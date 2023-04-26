@@ -1,4 +1,5 @@
 
+let chatGPT_GENERATED_DATA = [fishData,dogData,catData,xData,gemData]
 // Generate GameData with TWENTY Challenges about FISH
 
 let gemData = GameData(subject: "Famous Gemstones", challenges: [

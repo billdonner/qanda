@@ -9,6 +9,12 @@ import SwiftUI
 
 // SwiftUI Code
 
+class STV : ObservableObject {
+  @Published var currentQuestionIndex = 0
+  @Published  var showingAnswer = false
+  @Published  var score = 0
+}
+
 struct SingleTopicView: View {
     @State private var currentQuestionIndex = 0
     @State private var showingAnswer = false
@@ -21,7 +27,6 @@ struct SingleTopicView: View {
         NavigationStack {
         let finally = (currentQuestionIndex == quizData.challenges.count-1) && showingAnswer
             VStack {
-              Spacer()
                 Text("Question \(currentQuestionIndex+1)")
                     .font(.subheadline)
                 Text(quizData.challenges[currentQuestionIndex].question)
@@ -37,25 +42,32 @@ struct SingleTopicView: View {
                 }
                 if showingAnswer {
                     Text("Answer: \(quizData.challenges[currentQuestionIndex].answers[quizData.challenges[currentQuestionIndex].correctAnswer])")
-                        .font(.title)
+                    .font(.title).padding()
                     Text("Explanation: \(quizData.challenges[currentQuestionIndex].explanation[0])")
                     .font(.headline).padding()
                 }
                 Spacer()
-                Text("\(finally ? "Final " : "")Score: \(score)")
-                .font(finally ? .largeTitle:.title)
             }
             .navigationBarTitle(Text(quizData.subject + "\(finally ? " Finally Done " : "")"))
-            .navigationBarItems(trailing:  Button("Next") {
-                    self.nextQuestion()
-            }.disabled(currentQuestionIndex == quizData.challenges.count-1))
-            .navigationBarItems(trailing: Button(finally ? "Start Over":"Previous") {
-              if finally {
-                self.startOver()
-              } else {
-                self.priorQuestion()
+            .toolbar {
+              ToolbarItem(placement:.bottomBar) {
+                Button(finally ? "Start Over":"Previous") {
+                  if finally {
+                    self.startOver()
+                  } else {
+                    self.priorQuestion()
+                  }
+                }.disabled(currentQuestionIndex == 0)
               }
-            }.disabled(currentQuestionIndex == 0))
+              ToolbarItem(placement: .bottomBar){
+                Button("Next") {
+                        self.nextQuestion()
+                }.disabled(currentQuestionIndex == quizData.challenges.count-1)
+              }
+            }
+            .navigationBarItems(trailing: Button("\(finally ? "Final " : "")Score: \(score)") {
+          
+            })
         }
     }
     
@@ -91,37 +103,13 @@ struct SingleTopicView: View {
 
 struct SingleTopicView_Previews: PreviewProvider {
   static var previews: some View {
-    SingleTopicView(quizData: fishData)
+    SingleTopicView(quizData: chatGPT_GENERATED_DATA[0])
   }
 }
 
-struct MultiView: View {
-  let qandas: [GameData]
 
-  var body: some View {
-    NavigationStack { 
-     Spacer()
-      Text("Today's Topics:")
-      Spacer()
-      VStack {
-        ForEach (qandas) { qanda in
-          NavigationLink(destination: SingleTopicView(quizData: qanda)) {
-            Text(qanda.subject).font(.title)
-          }
-        }
-      }
-      .navigationBarTitle("20,000 Questions")
-      Spacer()
-    }
-  }
-    
-  }
+//
 
-struct MultiView_Previews: PreviewProvider {
-  static var previews: some View {
-    MultiView(qandas: [fishData,dogData,catData,xData,gemData])
-      .navigationTitle("20,000 Questions")
-  }
-}
+
 
 
