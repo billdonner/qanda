@@ -16,8 +16,31 @@ func printJSon(_ g:GameData) {
     print(jsonString)
   }
 }
+struct ForEachWithIndex<
+    Data: RandomAccessCollection,
+    Content: View
+>: View where Data.Element: Identifiable, Data.Element: Hashable {
+    let data: Data
+    @ViewBuilder let content: (Data.Index, Data.Element) -> Content
+    var body: some View {
+        ForEach(Array(zip(data.indices, data)), id: \.1) { index, element in
+            content(index, element)
+        }
+    }
+}
+
 struct MultiView: View {
+  internal init(gameData: [GameData]) {
+    self.gameData = gameData
+    var stvs : [STV] = []
+    for (n,_ ) in gameData.enumerated() {
+      stvs.append(STV(id:n))
+    }
+    self.stv = stvs
+  }
+  
   let gameData: [GameData]
+  var stv: [STV] = []
 
   var body: some View {
     NavigationStack {
@@ -25,9 +48,11 @@ struct MultiView: View {
       Text("Today's Topics:")
       Spacer()
       VStack {
-        ForEach (gameData) { qanda in
-          NavigationLink(destination: SingleTopicView(stv: STV(), quizData: qanda)) {
-            Text(qanda.subject).font(.title)
+        ForEachWithIndex (data:gameData) { index, qanda in
+          NavigationLink(destination: SingleTopicView(stv: stv[index], quizData: qanda)) {
+            HStack {
+              Text(qanda.subject).font(.title)
+            }
           }
         }
       }
@@ -35,7 +60,6 @@ struct MultiView: View {
       Spacer()
     }
   }
-    
   }
 
 struct MultiView_Previews: PreviewProvider {

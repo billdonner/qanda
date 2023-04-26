@@ -25,10 +25,7 @@ class STV : ObservableObject {
 }
 
 struct SingleTopicView: View {
-  
   @StateObject var stv: STV
-
-    
     let quizData: GameData
   
     var body: some View {
@@ -52,8 +49,10 @@ struct SingleTopicView: View {
               if stv.showingAnswer {
                 Text("Answer: \(quizData.challenges[stv.currentQuestionIndex].answers[quizData.challenges[stv.currentQuestionIndex].correctAnswer])")
                     .font(.title).padding()
-                Text("Explanation: \(quizData.challenges[stv.currentQuestionIndex].explanation[0])")
-                    .font(.headline).padding()
+                ForEach ( quizData.challenges[stv.currentQuestionIndex].explanation, id:\.self) {
+                  explanation in
+                  Text("Explanation:"+explanation).font(.headline).padding()
+                }
                 }
                 Spacer()
             }
@@ -79,35 +78,7 @@ struct SingleTopicView: View {
             })
         }
     }
-    
-    func checkAnswer(_ number: Int) {
-      if number == quizData.challenges[stv.currentQuestionIndex].correctAnswer {
-        stv.score += 1
-        }
-    }
-    
-    func nextQuestion() {
-      if stv.currentQuestionIndex + 1 < quizData.challenges.count {
-        stv.currentQuestionIndex += 1
-        stv.showingAnswer = false
-        } else {
-            // game is over
-        }
-    }
-  
-  func priorQuestion() {
-    if stv.currentQuestionIndex > 0 {
-      stv.currentQuestionIndex -= 1
-      stv.showingAnswer = false
-      } else {
-          // g???
-      }
-  }
-  func startOver() {
-    stv.currentQuestionIndex = 0
-    stv.showingAnswer = false
-    stv.score = 0
-  }
+
 }
 
 struct SingleTopicView_Previews: PreviewProvider {
@@ -119,6 +90,36 @@ struct SingleTopicView_Previews: PreviewProvider {
 
 //
 
+extension SingleTopicView {
+  
+  func checkAnswer(_ number: Int) {
+    if number == quizData.challenges[stv.currentQuestionIndex].correctAnswer {
+      stv.score += 1
+      }
+  }
+  
+  func nextQuestion() {
+    if stv.currentQuestionIndex + 1 < quizData.challenges.count {
+      stv.currentQuestionIndex += 1
+      stv.showingAnswer = false
+      } else {
+          // game is over
+      }
+  }
 
+func priorQuestion() {
+  if stv.currentQuestionIndex > 0 {
+    stv.currentQuestionIndex -= 1
+    stv.showingAnswer = false
+    } else {
+        // g???
+    }
+}
+func startOver() {
+  stv.currentQuestionIndex = 0
+  stv.showingAnswer = false
+  stv.score = 0
+}
+}
 
 
