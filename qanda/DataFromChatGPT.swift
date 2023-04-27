@@ -7,8 +7,8 @@ let nukeData = GameData(subject: "Famous Nuclear Scientists", challenges: [
             correctAnswer: 2,
             explanation: ["Ernest Rutherford is known as the father of nuclear physics (and chemistry).",
                           "Rutherford was the first person to split the atom in 1919 in Manchester, England."],
-            article: "https://www.rsc.org/education/teachers/resources/rutherford/",
-            image: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Ernest_Rutherford_color.jpg"),
+            article: "https://billdonner.com",
+            image: "https://billdonner.com/images/paloaltojul2021.jpg"),
   Challenge(question: "Who was the first to discover artificial radioactivity?",
             answers: ["Lise Meitner", "Ernest Lawrence", "Marie Curie", "Enrico Fermi"],
             correctAnswer: 2,
@@ -817,6 +817,90 @@ let xData = GameData(
 
  
 let fishData = GameData(subject: "Fishy Fun One", challenges: [
+  
+ 
+      Challenge(
+        question: "What is the largest recorded size of the Great White Shark?",
+        answers: ["2.2 meters", "3.3 meters", "4.4 meters", "5.5 meters"],
+        correctAnswer: 3,
+        explanation: ["The largest ever recorded size of the Great White Shark is 4.4 meters long."],
+        article: "https://www.sciencedaily.com/releases/2016/05/160531094343.htm",
+        image: "https://www.sciencenews.org/sites/default/files/2018/01/main/articles/011918_lh_shark-teeth_feat_REV.jpg"
+      ),
+      Challenge(
+        question: "How many species of fish are there?",
+        answers: ["2,000", "4,000", "6,000", "8,000"],
+        correctAnswer: 2,
+        explanation: ["There are currently 4,000 known species of fish."],
+        article: "https://www.worldatlas.com/articles/how-many-species-of-fish-are-there.html",
+        image: "https://www.worldatlas.com/r/w728-h425-c728x425/upload/04/d2/f8/shutterstock-1051220225.jpg"
+      ),
+      Challenge(
+        question: "What is the fastest species of fish?",
+        answers: ["Sailfish", "Tuna", "Marlin", "Shark"],
+        correctAnswer: 0,
+        explanation: ["The fastest species of fish is the Sailfish which can reach speeds of up to 68 mph."],
+        article: "https://www.activewild.com/fastest-fish-in-the-world/",
+        image: "https://www.activewild.com/wp-content/uploads/2020/05/sailfish-feature.jpg"
+      ),
+      Challenge(
+        question: "What is the deepest living fish in the world?",
+        answers: ["Pacific Blackdragon", "Frilled Shark", "Goblin Shark", "Marlin"],
+        correctAnswer: 0,
+        explanation: ["The deepest living fish in the world is the Pacific Blackdragon which has been found as deep as 3,536 meters."],
+        article: "https://ocean.si.edu/ocean-life/fishes/deep-sea-fishes",
+        image: "https://oceanwideimages.com/images/medium/PS-169-1.jpg"
+      ),
+      Challenge(
+        question: "What is the most venomous fish in the world?",
+        answers: ["Stonefish", "Tigerfish", "Piranha", "Triggerfish"],
+        correctAnswer: 0,
+        explanation: ["The most venomous fish in the world is the Stonefish which can inject a very painful venom through its spines."],
+        article: "https://www.nationalgeographic.com/animals/fish/group/venomous-fish/",
+        image: "https://cdn.mos.cms.futurecdn.net/BCAiRZBv8bWYhGKjtA9Xha-650-80.jpg"
+      ),
+      Challenge(
+        question: "What is the longest living fish in the world?",
+        answers: ["Tuna", "Marlin", "Sturgeon", "Catfish"],
+        correctAnswer: 2,
+        explanation: ["The longest living fish in the world is the Sturgeon which can live up to 150 years."],
+        article: "https://www.worldatlas.com/articles/longest-living-fish-in-the-world.html",
+        image: "https://www.worldatlas.com/r/w728-h425-c728x425/upload/7f/3d/ef/shutterstock-650912118.jpg"
+      ),
+      Challenge(
+        question: "What is the smallest fish in the world?",
+        answers: ["Paedocypris progenetica", "Heckel discus", "Glass Catfish", "Goldfish"],
+        correctAnswer: 0,
+        explanation: ["The smallest fish in the world is the Paedocypris progenetica which can grow up to 7.9 mm in length."],
+        article: "https://www.worldatlas.com/articles/what-is-the-smallest-fish-in-the-world.html",
+        image: "https://www.worldatlas.com/r/w728-h425-c728x425/upload/ca/51/a8/shutterstock-484900440.jpg"
+      ),
+      Challenge(
+        question: "What is the most expensive fish in the world?",
+        answers: ["Tuna", "Golden Trout", "Koi", "Lionfish"],
+        correctAnswer: 3,
+        explanation: ["The most expensive fish in the world is the Lionfish which can cost up to $2,000."],
+        article: "https://www.theaquariumguide.com/blog/most-expensive-fish-in-the-world/",
+        image: "https://www.theaquariumguide.com/wp-content/uploads/2019/12/Most-Expensive-Fish-In-The-World.jpg"
+      ),
+      Challenge(
+        question: "Which of these is NOT a type of fish?",
+        answers: ["Tadpole", "Salmon", "Frog", "Catfish"],
+        correctAnswer: 0,
+        explanation: ["Tadpole is not a type of fish; it is an amphibian in the larval stage of the frog."],
+        article: "https://www.worldatlas.com/articles/the-difference-between-a-fish-and-an-amphibian.html",
+        image: "https://www.worldatlas.com/r/w728-h425-c728x425/upload/d6/d7/a8/shutterstock-726379519.jpg"
+      ),
+      Challenge(
+        question: "Which of these is NOT a type of shark?",
+        answers: ["Bull Shark", "Hammerhead Shark", "Sea Turtle", "Tiger Shark"],
+        correctAnswer: 2,
+        explanation: ["Sea Turtle is not a type of shark; it is a type of reptile."],
+        article: "https://www.worldatlas.com/articles/what-are-the-differences-between-turtles-and-sharks.html",
+        image: "https://www.worldatlas.com/r/w728-h425-c728x425/upload/c7/f3/a8/shutterstock-1435375067.jpg"
+      )
+,
+      
   Challenge(question: "Which of these fish is not a type of eel?",
             answers: ["Moray", "Conger", "Snapper", "Angler"],
             correctAnswer: 2,

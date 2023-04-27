@@ -21,7 +21,7 @@ struct Challenge : Hashable, Codable {
 struct GameData : Codable, Hashable,Identifiable {
   internal init(subject: String, challenges: [Challenge]) {
     self.subject = subject
-    self.challenges = challenges.shuffled()  //randomize
+    self.challenges = challenges //.shuffled()  //randomize
     self.id = UUID().uuidString
     self.generated = Date()
   }

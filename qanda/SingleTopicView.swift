@@ -59,7 +59,6 @@ struct SingleTopicView: View {
         if stv.showingAnswer {
           Text("Answer: \(qd.answers[qd.correctAnswer])")
             .font(.title).padding()
-      
           Text("Explanation:" + qd.explanation.map{$0}.joined()).font(.headline).padding()
          
         }
@@ -199,8 +198,10 @@ struct WebView_Previews: PreviewProvider {
 
 
 struct ImageView_Previews: PreviewProvider {
-    static var previews: some View { 
+    static var previews: some View {
+      Spacer()
         WebView(url: URL(string:"https://billdonner.com/images/paloaltojul2021.jpg")!)
-            .edgesIgnoringSafeArea(.all)
+      Spacer()
+       
     }
 }
