@@ -13,7 +13,22 @@
 		8823696429EEFEE400A16E14 /* ForChatGPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696329EEFEE400A16E14 /* ForChatGPT.swift */; };
 		8823696629EFC0D600A16E14 /* SingleTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696529EFC0D600A16E14 /* SingleTopicView.swift */; };
 		8823696829F7418600A16E14 /* DataFromChatGPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696729F7418600A16E14 /* DataFromChatGPT.swift */; };
+		8875659429FD66410030AE77 /* json-maker.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8875659329FD66410030AE77 /* json-maker.txt */; };
+		8875659629FD7DE20030AE77 /* json-writer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8875659529FD7DE20030AE77 /* json-writer.txt */; };
+		8875659E29FD82EF0030AE77 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8875659D29FD82EF0030AE77 /* main.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8875659929FD82EF0030AE77 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8823695229ED0AF900A16E14 /* qanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,10 +38,22 @@
 		8823696329EEFEE400A16E14 /* ForChatGPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForChatGPT.swift; sourceTree = "<group>"; };
 		8823696529EFC0D600A16E14 /* SingleTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTopicView.swift; sourceTree = "<group>"; };
 		8823696729F7418600A16E14 /* DataFromChatGPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFromChatGPT.swift; sourceTree = "<group>"; };
+		8875659329FD66410030AE77 /* json-maker.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-maker.txt"; sourceTree = "<group>"; };
+		8875659529FD7DE20030AE77 /* json-writer.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-writer.txt"; sourceTree = "<group>"; };
+		8875659B29FD82EF0030AE77 /* validator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = validator; sourceTree = BUILT_PRODUCTS_DIR; };
+		8875659D29FD82EF0030AE77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		887565A229FDC6FB0030AE77 /* json-sample */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-sample"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8823694F29ED0AF900A16E14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8875659829FD82EF0030AE77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				8823695429ED0AF900A16E14 /* qanda */,
+				8875659C29FD82EF0030AE77 /* validator */,
 				8823695329ED0AF900A16E14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8823695229ED0AF900A16E14 /* qanda.app */,
+				8875659B29FD82EF0030AE77 /* validator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +84,7 @@
 		8823695429ED0AF900A16E14 /* qanda */ = {
 			isa = PBXGroup;
 			children = (
+				8875659229FD65EF0030AE77 /* Prompts */,
 				8823696329EEFEE400A16E14 /* ForChatGPT.swift */,
 				8823695529ED0AF900A16E14 /* qandaApp.swift */,
 				8823696529EFC0D600A16E14 /* SingleTopicView.swift */,
@@ -71,6 +101,24 @@
 				8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8875659229FD65EF0030AE77 /* Prompts */ = {
+			isa = PBXGroup;
+			children = (
+				8875659329FD66410030AE77 /* json-maker.txt */,
+				8875659529FD7DE20030AE77 /* json-writer.txt */,
+				887565A229FDC6FB0030AE77 /* json-sample */,
+			);
+			path = Prompts;
+			sourceTree = "<group>";
+		};
+		8875659C29FD82EF0030AE77 /* validator */ = {
+			isa = PBXGroup;
+			children = (
+				8875659D29FD82EF0030AE77 /* main.swift */,
+			);
+			path = validator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,6 +141,23 @@
 			productReference = 8823695229ED0AF900A16E14 /* qanda.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8875659A29FD82EF0030AE77 /* validator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8875659F29FD82EF0030AE77 /* Build configuration list for PBXNativeTarget "validator" */;
+			buildPhases = (
+				8875659729FD82EF0030AE77 /* Sources */,
+				8875659829FD82EF0030AE77 /* Frameworks */,
+				8875659929FD82EF0030AE77 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = validator;
+			productName = validator;
+			productReference = 8875659B29FD82EF0030AE77 /* validator */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -104,6 +169,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					8823695129ED0AF900A16E14 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					8875659A29FD82EF0030AE77 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -122,6 +190,7 @@
 			projectRoot = "";
 			targets = (
 				8823695129ED0AF900A16E14 /* qanda */,
+				8875659A29FD82EF0030AE77 /* validator */,
 			);
 		};
 /* End PBXProject section */
@@ -132,7 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */,
+				8875659629FD7DE20030AE77 /* json-writer.txt in Resources */,
 				8823695A29ED0AFA00A16E14 /* Assets.xcassets in Resources */,
+				8875659429FD66410030AE77 /* json-maker.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +218,14 @@
 				8823696829F7418600A16E14 /* DataFromChatGPT.swift in Sources */,
 				8823696429EEFEE400A16E14 /* ForChatGPT.swift in Sources */,
 				8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8875659729FD82EF0030AE77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8875659E29FD82EF0030AE77 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +404,32 @@
 			};
 			name = Release;
 		};
+		887565A029FD82EF0030AE77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2PQYA6S48;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		887565A129FD82EF0030AE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X2PQYA6S48;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -342,6 +447,15 @@
 			buildConfigurations = (
 				8823696129ED0AFA00A16E14 /* Debug */,
 				8823696229ED0AFA00A16E14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8875659F29FD82EF0030AE77 /* Build configuration list for PBXNativeTarget "validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887565A029FD82EF0030AE77 /* Debug */,
+				887565A129FD82EF0030AE77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
