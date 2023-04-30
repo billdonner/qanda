@@ -43,6 +43,8 @@
 		8875659B29FD82EF0030AE77 /* validator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = validator; sourceTree = BUILT_PRODUCTS_DIR; };
 		8875659D29FD82EF0030AE77 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		887565A229FDC6FB0030AE77 /* json-sample */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-sample"; sourceTree = "<group>"; };
+		887565A329FDF3510030AE77 /* json-sample2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-sample2"; sourceTree = "<group>"; };
+		887565A429FDFAEC0030AE77 /* json-dupes */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-dupes"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,8 @@
 				8875659329FD66410030AE77 /* json-maker.txt */,
 				8875659529FD7DE20030AE77 /* json-writer.txt */,
 				887565A229FDC6FB0030AE77 /* json-sample */,
+				887565A329FDF3510030AE77 /* json-sample2 */,
+				887565A429FDFAEC0030AE77 /* json-dupes */,
 			);
 			path = Prompts;
 			sourceTree = "<group>";

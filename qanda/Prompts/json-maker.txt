@@ -2,18 +2,17 @@
 struct Challenge :Codable {
  let id : String
   let question: String
-  let question_number: Int
   let topic: String
   let hint:String // a hint to show if the user needs help
   let answers: [String]
-  let correctAnswer: Int // index into answers of the single correct answer
+  let correctanswer: String // which answer is correct
   let explanation: [String] // reasoning behind the correctAnswer
   let article: String // URL of article about the correct Answer
   let image:String // URL of image of correct Answer
 }
 let id = "wld date: april 29,2003 9:52AM"
 // generate THREE challenges as an array of JSON about "Fun Fish Facts"
-let json_challenges =
+let json_challenges = [
 /// SAMPLE OUTPUT - DO NOT INCLUDE IN PROMPT
 [
     {
