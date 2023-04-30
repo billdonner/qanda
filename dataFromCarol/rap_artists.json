@@ -1,0 +1,111 @@
+[{
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Which rapper has the most Billboard #1 hits?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "He is considered one of the greatest rappers of all time",
+    "answers": ["Kanye West", "Jay-Z", "Drake", "Eminem"],
+    "answer": "Drake",
+    "explanation": ["Drake currently holds the record for the most number one hits on the Billboard Hot 100 chart with a total of twenty-one"],
+    "article": "https://www.billboard.com/articles/columns/hip-hop/8483762/drake-most-billboard-hot-100-number-ones",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Drake_at_OVO_Festival_2011.jpg/220px-Drake_at_OVO_Festival_2011.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Who was the first female rapper to win a Grammy?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "She is often referred to as the Queen of Rap",
+    "answers": ["Missy Elliott", "Nicki Minaj", "Lauryn Hill", "Cardi B"],
+    "answer": "Lauryn Hill",
+    "explanation": ["Lauryn Hill became the first female rapper to win a Grammy when she won Best New Artist at the 41st Annual Grammy Awards in 1999"],
+    "article": "https://www.grammy.com/grammys/artists/lauryn-hill",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Lauryn_Hill_at_the_Womens_March_in_Washington_%2834642780962%29.jpg/220px-Lauryn_Hill_at_the_Womens_March_in_Washington_%2834642780962%29.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Which rapper has the most Grammy awards?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "He is often referred to as one of the greatest rappers of all time",
+    "answers": ["Kanye West", "Jay-Z", "Drake", "Eminem"],
+    "answer": "Jay-Z",
+    "explanation": ["Jay-Z has the most Grammy Awards of any rapper with a total of 22 awards"],
+    "article": "https://www.grammy.com/grammys/artists/jay-z",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jay-Z_in_2014_%28cropped%29.jpg/220px-Jay-Z_in_2014_%28cropped%29.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Which rapper was the first to win a Nobel Peace Prize?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "He is known for his humanitarian efforts around the world",
+    "answers": ["Kanye West", "Jay-Z", "Drake", "Akon"],
+    "answer": "Akon",
+    "explanation": ["Akon was the first rapper to be awarded the Nobel Peace Prize in 2013 in recognition of his work in providing clean drinking water to millions of people in Africa"],
+    "article": "https://www.nobelprize.org/prizes/peace/2013/akon/facts/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Akon_at_the_Pepsi_Super_Bowl_Fan_Jam_in_2015.jpg/220px-Akon_at_the_Pepsi_Super_Bowl_Fan_Jam_in_2015.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Which rapper was the first artist to reach 1 billion streams on Spotify?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "He is one of the most successful rappers of all time",
+    "answers": ["Kanye West", "Jay-Z", "Drake", "Eminem"],
+    "answer": "Drake",
+    "explanation": ["Drake was the first artist to reach 1 billion streams on Spotify with his hit single 'One Dance' in 2016"],
+    "article": "https://www.billboard.com/articles/columns/hip-hop/7655088/drake-first-artist-1-billion-streams-spotify",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Drake_at_OVO_Festival_2011.jpg/220px-Drake_at_OVO_Festival_2011.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Which rapper was the first to reach one billion views on YouTube?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "He is one of the most successful rappers of all time",
+    "answers": ["Kanye West", "Jay-Z", "Drake", "Eminem"],
+    "answer": "Eminem",
+    "explanation": ["Eminem was the first rapper to reach one billion views on YouTube with his hit single 'Love the Way You Lie' in 2010"],
+    "article": "https://www.billboard.com/articles/columns/hip-hop/7740205/eminem-first-artist-1-billion-youtube-views",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Eminem_at_the_2009_Tribeca_Film_Festival.jpg/220px-Eminem_at_the_2009_Tribeca_Film_Festival.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Which rapper was the first to be inducted into the Songwriters Hall of Fame?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "He is one of the most influential rappers of all time",
+    "answers": ["Kanye West", "Jay-Z", "Drake", "Eminem"],
+    "answer": "Jay-Z",
+    "explanation": ["Jay-Z was the first rapper to be inducted into the Songwriters Hall of Fame in 2017"],
+    "article": "https://www.grammy.com/grammys/news/jay-z-be-inducted-songwriters-hall-fame",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jay-Z_in_2014_%28cropped%29.jpg/220px-Jay-Z_in_2014_%28cropped%29.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Which rapper was the first to have an album reach diamond status?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "His album was released in 1996",
+    "answers": ["Kanye West", "Jay-Z", "Drake", "Eminem"],
+    "answer": "Jay-Z",
+    "explanation": ["Jay-Z was the first rapper to have an album reach diamond status with his album 'Reasonable Doubt' in 1996"],
+    "article": "https://www.grammy.com/grammys/news/jay-zs-reasonable-doubt-achieves-diamond-status",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jay-Z_in_2014_%28cropped%29.jpg/220px-Jay-Z_in_2014_%28cropped%29.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Which rapper was the first to win a BET Award?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "He is considered one of the greatest rappers of all time",
+    "answers": ["Kanye West", "Jay-Z", "Drake", "Eminem"],
+    "answer": "Eminem",
+    "explanation": ["Eminem was the first rapper to win a BET Award when he won Best Male Hip Hop Artist in 2000"],
+    "article": "https://www.bet.com/music/2000/bet-awards/winners.html",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Eminem_at_the_2009_Tribeca_Film_Festival.jpg/220px-Eminem_at_the_2009_Tribeca_Film_Festival.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "Which rapper was the first to win an Academy Award?",
+    "topic": "Fun Facts about Rap Musicians",
+    "hint": "He won for his song 'Lose Yourself'",
+    "answers": ["Kanye West", "Jay-Z", "Drake", "Eminem"],
+    "answer": "Eminem",
+    "explanation": ["Eminem was the first rapper to win an Academy Award when he won Best Original Song for 'Lose Yourself' in 2003"],
+    "article": "https://www.oscars.org/oscars/ceremonies/2003",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Eminem_at_the_2009_Tribeca_Film_Festival.jpg/220px-Eminem_at_the_2009_Tribeca_Film_Festival.jpg"
+  }
+]

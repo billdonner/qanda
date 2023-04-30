@@ -6,6 +6,20 @@
 //
 import SwiftUI
 
+struct GameData : Codable, Hashable,Identifiable,Equatable {
+
+  internal init(subject: String, challenges: [Challenge]) {
+    self.subject = subject
+    self.challenges = challenges //.shuffled()  //randomize
+    self.id = UUID().uuidString
+    self.generated = Date()
+  }
+  
+  let id : String
+  let subject: String
+  let challenges: [Challenge]
+  let generated: Date
+}
 
 // SwiftUI Code
 
@@ -57,10 +71,9 @@ struct SingleTopicView: View {
           .padding()
         }
         if stv.showingAnswer {
-          Text("Answer: \(qd.answers[qd.correctAnswer])")
+          Text("Answer: \(qd.answer)")
             .font(.title).padding()
           Text("Explanation:" + qd.explanation.map{$0}.joined()).font(.headline).padding()
-         
         }
         //        Spacer()
       }
@@ -84,14 +97,14 @@ struct SingleTopicView: View {
             } label: {
               Image(systemName: "photo")
             }
-            .disabled(qd.image==nil || !stv.showingAnswer)
+            .disabled(qd.image=="" || !stv.showingAnswer)
             Spacer()
             Button {
               sheetchoice = SheetChoices(choice:.showInfo,arg:qd.article)
             } label: {
               Image(systemName: "info")
             }
-            .disabled(qd.article==nil || !stv.showingAnswer)
+            .disabled(qd.article=="" || !stv.showingAnswer)
     
             Button("Next") {
               self.nextQuestion()
@@ -153,7 +166,7 @@ struct WebView: UIViewRepresentable {
 
 extension SingleTopicView {
   func checkAnswer(_ number: Int) {
-    if number == quizData.challenges[stv.currentQuestionIndex].correctAnswer {
+    if quizData.challenges[stv.currentQuestionIndex].answers[number] == quizData.challenges[stv.currentQuestionIndex].answer {
       stv.score += 1
     }
   }
@@ -185,7 +198,9 @@ extension SingleTopicView {
 
 struct SingleTopicView_Previews: PreviewProvider {
   static var previews: some View {
-    SingleTopicView(stv: STV(), quizData: chatGPT_GENERATED_DATA[0])
+    SingleTopicView(stv: STV(),
+                    quizData: GameData(subject:"Test",challenges: [
+                      Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], answer: "ans2", explanation: ["exp1","exp2"], article: "badurl", image: "badurl")]))
   }
 }
 

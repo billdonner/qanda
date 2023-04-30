@@ -1,0 +1,111 @@
+[{
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the oldest World Heritage Site?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in Syria",
+    "answers": ["Great Wall of China", "Petra", "Machu Picchu", "Palmyra"],
+    "answer": "Palmyra",
+    "explanation": ["Palmyra is the oldest World Heritage Site, inscribed on the list in 1980. It is located in Syria, and was an important oasis in the ancient world, owing to its strategic location along the Silk Road.", "Palmyra is known for its extensive ruins, including the Temple of Bel, which is a major archaeological site."],
+    "article": "https://en.wikipedia.org/wiki/Palmyra",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Palmyra_at_night_%28Shukri_Hassan%29.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the most visited World Heritage Site?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in Italy",
+    "answers": ["The Great Wall of China", "Machu Picchu", "The Colosseum", "Angkor Wat"],
+    "answer": "The Colosseum",
+    "explanation": ["The Colosseum is the most visited World Heritage Site. It is located in Italy and is one of the most iconic structures from the Roman Empire. It was built between 70 and 80 AD and could hold between 50,000 and 80,000 spectators.", "The Colosseum has become a symbol of Rome, and it is now one of the most popular tourist attractions in the world, with millions of visitors each year."],
+    "article": "https://en.wikipedia.org/wiki/Colosseum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the largest World Heritage Site?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in Canada",
+    "answers": ["Great Barrier Reef", "Taj Mahal", "Yellowstone National Park", "Uluru"],
+    "answer": "Yellowstone National Park",
+    "explanation": ["Yellowstone National Park is the largest World Heritage Site, covering an area of 8,983 square kilometers. It is located in the United States, in the states of Wyoming, Montana, and Idaho.", "Yellowstone is one of the most popular national parks in the United States, and it is home to a wide variety of wildlife, including grizzly bears, wolves, bison, and elk."],
+    "article": "https://en.wikipedia.org/wiki/Yellowstone_National_Park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Grand_Prismatic_Spring_%28aerial_view%29.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the most unique World Heritage Site?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in India",
+    "answers": ["Taj Mahal", "Great Wall of China", "Galapagos Islands", "Chichen Itza"],
+    "answer": "Taj Mahal",
+    "explanation": ["The Taj Mahal is the most unique World Heritage Site. It is located in India and is a white marble mausoleum built in the 17th century. It is widely considered to be one of the most beautiful buildings in the world and is a symbol of love.", "The Taj Mahal attracts millions of visitors each year, making it one of the most popular tourist attractions in India."],
+    "article": "https://en.wikipedia.org/wiki/Taj_Mahal",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Taj_Mahal%2C_Agra%2C_India.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the most endangered World Heritage Site?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in the Democratic Republic of Congo",
+    "answers": ["Machu Picchu", "Great Barrier Reef", "Galapagos Islands", "Virunga National Park"],
+    "answer": "Virunga National Park",
+    "explanation": ["Virunga National Park is the most endangered World Heritage Site. It is located in the Democratic Republic of Congo and is home to some of the world's last remaining mountain gorillas. It is also one of Africa's oldest national parks.", "The park is threatened by poaching, illegal mining, and the activities of armed militia, and it has been listed as a World Heritage Site in Danger since 1994."],
+    "article": "https://en.wikipedia.org/wiki/Virunga_National_Park",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/84/Virunga_Park_%286813392426%29.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the most recently inscribed World Heritage Site?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in China",
+    "answers": ["Angkor Wat", "Machu Picchu", "The Great Wall of China", "The Forbidden City"],
+    "answer": "The Forbidden City",
+    "explanation": ["The Forbidden City is the most recently inscribed World Heritage Site. It is located in China and is a palace complex that was the home of emperors of the Ming and Qing dynasties for over 500 years. It is the world's largest palace complex, covering an area of 720,000 square meters.", "The Forbidden City is one of the most visited tourist attractions in China, with millions of visitors each year."],
+    "article": "https://en.wikipedia.org/wiki/Forbidden_City",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/The_Forbidden_City_in_Beijing%2C_China.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the largest World Heritage Site in Asia?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in India",
+    "answers": ["Great Wall of China", "Taj Mahal", "Angkor Wat", "Ayers Rock"],
+    "answer": "Angkor Wat",
+    "explanation": ["Angkor Wat is the largest World Heritage Site in Asia. It is located in the modern-day country of Cambodia and was built in the 12th century as a Hindu temple complex. It is now the symbol of Cambodia and is one of the most visited tourist attractions in Southeast Asia.", "Angkor Wat is the largest religious monument in the world, covering an area of 162.6 hectares."],
+    "article": "https://en.wikipedia.org/wiki/Angkor_Wat",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Angkor_Wat_sunrise_edit_2.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the most visited World Heritage Site in South America?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in Peru",
+    "answers": ["Galapagos Islands", "Machu Picchu", "Iguazu Falls", "Easter Island"],
+    "answer": "Machu Picchu",
+    "explanation": ["Machu Picchu is the most visited World Heritage Site in South America. It is located in Peru and is an Incan city that was built in the 15th century. It is one of the most iconic symbols of the Incan Empire and is now one of the most popular tourist attractions in the world.", "Machu Picchu attracts more than one million visitors each year, making it the most visited tourist site in Peru."],
+    "article": "https://en.wikipedia.org/wiki/Machu_Picchu",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Machu_Picchu_view.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the most visited World Heritage Site in Europe?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in Italy",
+    "answers": ["Tower of London", "Stonehenge", "Eiffel Tower", "The Colosseum"],
+    "answer": "The Colosseum",
+    "explanation": ["The Colosseum is the most visited World Heritage Site in Europe. It is located in Italy and is one of the most iconic structures from the Roman Empire. It was built between 70 and 80 AD and could hold between 50,000 and 80,000 spectators.", "The Colosseum has become a symbol of Rome, and it is now one of the most popular tourist attractions in the world, with millions of visitors each year."],
+    "article": "https://en.wikipedia.org/wiki/Colosseum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the most visited World Heritage Site in Africa?",
+    "topic": "Fun facts about World Heritage Sites",
+    "hint": "It is located in Egypt",
+    "answers": ["Table Mountain", "Victoria Falls", "Pyramids of Giza", "Mount Kilimanjaro"],
+    "answer": "Pyramids of Giza",
+    "explanation": ["The Pyramids of Giza are the most visited World Heritage Site in Africa. They are located in Egypt and are one of the most iconic symbols of Ancient Egypt. The pyramids were built over 4,500 years ago and are believed to have been constructed as tombs for the Pharaohs.", "The Pyramids of Giza attract millions of visitors each year, making them one of the most popular tourist destinations in Egypt."],
+    "article": "https://en.wikipedia.org/wiki/Pyramids_of_Giza",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Giza_Necropolis_panorama_2006.jpg"
+  }
+]

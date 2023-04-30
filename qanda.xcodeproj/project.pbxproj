@@ -12,10 +12,10 @@
 		8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */; };
 		8823696429EEFEE400A16E14 /* ForChatGPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696329EEFEE400A16E14 /* ForChatGPT.swift */; };
 		8823696629EFC0D600A16E14 /* SingleTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696529EFC0D600A16E14 /* SingleTopicView.swift */; };
-		8823696829F7418600A16E14 /* DataFromChatGPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696729F7418600A16E14 /* DataFromChatGPT.swift */; };
 		8875659429FD66410030AE77 /* json-maker.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8875659329FD66410030AE77 /* json-maker.txt */; };
 		8875659629FD7DE20030AE77 /* json-writer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8875659529FD7DE20030AE77 /* json-writer.txt */; };
 		8875659E29FD82EF0030AE77 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8875659D29FD82EF0030AE77 /* main.swift */; };
+		887565B029FEB44D0030AE77 /* ForChatGPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696329EEFEE400A16E14 /* ForChatGPT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,7 +37,6 @@
 		8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8823696329EEFEE400A16E14 /* ForChatGPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForChatGPT.swift; sourceTree = "<group>"; };
 		8823696529EFC0D600A16E14 /* SingleTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTopicView.swift; sourceTree = "<group>"; };
-		8823696729F7418600A16E14 /* DataFromChatGPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFromChatGPT.swift; sourceTree = "<group>"; };
 		8875659329FD66410030AE77 /* json-maker.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-maker.txt"; sourceTree = "<group>"; };
 		8875659529FD7DE20030AE77 /* json-writer.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-writer.txt"; sourceTree = "<group>"; };
 		8875659B29FD82EF0030AE77 /* validator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = validator; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +44,16 @@
 		887565A229FDC6FB0030AE77 /* json-sample */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-sample"; sourceTree = "<group>"; };
 		887565A329FDF3510030AE77 /* json-sample2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-sample2"; sourceTree = "<group>"; };
 		887565A429FDFAEC0030AE77 /* json-dupes */ = {isa = PBXFileReference; lastKnownFileType = text; path = "json-dupes"; sourceTree = "<group>"; };
+		887565A629FEA3420030AE77 /* us_presidents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = us_presidents.json; sourceTree = "<group>"; };
+		887565A729FEA3710030AE77 /* oceans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = oceans.json; sourceTree = "<group>"; };
+		887565A829FEA3B30030AE77 /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
+		887565A929FEA3D60030AE77 /* vacation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vacation.json; sourceTree = "<group>"; };
+		887565AA29FEA3EE0030AE77 /* elvis_presley.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = elvis_presley.json; sourceTree = "<group>"; };
+		887565AB29FEA4190030AE77 /* rock_and_roll.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rock_and_roll.json; sourceTree = "<group>"; };
+		887565AC29FEA4320030AE77 /* rap_artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rap_artists.json; sourceTree = "<group>"; };
+		887565AD29FEA4520030AE77 /* new_york_city.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = new_york_city.json; sourceTree = "<group>"; };
+		887565AE29FEA4800030AE77 /* the_himalayas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = the_himalayas.json; sourceTree = "<group>"; };
+		887565AF29FEA4C20030AE77 /* world_heritage_sites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = world_heritage_sites.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +77,7 @@
 		8823694929ED0AF900A16E14 = {
 			isa = PBXGroup;
 			children = (
+				887565A529FEA30D0030AE77 /* dataFromCarol */,
 				8823695429ED0AF900A16E14 /* qanda */,
 				8875659C29FD82EF0030AE77 /* validator */,
 				8823695329ED0AF900A16E14 /* Products */,
@@ -90,7 +100,6 @@
 				8823696329EEFEE400A16E14 /* ForChatGPT.swift */,
 				8823695529ED0AF900A16E14 /* qandaApp.swift */,
 				8823696529EFC0D600A16E14 /* SingleTopicView.swift */,
-				8823696729F7418600A16E14 /* DataFromChatGPT.swift */,
 				8823695929ED0AFA00A16E14 /* Assets.xcassets */,
 				8823695B29ED0AFA00A16E14 /* Preview Content */,
 			);
@@ -123,6 +132,23 @@
 				8875659D29FD82EF0030AE77 /* main.swift */,
 			);
 			path = validator;
+			sourceTree = "<group>";
+		};
+		887565A529FEA30D0030AE77 /* dataFromCarol */ = {
+			isa = PBXGroup;
+			children = (
+				887565A629FEA3420030AE77 /* us_presidents.json */,
+				887565A929FEA3D60030AE77 /* vacation.json */,
+				887565AA29FEA3EE0030AE77 /* elvis_presley.json */,
+				887565AB29FEA4190030AE77 /* rock_and_roll.json */,
+				887565AC29FEA4320030AE77 /* rap_artists.json */,
+				887565AD29FEA4520030AE77 /* new_york_city.json */,
+				887565AF29FEA4C20030AE77 /* world_heritage_sites.json */,
+				887565AE29FEA4800030AE77 /* the_himalayas.json */,
+				887565A829FEA3B30030AE77 /* food.json */,
+				887565A729FEA3710030AE77 /* oceans.json */,
+			);
+			path = dataFromCarol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +245,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8823696629EFC0D600A16E14 /* SingleTopicView.swift in Sources */,
-				8823696829F7418600A16E14 /* DataFromChatGPT.swift in Sources */,
 				8823696429EEFEE400A16E14 /* ForChatGPT.swift in Sources */,
 				8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */,
 			);
@@ -230,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8875659E29FD82EF0030AE77 /* main.swift in Sources */,
+				887565B029FEB44D0030AE77 /* ForChatGPT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

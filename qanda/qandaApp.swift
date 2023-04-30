@@ -31,7 +31,7 @@ struct ForEachWithIndex<
 
 struct MultiView: View {
   internal init(gameData: [GameData]) {
-    self.gameData = gameData
+    self.gameDaturm = gameData
     var stvs : [STV] = []
     for (n,_ ) in gameData.enumerated() {
       stvs.append(STV(id:n))
@@ -39,7 +39,7 @@ struct MultiView: View {
     self.stv = stvs
   }
   
-  let gameData: [GameData]
+  let gameDaturm: [GameData]
   var stv: [STV] = []
 
   var body: some View {
@@ -48,7 +48,7 @@ struct MultiView: View {
       Text("Today's Topics:")
       Spacer()
       VStack {
-        ForEachWithIndex (data:gameData) { index, qanda in
+        ForEachWithIndex (data:gameDaturm) { index, qanda in
           NavigationLink(destination: SingleTopicView(stv: stv[index], quizData: qanda)) {
             HStack {
               Text(qanda.subject).font(.title)
@@ -64,7 +64,8 @@ struct MultiView: View {
 
 struct MultiView_Previews: PreviewProvider {
   static var previews: some View {
-    MultiView(gameData: chatGPT_GENERATED_DATA)
+    MultiView(gameData: [ GameData(subject:"Test",challenges: [
+      Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], answer: "ans2", explanation: ["exp1","exp2"], article: "badurl", image: "badurl")])])
       .navigationTitle("20,000 Questions")
   }
 }
@@ -73,7 +74,8 @@ struct MultiView_Previews: PreviewProvider {
 struct qandaApp: App {
     var body: some Scene {
         WindowGroup {
-          MultiView(gameData: chatGPT_GENERATED_DATA)
+          MultiView(gameData: [GameData(subject: "testsubject", challenges:[
+            Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], answer: "ans2", explanation: ["exp1","exp2"], article: "badurl", image: "badurl")])])
         }
     }
 }

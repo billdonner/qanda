@@ -1,0 +1,112 @@
+[{
+    "id": "1",
+    "question": "How Many Number One Hits Did Elvis Presley Have?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "The 'King' of Rock and Roll had quite a few.",
+    "answers": ["9", "38", "18", "54"],
+    "answer": "38",
+    "explanation": ["Elvis Presley had 38 number one hits in the US throughout his career."],
+    "article": "https://www.biography.com/musician/elvis-presley",
+    "image": "https://www.biography.com/.image/t_share/MTQ2ODgyMzA0NjY1ODU1ODMy/elvis-presley-9521015-1-402.jpg"
+  },
+  {
+    "id": "2",
+    "question": "What Award Did Elvis Receive in 1971?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "It's one of the highest awards in the United States.",
+    "answers": ["Congressional Gold Medal", "Medal of Honor", "Presidential Medal of Freedom", "Nobel Peace Prize"],
+    "answer": "Congressional Gold Medal",
+    "explanation": ["Elvis Presley received the Congressional Gold Medal in 1971 for his contributions to American popular culture."],
+    "article": "https://www.elvispresleynews.com/elvis-presley-honored-with-congressional-gold-medal.html",
+    "image": "https://www.elvispresleynews.com/images/news/2015/goldenelvis.jpg"
+  },
+  {
+    "id": "3",
+    "question": "What Was the Name of Elvis' First Single?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "It was released in 1954.",
+    "answers": ["That's All Right", "Heartbreak Hotel", "Suspicious Minds", "Hound Dog"],
+    "answer": "That's All Right",
+    "explanation": ["Elvis Presley's first single was 'That's All Right' and was released in 1954."],
+    "article": "https://www.elvis.com/about-the-king/elvis-career-milestones/",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f9/That%27s_All_Right_Elvis_Presley.jpg"
+  },
+  {
+    "id": "4",
+    "question": "What Was the Name of Elvis' First Album?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "It was released in 1956.",
+    "answers": ["The Elvis Presley Album", "Elvis Is Back!", "Elvis", "Elvis Presley"],
+    "answer": "Elvis Presley",
+    "explanation": ["Elvis Presley's first album was 'Elvis Presley' and was released in 1956."],
+    "article": "https://www.elvis.com/about-the-king/elvis-career-milestones/",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/ElvisPresleyAlbumCover.jpg"
+  },
+  {
+    "id": "5",
+    "question": "What Was the Name of Elvis' Last Concert?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "It was held in 1977.",
+    "answers": ["The Aloha Concert", "The Elvis Farewell Concert", "The Final Show", "The Last Jukebox Concert"],
+    "answer": "The Aloha Concert",
+    "explanation": ["Elvis Presley's last concert was 'The Aloha Concert' and was held in 1977."],
+    "article": "https://www.elvis.com/about-the-king/elvis-career-milestones/",
+    "image": "https://www.elvis.com/images/news/2017/08/elvismedia2.jpg"
+  },
+  {
+    "id": "6",
+    "question": "What Was the Name of Elvis' First Movie?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "It was released in 1956.",
+    "answers": ["Viva Las Vegas", "Jailhouse Rock", "Loving You", "Love Me Tender"],
+    "answer": "Love Me Tender",
+    "explanation": ["Elvis Presley's first movie was 'Love Me Tender' and was released in 1956."],
+    "article": "https://www.elvis.com/about-the-king/elvis-career-milestones/",
+    "image": "https://upload.wikimedia.org/wikipedia/en/2/2d/Love_Me_Tender_%281956%29.jpg"
+  },
+  {
+    "id": "7",
+    "question": "What Was the Name of Elvis' Last Movie?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "It was released in 1969.",
+    "answers": ["Change of Habit", "Clambake", "Spinout", "Charro!"],
+    "answer": "Change of Habit",
+    "explanation": ["Elvis Presley's last movie was 'Change of Habit' and was released in 1969."],
+    "article": "https://www.elvis.com/about-the-king/elvis-career-milestones/",
+    "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Change_of_Habit.jpg"
+  },
+  {
+    "id": "8",
+    "question": "What Was the Name of Elvis and Priscilla's Daughter?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "She was born in 1968.",
+    "answers": ["Linda", "Lisa Marie", "Nancy", "Anna"],
+    "answer": "Lisa Marie",
+    "explanation": ["Elvis Presley and Priscilla Presley's daughter was 'Lisa Marie' and was born in 1968."],
+    "article": "https://www.biography.com/musician/elvis-presley",
+    "image": "https://www.biography.com/.image/t_share/MTQ2ODgyMzA0NjY1ODU1ODMy/elvis-presley-9521015-1-402.jpg"
+  },
+  {
+    "id": "9",
+    "question": "What Was the Name of Elvis' Debut Album?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "It was released in 1956.",
+    "answers": ["Elvis Presley", "Elvis", "Elvis Is Back!", "Blue Hawaii"],
+    "answer": "Elvis Presley",
+    "explanation": ["Elvis Presley's debut album was 'Elvis Presley' and was released in 1956."],
+    "article": "https://www.elvis.com/about-the-king/elvis-career-milestones/",
+    "image": "https://upload.wikimedia.org/wikipedia/en/8/8d/ElvisPresleyAlbumCover.jpg"
+  },
+  {
+    "id": "10",
+    "question": "What Was the Name of Elvis' Final Album?",
+    "topic": "Fun Elvis Presley Facts",
+    "hint": "It was released in 1977.",
+    "answers": ["Moody Blue", "Elvis in Concert", "From Elvis Presley Boulevard, Memphis, Tennessee", "Elvis Forever"],
+    "answer": "Moody Blue",
+    "explanation": ["Elvis Presley's final album was 'Moody Blue' and was released in 1977."],
+    "article": "https://www.elvis.com/about-the-king/elvis-career-milestones/",
+    "image": "https://upload.wikimedia.org/wikipedia/en/f/f2/Elvis_Presley_Moody_Blue.jpg"
+  }
+]
+

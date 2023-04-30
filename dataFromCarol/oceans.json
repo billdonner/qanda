@@ -1,0 +1,111 @@
+[{
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the deepest ocean trench in the world?",
+    "topic": "Fun Ocean Facts",
+    "hint": "It is located in the Pacific Ocean.",
+    "answers": ["Mariana Trench", "Marianas Trench", "Mariana's Trench", "Marianas' Trench"],
+    "answer": "Mariana Trench",
+    "explanation": ["The Mariana Trench is the deepest ocean trench in the world, located in the western Pacific Ocean near the Mariana Islands. It has a maximum depth of approximately 11,034 meters (36,201 feet)."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/mariana-trench/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Mariana-Trench_1600x900.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the second largest ocean in the world?",
+    "topic": "Fun Ocean Facts",
+    "hint": "It covers an area of about 106,400,000 square kilometers.",
+    "answers": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Southern Ocean"],
+    "answer": "Pacific Ocean",
+    "explanation": ["The Pacific Ocean is the world's largest and deepest ocean and covers an area of about 106,400,000 square kilometers (41,100,000 square miles). It is located between the Southern Ocean, Asia, Australia, and the Americas."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/pacific-ocean/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Pacific-Ocean_1600x900.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "How many oceans are there on Earth?",
+    "topic": "Fun Ocean Facts",
+    "hint": "The answer is a number.",
+    "answers": ["Two", "Four", "Six", "Eight"],
+    "answer": "Four",
+    "explanation": ["There are four oceans on Earth: the Atlantic, Pacific, Indian and Arctic Oceans. They cover approximately 71% of the Earth's surface and contain about 97% of the Earth's water."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/oceans-of-the-world/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Oceans-of-the-World_1600x900.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the world's largest ocean animal?",
+    "topic": "Fun Ocean Facts",
+    "hint": "It is a mammal.",
+    "answers": ["Blue Whale", "Killer Whale", "Humpback Whale", "Sperm Whale"],
+    "answer": "Blue Whale",
+    "explanation": ["The blue whale is the largest animal on Earth, growing up to 33 meters (110 feet) in length and weighing up to 173 tonnes (190 tons). It is a mammal that lives in the open ocean and can dive to depths of up to 1,000 meters (3,280 feet)."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/blue-whale/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Blue-Whale_1600x900.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which ocean is the saltiest?",
+    "topic": "Fun Ocean Facts",
+    "hint": "It is located in the Southern Hemisphere.",
+    "answers": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean", "Southern Ocean"],
+    "answer": "Atlantic Ocean",
+    "explanation": ["The Atlantic Ocean is the saltiest of the world's oceans, with a salinity of between 33 and 37 parts per thousand. It is located in the Southern Hemisphere, between Africa, Europe, the Southern Ocean, and the Americas."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/atlantic-ocean/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Atlantic-Ocean_1600x900.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the world's largest estuary?",
+    "topic": "Fun Ocean Facts",
+    "hint": "It is located on the east coast of North America.",
+    "answers": ["Hudson Bay", "Gulf of Mexico", "Chesapeake Bay", "San Francisco Bay"],
+    "answer": "Hudson Bay",
+    "explanation": ["The Hudson Bay is the largest estuary in the world, located on the east coast of North America. It is approximately 1.2 million square kilometers (463,000 square miles) in size and covers a large portion of northeastern Canada."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/hudson-bay/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Hudson-Bay_1600x900.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the world's largest coral reef?",
+    "topic": "Fun Ocean Facts",
+    "hint": "It is located in the Coral Sea.",
+    "answers": ["Great Barrier Reef", "Red Sea Reef", "Maldives Reef", "Caribbean Reef"],
+    "answer": "Great Barrier Reef",
+    "explanation": ["The Great Barrier Reef is the largest coral reef system in the world, located in the Coral Sea off the coast of Australia. It is approximately 2,300 kilometers (1,400 miles) in length and is composed of over 900 individual reefs and thousands of species of plants and animals."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/great-barrier-reef/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Great-Barrier-Reef_1600x900.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the world's largest ocean current?",
+    "topic": "Fun Ocean Facts",
+    "hint": "It is located in the Atlantic Ocean.",
+    "answers": ["Gulf Stream", "North Atlantic Drift", "Antarctic Circumpolar Current", "Kuroshio Current"],
+    "answer": "Gulf Stream",
+    "explanation": ["The Gulf Stream is the world's largest ocean current, located in the Atlantic Ocean. It is a powerful, warm and swift ocean current that originates in the Gulf of Mexico, flows through the Straits of Florida and then up the eastern coast of the United States and Canada before turning east and crossing the Atlantic."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/gulf-stream/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Gulf-Stream_1600x900.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "How deep can a submarine dive?",
+    "topic": "Fun Ocean Facts",
+    "hint": "It is measured in feet.",
+    "answers": ["200 feet", "500 feet", "1000 feet", "2000 feet"],
+    "answer": "2000 feet",
+    "explanation": ["Most modern submarines are capable of diving to depths of up to 2,000 feet (610 meters) below the surface of the ocean. At this depth, the pressure is so great that the hull of the submarine must be extremely strong and reinforced with special high-strength steel."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/submarines/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Submarines_1600x900.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the world's deadliest ocean animal?",
+    "topic": "Fun Ocean Facts",
+    "hint": "It is a fish.",
+    "answers": ["Great White Shark", "Barracuda", "Pufferfish", "Stonefish"],
+    "answer": "Stonefish",
+    "explanation": ["The stonefish is the world's deadliest ocean animal, with venomous spines on its back that can deliver a powerful and potentially fatal sting. It is found in shallow coastal waters throughout the Indo-Pacific region and is well-camouflaged to blend in with its surroundings."],
+    "article": "https://www.nationalgeographic.org/encyclopedia/stonefish/",
+    "image": "https://www.nationalgeographic.org/staticfiles/NGS/Shared/StaticFiles/Static-Files/Stonefish_1600x900.jpg"
+  }
+]

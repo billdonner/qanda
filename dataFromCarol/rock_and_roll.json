@@ -1,0 +1,131 @@
+[{
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the name of the English rock band formed in London in 1962?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "They were known for hits such as 'I Want to Hold Your Hand' and 'Yesterday'",
+    "answers": ["The Rolling Stones", "The Beatles", "The Who", "Queen"],
+    "answer": "The Beatles",
+    "explanation": ["The Beatles were an English rock band formed in Liverpool in 1960. They are regarded as the most influential band of all time.",
+      "The band's members were John Lennon, Paul McCartney, George Harrison, and Ringo Starr."
+    ],
+    "article": "https://en.wikipedia.org/wiki/The_Beatles",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_Apple_Logo.svg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What was the name of the first number one song released by the Rolling Stones?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "It was released in 1964 and has become one of the band's most recognizable songs",
+    "answers": ["(I Can't Get No) Satisfaction", "Paint It Black", "Jumpin' Jack Flash", "Honky Tonk Women"],
+    "answer": "(I Can't Get No) Satisfaction",
+    "explanation": ["The Rolling Stones released '(I Can't Get No) Satisfaction' as a single in May 1965. It became the band's first number one hit in the United States.",
+      "The song has since become one of the band's most recognizable songs."
+    ],
+    "article": "https://en.wikipedia.org/wiki/Satisfaction_(The_Rolling_Stones_song)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/The_Rolling_Stones_%28I_Can%27t_Get_No%29_Satisfaction.jpg/220px-The_Rolling_Stones_%28I_Can%27t_Get_No%29_Satisfaction.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Who is the lead singer of the band Queen?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "He was known for his powerful vocal range and flamboyant stage presence",
+    "answers": ["Freddie Mercury", "Brian May", "Roger Taylor", "John Deacon"],
+    "answer": "Freddie Mercury",
+    "explanation": ["Freddie Mercury was the lead singer of the British rock band Queen. He was known for his powerful vocal range and flamboyant stage presence.",
+      "He wrote many of Queen's biggest hits, including 'Bohemian Rhapsody', 'Killer Queen', and 'We are the Champions'."
+    ],
+    "article": "https://en.wikipedia.org/wiki/Freddie_Mercury",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Freddie_Mercury_Montreux.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What was the name of the first album released by the band The Who?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "It was released in 1965 and contains the song 'My Generation'",
+    "answers": ["My Generation", "Tommy", "Who's Next", "Quadrophenia"],
+    "answer": "My Generation",
+    "explanation": ["The Who's debut album, My Generation, was released in 1965. It contains the band's most famous song, 'My Generation'. The album was critically acclaimed and is considered an influential record in the development of rock music.",
+      "The album also features the hits 'The Kids are Alright' and 'I Can't Explain'."
+    ],
+    "article": "https://en.wikipedia.org/wiki/My_Generation_(album)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/My_Generation_The_Who.jpg/220px-My_Generation_The_Who.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the name of the first single released by Queen?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "It was released in 1973 and is a hard rock song",
+    "answers": ["Killer Queen", "Bohemian Rhapsody", "We Will Rock You", "Keep Yourself Alive"],
+    "answer": "Keep Yourself Alive",
+    "explanation": ["Queen's first single, 'Keep Yourself Alive', was released in 1973. It is a hard rock song and is considered a classic of the genre.",
+      "The single was not a commercial success, but it is remembered fondly by fans as the band's first single."
+    ],
+    "article": "https://en.wikipedia.org/wiki/Keep_Yourself_Alive",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5b/Queen-KeepYourselfAlive.jpg/220px-Queen-KeepYourselfAlive.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the title of the first album released by The Rolling Stones?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "It was released in 1964 and contains the hit single 'Time is on My Side'",
+    "answers": ["The Rolling Stones", "Out of Our Heads", "Beggars Banquet", "Let it Bleed"],
+    "answer": "The Rolling Stones",
+    "explanation": ["The Rolling Stones' debut album, The Rolling Stones, was released in 1964. It contains the hit single 'Time is on My Side', which was the band's first single to chart in the United States.",
+      "The album is considered an important part of the early development of the British Invasion sound."
+    ],
+    "article": "https://en.wikipedia.org/wiki/The_Rolling_Stones_(album)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/The_Rolling_Stones.jpg/220px-The_Rolling_Stones.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What album by The Who is considered to be a rock opera?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "It was released in 1969 and tells the story of a deaf, dumb and blind boy",
+    "answers": ["Quadrophenia", "Tommy", "Who's Next", "My Generation"],
+    "answer": "Tommy",
+    "explanation": ["The Who's 1969 album, Tommy, is considered to be a rock opera. It tells the story of a deaf, dumb and blind boy and his journey to self-realization.",
+      "The album was critically acclaimed and is considered an influential record in the development of rock music."
+    ],
+    "article": "https://en.wikipedia.org/wiki/Tommy_(album)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Tommy_%28The_Who_album_-_cover_art%29.jpg/220px-Tommy_%28The_Who_album_-_cover_art%29.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the name of the song released by Queen in 1975 that has become one of their most famous songs?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "It is a six-minute suite, consisting of several sections without a chorus",
+    "answers": ["We Will Rock You", "Bohemian Rhapsody", "Another One Bites the Dust", "Killer Queen"],
+    "answer": "Bohemian Rhapsody",
+    "explanation": ["Queen released 'Bohemian Rhapsody' as a single in 1975. It became one of their most famous songs and is considered a classic of the rock music genre.",
+      "The song is a six-minute suite, consisting of several sections without a chorus, and it is known for its complex vocal and instrumental arrangements."
+    ],
+    "article": "https://en.wikipedia.org/wiki/Bohemian_Rhapsody",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Bohemian_Rhapsody.png/220px-Bohemian_Rhapsody.png"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the name of the album released by The Rolling Stones in 1971?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "It contains the hit singles 'Brown Sugar' and 'Wild Horses'",
+    "answers": ["Out of Our Heads", "Let it Bleed", "Beggars Banquet", "Sticky Fingers"],
+    "answer": "Sticky Fingers",
+    "explanation": ["The Rolling Stones released the album Sticky Fingers in 1971. It contains the hit singles 'Brown Sugar' and 'Wild Horses'. The album was a critical and commercial success, and it is considered one of the band's best albums.",
+      "The album is also known for its controversial cover art featuring a close-up of a male crotch in tight jeans."
+    ],
+    "article": "https://en.wikipedia.org/wiki/Sticky_Fingers",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/StickyFingers.jpg/220px-StickyFingers.jpg"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "What is the name of the album released by Queen in 1979?",
+    "topic": "Fun Rock and Roll Facts",
+    "hint": "It contains the hit single 'Another One Bites the Dust'",
+    "answers": ["A Night at the Opera", "Jazz", "The Game", "News of the World"],
+    "answer": "The Game",
+    "explanation": ["Queen released the album The Game in 1979. It contains the hit single 'Another One Bites the Dust'. The album was a critical and commercial success, and it is considered one of the band's best albums.",
+      "The album is also notable for its use of a diverse range of musical styles, from hard rock to disco."
+    ],
+    "article": "https://en.wikipedia.org/wiki/The_Game_(Queen_album)",
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/The_Game_album_cover.jpg/220px-The_Game_album_cover.jpg"
+  }
+]

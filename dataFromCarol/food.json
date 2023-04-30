@@ -1,0 +1,112 @@
+[{
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which type of food is considered a superfood?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually sold in a dried form.",
+    "answers": ["Grains", "Nuts", "Fruits", "Vegetables"],
+    "answer": "Nuts",
+    "explanation": ["Nuts are considered a superfood because they are a great source of antioxidants, vitamins, minerals, and healthy fats.", "They are also low in sugar and sodium."],
+    "article": "https://www.healthline.com/nutrition/10-super-healthy-nuts",
+    "image": "https://images.unsplash.com/photo-1534223710718-36fa59cedb03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which type of food is considered a superfood?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually eaten raw.",
+    "answers": ["Grains", "Nuts", "Fruits", "Vegetables"],
+    "answer": "Fruits",
+    "explanation": ["Fruits are considered a superfood because they are full of antioxidants, vitamins, minerals, and fiber.", "They are also low in calories and fat."],
+    "article": "https://www.healthline.com/nutrition/15-best-superfood-fruits",
+    "image": "https://images.unsplash.com/photo-1520341018162-165d9a54a82a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which type of food is considered a superfood?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually eaten cooked.",
+    "answers": ["Grains", "Nuts", "Fruits", "Vegetables"],
+    "answer": "Vegetables",
+    "explanation": ["Vegetables are considered a superfood because they are full of antioxidants, vitamins, minerals, and fiber.", "They are also low in calories and fat."],
+    "article": "https://www.healthline.com/nutrition/superfoods-vegetables",
+    "image": "https://images.unsplash.com/photo-1531853126837-c2e3a1c1d3d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which type of food is considered a superfood?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually ground into flour.",
+    "answers": ["Grains", "Nuts", "Fruits", "Vegetables"],
+    "answer": "Grains",
+    "explanation": ["Grains are considered a superfood because they are full of antioxidants, vitamins, minerals, and fiber.", "They are also low in calories and fat."],
+    "article": "https://www.healthline.com/nutrition/superfood-grains",
+    "image": "https://images.unsplash.com/photo-1556126831-a9f21b1e1146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which food is rich in omega-3 fatty acids?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually eaten raw, but can also be cooked.",
+    "answers": ["Nuts", "Fish", "Eggs", "Berries"],
+    "answer": "Fish",
+    "explanation": ["Fish is rich in omega-3 fatty acids because it contains high levels of DHA and EPA. These fatty acids are important for healthy brain, heart, and eye development.", "Fatty fish like salmon and mackerel are especially high in these healthy fats."],
+    "article": "https://www.healthline.com/nutrition/17-omega-3-rich-foods",
+    "image": "https://images.unsplash.com/photo-1552171848-7edf76ebfef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which food is considered a good source of protein?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually eaten cooked.",
+    "answers": ["Nuts", "Fish", "Eggs", "Berries"],
+    "answer": "Eggs",
+    "explanation": ["Eggs are considered a good source of protein because they are high in essential amino acids and provide all 9 essential amino acids.", "One egg contains 6 grams of protein and is a great source of vitamins and minerals."],
+    "article": "https://www.healthline.com/nutrition/eggs-nutrition",
+    "image": "https://images.unsplash.com/photo-1534422876271-5e3a7f3e3f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which food is known for its anti-inflammatory properties?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually eaten raw.",
+    "answers": ["Nuts", "Fish", "Eggs", "Berries"],
+    "answer": "Berries",
+    "explanation": ["Berries are known for their anti-inflammatory properties because they are packed with antioxidants and polyphenols.", "These compounds help reduce inflammation and protect against oxidative damage."],
+    "article": "https://www.healthline.com/nutrition/anti-inflammatory-foods#berries",
+    "image": "https://images.unsplash.com/photo-1526702511630-2b3c3eee7c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which type of food is high in fiber?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually eaten cooked.",
+    "answers": ["Legumes", "Nuts", "Fruits", "Vegetables"],
+    "answer": "Legumes",
+    "explanation": ["Legumes are high in fiber because they are a great source of both soluble and insoluble fiber.", "They are also rich in protein, vitamins, and minerals."],
+    "article": "https://www.healthline.com/nutrition/legumes",
+    "image": "https://images.unsplash.com/photo-1566594850235-9f9d8efa7edf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which type of food is high in calcium?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually eaten raw.",
+    "answers": ["Legumes", "Nuts", "Fruits", "Vegetables"],
+    "answer": "Nuts",
+    "explanation": ["Nuts are high in calcium because they contain high amounts of the mineral.", "Almonds, for example, contain about one-quarter of the calcium found in a glass of milk."],
+    "article": "https://www.healthline.com/nutrition/calcium-rich-foods#nuts",
+    "image": "https://images.unsplash.com/photo-1550559090-f1cc8c974f21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  },
+  {
+    "id": "who:wld date: april 29,2003 4:52PM",
+    "question": "Which type of food is rich in iron?",
+    "topic": "Fun Food Facts",
+    "hint": "This type of food is usually eaten cooked, but can also be eaten raw.",
+    "answers": ["Legumes", "Nuts", "Fruits", "Vegetables"],
+    "answer": "Legumes",
+    "explanation": ["Legumes are rich in iron because they contain high amounts of the mineral.", "Beans, lentils, and soybeans are especially high in iron and are a great source of plant-based protein."],
+    "article": "https://www.healthline.com/nutrition/foods-high-in-iron",
+    "image": "https://images.unsplash.com/photo-1537492456141-f9e3c0f3e7d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+  }
+]
+

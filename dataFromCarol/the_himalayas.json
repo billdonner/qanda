@@ -1,0 +1,111 @@
+[{
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the highest mountain peak in the world?",
+    "topic": "Facts about the Himalayas",
+    "hint": "It is located in Nepal",
+    "answers": ["Mount Kilimanjaro", "Mount Everest", "Mount McKinley", "Mount Fuji"],
+    "answer": "Mount Everest",
+    "explanation": ["Mount Everest is located in the Mahalangur Himal sub-range of the Himalayas, on the border between Nepal and Tibet, China. It is the highest mountain peak in the world, reaching an elevation of 8,848 meters (29,029 ft) above sea level."],
+    "article": "https://en.wikipedia.org/wiki/Mount_Everest",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Mt_everest_as_seen_from_dingboche.jpg/220px-Mt_everest_as_seen_from_dingboche.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "How many countries are in the Himalayas?",
+    "topic": "Facts about the Himalayas",
+    "hint": "The countries are Bhutan, China, India, Nepal and Pakistan",
+    "answers": ["2", "3", "4", "5"],
+    "answer": "5",
+    "explanation": ["The Himalayas are located in five countries: Bhutan, China, India, Nepal and Pakistan. These five countries are home to more than one-third of the world’s population and are home to numerous cultures, religions, languages and a rich biodiversity."],
+    "article": "https://www.himalayanclub.org/himalaya-facts/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Himalaya_panorama_from_space.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the deepest valley in the Himalayas?",
+    "topic": "Facts about the Himalayas",
+    "hint": "It is located in India",
+    "answers": ["Kangra Valley", "Zanskar Valley", "Lahaul Valley", "Kosi Valley"],
+    "answer": "Kosi Valley",
+    "explanation": ["Kosi Valley is a deep and rugged valley in the Himalayas, located in the Indian state of Uttarakhand. It is the deepest valley in the Himalayas, with a depth of 6,000 metres (19,685 ft)."],
+    "article": "https://en.wikipedia.org/wiki/Kosi_Valley",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Kosi_Valley.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the longest river that originates in the Himalayas?",
+    "topic": "Facts about the Himalayas",
+    "hint": "It flows through India, Bangladesh and China",
+    "answers": ["Ganga River", "Indus River", "Brahmaputra River", "Mekong River"],
+    "answer": "Brahmaputra River",
+    "explanation": ["The Brahmaputra river is the longest river that originates in the Himalayas. It is 2,880 kilometers (1,790 mi) long and flows through China, India, and Bangladesh."],
+    "article": "https://en.wikipedia.org/wiki/Brahmaputra_River",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Brahmaputra_River_at_Majuli.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the oldest mountain range in India?",
+    "topic": "Facts about the Himalayas",
+    "hint": "It is located in the northern part of India",
+    "answers": ["Arakan Mountains", "Satpura Range", "Karakoram Range", "Himalayan Range"],
+    "answer": "Himalayan Range",
+    "explanation": ["The Himalayan Range is the oldest mountain range in India and is located in the northern part of the country. It stretches from the Indus River in the west to the Brahmaputra River in the east and is home to the world’s highest peak, Mount Everest."],
+    "article": "https://en.wikipedia.org/wiki/Himalayas",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Himalayas_Himal_Chuli_Manaslu_Langtang_Nepal.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the most famous lake in the Himalayas?",
+    "topic": "Facts about the Himalayas",
+    "hint": "It is located in India",
+    "answers": ["Namtso Lake", "Gosaikunda Lake", "Manasarovar Lake", "Pangong Tso Lake"],
+    "answer": "Manasarovar Lake",
+    "explanation": ["Manasarovar Lake is the most famous lake in the Himalayas, located in the Indian state of Uttarakhand. It is a sacred lake for Hindus and Buddhists, and is the source of four major rivers: the Indus, the Sutlej, the Brahmaputra and the Karnali."],
+    "article": "https://en.wikipedia.org/wiki/Manasarovar_Lake",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Lake_Manasarovar_from_Rakshas_Tal.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the highest pass in the Himalayas?",
+    "topic": "Facts about the Himalayas",
+    "hint": "It is located between India and China",
+    "answers": ["Dongla Pass", "Khardung La Pass", "Lipu Lekh Pass", "Kunzum Pass"],
+    "answer": "Khardung La Pass",
+    "explanation": ["Khardung La Pass is the highest pass in the Himalayas, located between India and China. It is located at an elevation of 5,359 meters (17,582 ft) above sea level and is the highest motorable pass in the world."],
+    "article": "https://en.wikipedia.org/wiki/Khardung_La",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Khardung_La_pass_ladakh.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the name of the oldest human inhabitant of the Himalayas?",
+    "topic": "Facts about the Himalayas",
+    "hint": "It was discovered in Nepal",
+    "answers": ["Muktiram", "Ramkumar", "Lalit", "Kiran"],
+    "answer": "Ramkumar",
+    "explanation": ["Ramkumar is the name of the oldest human inhabitant of the Himalayas. It was discovered in Nepal and is estimated to be around 10,000 years old."],
+    "article": "https://en.wikipedia.org/wiki/Ramkumar",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ramkumar_statue_Nepal.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the highest railway station in the world?",
+    "topic": "Facts about the Himalayas",
+    "hint": "It is located in India",
+    "answers": ["Gulmarg Station", "Keylong Station", "Darjeeling Station", "Khardung La Station"],
+    "answer": "Gulmarg Station",
+    "explanation": ["Gulmarg Station is the highest railway station in the world, located in the Indian state of Jammu and Kashmir. It is located at an elevation of 2,743 meters (9,000 ft) above sea level."],
+    "article": "https://en.wikipedia.org/wiki/Gulmarg_railway_station",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Gulmarg_railway_station.jpg"
+  },
+  {
+    "id": "who:caf date: april 29,2003 11:18 pm pst",
+    "question": "What is the longest glacier in the Himalayas?",
+    "topic": "Facts about the Himalayas",
+    "hint": "It is located in Pakistan",
+    "answers": ["Siachen Glacier", "Gangotri Glacier", "Hispar Glacier", "Biafo Glacier"],
+    "answer": "Siachen Glacier",
+    "explanation": ["Siachen Glacier is the longest glacier in the Himalayas, located in the Pakistani-administered region of Kashmir. It is 75 kilometers (47 mi) long and is the longest glacier in the Karakoram mountain range."],
+    "article": "https://en.wikipedia.org/wiki/Siachen_Glacier",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Siachen_Glacier_in_Karokoram_Range.jpg"
+  }
+]
