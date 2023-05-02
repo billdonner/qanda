@@ -23,7 +23,7 @@ struct GameData : Codable, Hashable,Identifiable,Equatable {
 
 // SwiftUI Code
 
-class STV : ObservableObject {
+class TopicStates : ObservableObject {
   internal init(id: Int = 0, currentQuestionIndex: Int = 0, showingAnswer: Bool = false, score: Int = 0) {
     self.id = id
     self.currentQuestionIndex = currentQuestionIndex
@@ -47,13 +47,14 @@ struct SheetChoices:Identifiable {
 }
 
 struct SingleTopicView: View {
-  @StateObject var stv: STV
+  @StateObject var stv: TopicStates
   let quizData: GameData
   @State var sheetchoice: SheetChoices? = nil
   
   var body: some View {
     //let _ = printJSon()
     NavigationStack {
+      
       let finally = (stv.currentQuestionIndex == quizData.challenges.count-1) && stv.showingAnswer
       let qd = quizData.challenges[stv.currentQuestionIndex]
       VStack {
@@ -76,11 +77,13 @@ struct SingleTopicView: View {
           Text("Explanation:" + qd.explanation.map{$0}.joined()).font(.headline).padding()
         }
         //        Spacer()
-      }
+      }// vstack
       .navigationBarItems(trailing: Button("\(finally ? "Final " : "")Score: \(stv.score)") {
         sheetchoice = SheetChoices(choice:.showScorePage,arg:"")
       }
         .navigationBarTitle(Text(quizData.subject + "\(finally ? " Finally Done " : "")"))
+                          
+                          
         .toolbar {
           ToolbarItemGroup(placement: .bottomBar){
             Button(finally ? "Start Over":"Previous") {
@@ -112,7 +115,9 @@ struct SingleTopicView: View {
             .disabled(stv.currentQuestionIndex == quizData.challenges.count-1 )
           }
         }// toolbar
-      )    .sheet(item:$sheetchoice){sc in
+      )
+      
+      .sheet(item:$sheetchoice){sc in
         switch sc.choice {
         case .showImage :
         let _ = print ("will show Image" + (sc.arg ?? "") )
@@ -127,42 +132,11 @@ struct SingleTopicView: View {
         case .showScorePage :
           Text ("will show Scores")
         }
-      }
+      }//sheet
     }
   }
 }
 
-
-struct ImageView: View {
-    let imageName: String
-    
-    var body: some View {
-        Image(imageName)
-            .resizable()
-            .aspectRatio(contentMode: .fill)
-            .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity)
-            .clipped()
-    }
-}
-
- import WebKit
-
-// generate a View using WKWebView that displays an arbitrary Web page in full screen
-// generate a main program to test the view on https://www.apple.com
-struct WebView: UIViewRepresentable {
-
-    let url:URL
-
-    func makeUIView(context: Context) -> WKWebView {
-        let webView = WKWebView()
-        webView.load(URLRequest(url: url))
-        return webView
-    }
-
-    func updateUIView(_ uiView: WKWebView, context: Context) {
-        uiView.load(URLRequest(url: url))
-    }
-}
 
 extension SingleTopicView {
   func checkAnswer(_ number: Int) {
@@ -198,25 +172,9 @@ extension SingleTopicView {
 
 struct SingleTopicView_Previews: PreviewProvider {
   static var previews: some View {
-    SingleTopicView(stv: STV(),
+    SingleTopicView(stv: TopicStates(),
                     quizData: GameData(subject:"Test",challenges: [
                       Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], answer: "ans2", explanation: ["exp1","exp2"], article: "badurl", image: "badurl")]))
   }
 }
 
-struct WebView_Previews: PreviewProvider {
-    static var previews: some View {
-      WebView(url: URL(string:"https://www.apple.com")!)
-          .edgesIgnoringSafeArea(.all)
-    }
-}
-
-
-struct ImageView_Previews: PreviewProvider {
-    static var previews: some View {
-      Spacer()
-        WebView(url: URL(string:"https://billdonner.com/images/paloaltojul2021.jpg")!)
-      Spacer()
-       
-    }
-}

@@ -16,6 +16,17 @@
 		8875659629FD7DE20030AE77 /* json-writer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8875659529FD7DE20030AE77 /* json-writer.txt */; };
 		8875659E29FD82EF0030AE77 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8875659D29FD82EF0030AE77 /* main.swift */; };
 		887565B029FEB44D0030AE77 /* ForChatGPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823696329EEFEE400A16E14 /* ForChatGPT.swift */; };
+		887565B129FEC5AD0030AE77 /* vacation.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A929FEA3D60030AE77 /* vacation.json */; };
+		887565B229FEC9940030AE77 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A829FEA3B30030AE77 /* food.json */; };
+		887565B329FECA7F0030AE77 /* oceans.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A729FEA3710030AE77 /* oceans.json */; };
+		887565B429FECA860030AE77 /* the_himalayas.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AE29FEA4800030AE77 /* the_himalayas.json */; };
+		887565B529FECA8A0030AE77 /* world_heritage_sites.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AF29FEA4C20030AE77 /* world_heritage_sites.json */; };
+		887565B629FECA8E0030AE77 /* new_york_city.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AD29FEA4520030AE77 /* new_york_city.json */; };
+		887565B729FECA940030AE77 /* rap_artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AC29FEA4320030AE77 /* rap_artists.json */; };
+		887565B829FECA990030AE77 /* rock_and_roll.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AB29FEA4190030AE77 /* rock_and_roll.json */; };
+		887565B929FECA9E0030AE77 /* elvis_presley.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AA29FEA3EE0030AE77 /* elvis_presley.json */; };
+		887565BA29FECAA80030AE77 /* us_presidents.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A629FEA3420030AE77 /* us_presidents.json */; };
+		887565BC29FF49740030AE77 /* SupportViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887565BB29FF49740030AE77 /* SupportViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +65,7 @@
 		887565AD29FEA4520030AE77 /* new_york_city.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = new_york_city.json; sourceTree = "<group>"; };
 		887565AE29FEA4800030AE77 /* the_himalayas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = the_himalayas.json; sourceTree = "<group>"; };
 		887565AF29FEA4C20030AE77 /* world_heritage_sites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = world_heritage_sites.json; sourceTree = "<group>"; };
+		887565BB29FF49740030AE77 /* SupportViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,7 @@
 				8823696329EEFEE400A16E14 /* ForChatGPT.swift */,
 				8823695529ED0AF900A16E14 /* qandaApp.swift */,
 				8823696529EFC0D600A16E14 /* SingleTopicView.swift */,
+				887565BB29FF49740030AE77 /* SupportViews.swift */,
 				8823695929ED0AFA00A16E14 /* Assets.xcassets */,
 				8823695B29ED0AFA00A16E14 /* Preview Content */,
 			);
@@ -138,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				887565A629FEA3420030AE77 /* us_presidents.json */,
+				887565A829FEA3B30030AE77 /* food.json */,
 				887565A929FEA3D60030AE77 /* vacation.json */,
 				887565AA29FEA3EE0030AE77 /* elvis_presley.json */,
 				887565AB29FEA4190030AE77 /* rock_and_roll.json */,
@@ -145,7 +159,6 @@
 				887565AD29FEA4520030AE77 /* new_york_city.json */,
 				887565AF29FEA4C20030AE77 /* world_heritage_sites.json */,
 				887565AE29FEA4800030AE77 /* the_himalayas.json */,
-				887565A829FEA3B30030AE77 /* food.json */,
 				887565A729FEA3710030AE77 /* oceans.json */,
 			);
 			path = dataFromCarol;
@@ -233,7 +246,17 @@
 				8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */,
 				8875659629FD7DE20030AE77 /* json-writer.txt in Resources */,
 				8823695A29ED0AFA00A16E14 /* Assets.xcassets in Resources */,
+				887565B929FECA9E0030AE77 /* elvis_presley.json in Resources */,
+				887565B729FECA940030AE77 /* rap_artists.json in Resources */,
+				887565B429FECA860030AE77 /* the_himalayas.json in Resources */,
+				887565B229FEC9940030AE77 /* food.json in Resources */,
 				8875659429FD66410030AE77 /* json-maker.txt in Resources */,
+				887565B829FECA990030AE77 /* rock_and_roll.json in Resources */,
+				887565B629FECA8E0030AE77 /* new_york_city.json in Resources */,
+				887565BA29FECAA80030AE77 /* us_presidents.json in Resources */,
+				887565B329FECA7F0030AE77 /* oceans.json in Resources */,
+				887565B529FECA8A0030AE77 /* world_heritage_sites.json in Resources */,
+				887565B129FEC5AD0030AE77 /* vacation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				887565BC29FF49740030AE77 /* SupportViews.swift in Sources */,
 				8823696629EFC0D600A16E14 /* SingleTopicView.swift in Sources */,
 				8823696429EEFEE400A16E14 /* ForChatGPT.swift in Sources */,
 				8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */,

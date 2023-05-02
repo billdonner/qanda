@@ -17,38 +17,30 @@ func printJSon(_ g:GameData) {
   }
 }
 struct ForEachWithIndex<
-    Data: RandomAccessCollection,
-    Content: View
+  Data: RandomAccessCollection,
+  Content: View
 >: View where Data.Element: Identifiable, Data.Element: Hashable {
-    let data: Data
-    @ViewBuilder let content: (Data.Index, Data.Element) -> Content
-    var body: some View {
-        ForEach(Array(zip(data.indices, data)), id: \.1) { index, element in
-            content(index, element)
-        }
+  let data: Data
+  @ViewBuilder let content: (Data.Index, Data.Element) -> Content
+  var body: some View {
+    ForEach(Array(zip(data.indices, data)), id: \.1) { index, element in
+      content(index, element)
     }
+  }
 }
 
 struct MultiView: View {
-  internal init(gameData: [GameData]) {
-    self.gameDaturm = gameData
-    var stvs : [STV] = []
-    for (n,_ ) in gameData.enumerated() {
-      stvs.append(STV(id:n))
-    }
-    self.stv = stvs
-  }
   
-  let gameDaturm: [GameData]
-  var stv: [STV] = []
-
+  @State  var gameDatum: [GameData] = []
+  @State  var stv: [TopicStates] = []
+  
   var body: some View {
     NavigationStack {
-     Spacer()
+      Spacer()
       Text("Today's Topics:")
       Spacer()
       VStack {
-        ForEachWithIndex (data:gameDaturm) { index, qanda in
+        ForEachWithIndex (data:gameDatum) { index, qanda in
           NavigationLink(destination: SingleTopicView(stv: stv[index], quizData: qanda)) {
             HStack {
               Text(qanda.subject).font(.title)
@@ -58,24 +50,47 @@ struct MultiView: View {
       }
       .navigationBarTitle("20,000 Questions")
       Spacer()
+        .onAppear {
+          if stv.count == 0 { // first time only
+            for topic in ["food","vacation","oceans","us_presidents","the_himalayas","world_heritage_sites","new_york_city","rap_artists","rock_and_roll","elvis_presley"] {
+              do {
+                let prettyTopic = topic.replacingOccurrences(of: "_", with: " ")
+                let u = Bundle.main.url(forResource: topic , withExtension: "json")
+                guard let u = u  else { print("cant find json file \(topic)"); continue }
+                let data = try Data(contentsOf: u)
+                let challenges = try JSONDecoder().decode([Challenge].self, from: data)
+                gameDatum.append(GameData(subject:prettyTopic,challenges: challenges) )
+              }
+              catch {
+                print("Cant load json for topic \(topic) --  \(error))")
+              }
+            }
+            var stvs : [TopicStates] = []
+            for (n,_ ) in gameDatum.enumerated() {
+              stvs.append(TopicStates(id:n))
+            }
+            self.stv = stvs
+          }
+        }
     }
   }
-  }
+}
 
 struct MultiView_Previews: PreviewProvider {
   static var previews: some View {
-    MultiView(gameData: [ GameData(subject:"Test",challenges: [
-      Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], answer: "ans2", explanation: ["exp1","exp2"], article: "badurl", image: "badurl")])])
-      .navigationTitle("20,000 Questions")
+    MultiView(gameDatum: [ GameData(subject:"Test",challenges: [
+      Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint",
+                answers:[ "ans1","ans2"], answer: "ans2",
+                explanation: ["exp1","exp2"], article: "badurl", image: "badurl")])])
+    .navigationTitle("20,000 Questions")
   }
 }
 
 @main
 struct qandaApp: App {
-    var body: some Scene {
-        WindowGroup {
-          MultiView(gameData: [GameData(subject: "testsubject", challenges:[
-            Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], answer: "ans2", explanation: ["exp1","exp2"], article: "badurl", image: "badurl")])])
-        }
+  var body: some Scene {
+    WindowGroup {
+      MultiView()
     }
+  }
 }
