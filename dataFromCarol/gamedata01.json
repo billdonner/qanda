@@ -1,0 +1,1981 @@
+[
+  {
+    "challenges" : [
+      {
+        "answer" : "Mount Everest",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Mount_Everest",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the highest mountain peak in the world?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "Mount Everest is located in the Mahalangur Himal sub-range of the Himalayas, on the border between Nepal and Tibet, China. It is the highest mountain peak in the world, reaching an elevation of 8,848 meters (29,029 ft) above sea level."
+        ],
+        "answers" : [
+          "Mount Kilimanjaro",
+          "Mount Everest",
+          "Mount McKinley",
+          "Mount Fuji"
+        ],
+        "hint" : "It is located in Nepal",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/5\/5b\/Mt_everest_as_seen_from_dingboche.jpg\/220px-Mt_everest_as_seen_from_dingboche.jpg"
+      },
+      {
+        "answer" : "5",
+        "article" : "https:\/\/www.himalayanclub.org\/himalaya-facts\/",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "How many countries are in the Himalayas?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "The Himalayas are located in five countries: Bhutan, China, India, Nepal and Pakistan. These five countries are home to more than one-third of the world’s population and are home to numerous cultures, religions, languages and a rich biodiversity."
+        ],
+        "answers" : [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "hint" : "The countries are Bhutan, China, India, Nepal and Pakistan",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f5\/Himalaya_panorama_from_space.jpg"
+      },
+      {
+        "answer" : "Kosi Valley",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Kosi_Valley",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the deepest valley in the Himalayas?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "Kosi Valley is a deep and rugged valley in the Himalayas, located in the Indian state of Uttarakhand. It is the deepest valley in the Himalayas, with a depth of 6,000 metres (19,685 ft)."
+        ],
+        "answers" : [
+          "Kangra Valley",
+          "Zanskar Valley",
+          "Lahaul Valley",
+          "Kosi Valley"
+        ],
+        "hint" : "It is located in India",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b5\/Kosi_Valley.jpg"
+      },
+      {
+        "answer" : "Brahmaputra River",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Brahmaputra_River",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the longest river that originates in the Himalayas?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "The Brahmaputra river is the longest river that originates in the Himalayas. It is 2,880 kilometers (1,790 mi) long and flows through China, India, and Bangladesh."
+        ],
+        "answers" : [
+          "Ganga River",
+          "Indus River",
+          "Brahmaputra River",
+          "Mekong River"
+        ],
+        "hint" : "It flows through India, Bangladesh and China",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b3\/Brahmaputra_River_at_Majuli.jpg"
+      },
+      {
+        "answer" : "Himalayan Range",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Himalayas",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the oldest mountain range in India?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "The Himalayan Range is the oldest mountain range in India and is located in the northern part of the country. It stretches from the Indus River in the west to the Brahmaputra River in the east and is home to the world’s highest peak, Mount Everest."
+        ],
+        "answers" : [
+          "Arakan Mountains",
+          "Satpura Range",
+          "Karakoram Range",
+          "Himalayan Range"
+        ],
+        "hint" : "It is located in the northern part of India",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5f\/Himalayas_Himal_Chuli_Manaslu_Langtang_Nepal.jpg"
+      },
+      {
+        "answer" : "Manasarovar Lake",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Manasarovar_Lake",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the most famous lake in the Himalayas?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "Manasarovar Lake is the most famous lake in the Himalayas, located in the Indian state of Uttarakhand. It is a sacred lake for Hindus and Buddhists, and is the source of four major rivers: the Indus, the Sutlej, the Brahmaputra and the Karnali."
+        ],
+        "answers" : [
+          "Namtso Lake",
+          "Gosaikunda Lake",
+          "Manasarovar Lake",
+          "Pangong Tso Lake"
+        ],
+        "hint" : "It is located in India",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/3e\/Lake_Manasarovar_from_Rakshas_Tal.jpg"
+      },
+      {
+        "answer" : "Khardung La Pass",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Khardung_La",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the highest pass in the Himalayas?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "Khardung La Pass is the highest pass in the Himalayas, located between India and China. It is located at an elevation of 5,359 meters (17,582 ft) above sea level and is the highest motorable pass in the world."
+        ],
+        "answers" : [
+          "Dongla Pass",
+          "Khardung La Pass",
+          "Lipu Lekh Pass",
+          "Kunzum Pass"
+        ],
+        "hint" : "It is located between India and China",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/dc\/Khardung_La_pass_ladakh.jpg"
+      },
+      {
+        "answer" : "Ramkumar",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Ramkumar",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the name of the oldest human inhabitant of the Himalayas?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "Ramkumar is the name of the oldest human inhabitant of the Himalayas. It was discovered in Nepal and is estimated to be around 10,000 years old."
+        ],
+        "answers" : [
+          "Muktiram",
+          "Ramkumar",
+          "Lalit",
+          "Kiran"
+        ],
+        "hint" : "It was discovered in Nepal",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/3d\/Ramkumar_statue_Nepal.jpg"
+      },
+      {
+        "answer" : "Gulmarg Station",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Gulmarg_railway_station",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the highest railway station in the world?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "Gulmarg Station is the highest railway station in the world, located in the Indian state of Jammu and Kashmir. It is located at an elevation of 2,743 meters (9,000 ft) above sea level."
+        ],
+        "answers" : [
+          "Gulmarg Station",
+          "Keylong Station",
+          "Darjeeling Station",
+          "Khardung La Station"
+        ],
+        "hint" : "It is located in India",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/6\/6d\/Gulmarg_railway_station.jpg"
+      },
+      {
+        "answer" : "Siachen Glacier",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Siachen_Glacier",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the longest glacier in the Himalayas?",
+        "topic" : "Facts about the Himalayas",
+        "explanation" : [
+          "Siachen Glacier is the longest glacier in the Himalayas, located in the Pakistani-administered region of Kashmir. It is 75 kilometers (47 mi) long and is the longest glacier in the Karakoram mountain range."
+        ],
+        "answers" : [
+          "Siachen Glacier",
+          "Gangotri Glacier",
+          "Hispar Glacier",
+          "Biafo Glacier"
+        ],
+        "hint" : "It is located in Pakistan",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/8f\/Siachen_Glacier_in_Karokoram_Range.jpg"
+      }
+    ],
+    "id" : "CCB71689-D61F-4679-9358-7D89288C038A",
+    "subject" : "Facts about the Himalayas",
+    "generated" : 705275728.68383801
+  },
+  {
+    "challenges" : [
+      {
+        "answer" : "38",
+        "article" : "https:\/\/www.biography.com\/musician\/elvis-presley",
+        "id" : "1",
+        "question" : "How Many Number One Hits Did Elvis Presley Have?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley had 38 number one hits in the US throughout his career."
+        ],
+        "answers" : [
+          "9",
+          "38",
+          "18",
+          "54"
+        ],
+        "hint" : "The 'King' of Rock and Roll had quite a few.",
+        "image" : "https:\/\/www.biography.com\/.image\/t_share\/MTQ2ODgyMzA0NjY1ODU1ODMy\/elvis-presley-9521015-1-402.jpg"
+      },
+      {
+        "answer" : "Congressional Gold Medal",
+        "article" : "https:\/\/www.elvispresleynews.com\/elvis-presley-honored-with-congressional-gold-medal.html",
+        "id" : "2",
+        "question" : "What Award Did Elvis Receive in 1971?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley received the Congressional Gold Medal in 1971 for his contributions to American popular culture."
+        ],
+        "answers" : [
+          "Congressional Gold Medal",
+          "Medal of Honor",
+          "Presidential Medal of Freedom",
+          "Nobel Peace Prize"
+        ],
+        "hint" : "It's one of the highest awards in the United States.",
+        "image" : "https:\/\/www.elvispresleynews.com\/images\/news\/2015\/goldenelvis.jpg"
+      },
+      {
+        "answer" : "That's All Right",
+        "article" : "https:\/\/www.elvis.com\/about-the-king\/elvis-career-milestones\/",
+        "id" : "3",
+        "question" : "What Was the Name of Elvis' First Single?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley's first single was 'That's All Right' and was released in 1954."
+        ],
+        "answers" : [
+          "That's All Right",
+          "Heartbreak Hotel",
+          "Suspicious Minds",
+          "Hound Dog"
+        ],
+        "hint" : "It was released in 1954.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/f\/f9\/That%27s_All_Right_Elvis_Presley.jpg"
+      },
+      {
+        "answer" : "Elvis Presley",
+        "article" : "https:\/\/www.elvis.com\/about-the-king\/elvis-career-milestones\/",
+        "id" : "4",
+        "question" : "What Was the Name of Elvis' First Album?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley's first album was 'Elvis Presley' and was released in 1956."
+        ],
+        "answers" : [
+          "The Elvis Presley Album",
+          "Elvis Is Back!",
+          "Elvis",
+          "Elvis Presley"
+        ],
+        "hint" : "It was released in 1956.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/8\/8d\/ElvisPresleyAlbumCover.jpg"
+      },
+      {
+        "answer" : "The Aloha Concert",
+        "article" : "https:\/\/www.elvis.com\/about-the-king\/elvis-career-milestones\/",
+        "id" : "5",
+        "question" : "What Was the Name of Elvis' Last Concert?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley's last concert was 'The Aloha Concert' and was held in 1977."
+        ],
+        "answers" : [
+          "The Aloha Concert",
+          "The Elvis Farewell Concert",
+          "The Final Show",
+          "The Last Jukebox Concert"
+        ],
+        "hint" : "It was held in 1977.",
+        "image" : "https:\/\/www.elvis.com\/images\/news\/2017\/08\/elvismedia2.jpg"
+      },
+      {
+        "answer" : "Love Me Tender",
+        "article" : "https:\/\/www.elvis.com\/about-the-king\/elvis-career-milestones\/",
+        "id" : "6",
+        "question" : "What Was the Name of Elvis' First Movie?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley's first movie was 'Love Me Tender' and was released in 1956."
+        ],
+        "answers" : [
+          "Viva Las Vegas",
+          "Jailhouse Rock",
+          "Loving You",
+          "Love Me Tender"
+        ],
+        "hint" : "It was released in 1956.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/2\/2d\/Love_Me_Tender_%281956%29.jpg"
+      },
+      {
+        "answer" : "Change of Habit",
+        "article" : "https:\/\/www.elvis.com\/about-the-king\/elvis-career-milestones\/",
+        "id" : "7",
+        "question" : "What Was the Name of Elvis' Last Movie?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley's last movie was 'Change of Habit' and was released in 1969."
+        ],
+        "answers" : [
+          "Change of Habit",
+          "Clambake",
+          "Spinout",
+          "Charro!"
+        ],
+        "hint" : "It was released in 1969.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/3\/3b\/Change_of_Habit.jpg"
+      },
+      {
+        "answer" : "Lisa Marie",
+        "article" : "https:\/\/www.biography.com\/musician\/elvis-presley",
+        "id" : "8",
+        "question" : "What Was the Name of Elvis and Priscilla's Daughter?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley and Priscilla Presley's daughter was 'Lisa Marie' and was born in 1968."
+        ],
+        "answers" : [
+          "Linda",
+          "Lisa Marie",
+          "Nancy",
+          "Anna"
+        ],
+        "hint" : "She was born in 1968.",
+        "image" : "https:\/\/www.biography.com\/.image\/t_share\/MTQ2ODgyMzA0NjY1ODU1ODMy\/elvis-presley-9521015-1-402.jpg"
+      },
+      {
+        "answer" : "Elvis Presley",
+        "article" : "https:\/\/www.elvis.com\/about-the-king\/elvis-career-milestones\/",
+        "id" : "9",
+        "question" : "What Was the Name of Elvis' Debut Album?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley's debut album was 'Elvis Presley' and was released in 1956."
+        ],
+        "answers" : [
+          "Elvis Presley",
+          "Elvis",
+          "Elvis Is Back!",
+          "Blue Hawaii"
+        ],
+        "hint" : "It was released in 1956.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/8\/8d\/ElvisPresleyAlbumCover.jpg"
+      },
+      {
+        "answer" : "Moody Blue",
+        "article" : "https:\/\/www.elvis.com\/about-the-king\/elvis-career-milestones\/",
+        "id" : "10",
+        "question" : "What Was the Name of Elvis' Final Album?",
+        "topic" : "Fun Elvis Presley Facts",
+        "explanation" : [
+          "Elvis Presley's final album was 'Moody Blue' and was released in 1977."
+        ],
+        "answers" : [
+          "Moody Blue",
+          "Elvis in Concert",
+          "From Elvis Presley Boulevard, Memphis, Tennessee",
+          "Elvis Forever"
+        ],
+        "hint" : "It was released in 1977.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/f\/f2\/Elvis_Presley_Moody_Blue.jpg"
+      }
+    ],
+    "id" : "41EB22AF-ABFA-40FC-8462-9A9F01C3586A",
+    "subject" : "Fun Elvis Presley Facts",
+    "generated" : 705275728.68385601
+  },
+  {
+    "challenges" : [
+      {
+        "answer" : "Drake",
+        "article" : "https:\/\/www.billboard.com\/articles\/columns\/hip-hop\/8483762\/drake-most-billboard-hot-100-number-ones",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which rapper has the most Billboard #1 hits?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Drake currently holds the record for the most number one hits on the Billboard Hot 100 chart with a total of twenty-one"
+        ],
+        "answers" : [
+          "Kanye West",
+          "Jay-Z",
+          "Drake",
+          "Eminem"
+        ],
+        "hint" : "He is considered one of the greatest rappers of all time",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/2d\/Drake_at_OVO_Festival_2011.jpg\/220px-Drake_at_OVO_Festival_2011.jpg"
+      },
+      {
+        "answer" : "Lauryn Hill",
+        "article" : "https:\/\/www.grammy.com\/grammys\/artists\/lauryn-hill",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Who was the first female rapper to win a Grammy?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Lauryn Hill became the first female rapper to win a Grammy when she won Best New Artist at the 41st Annual Grammy Awards in 1999"
+        ],
+        "answers" : [
+          "Missy Elliott",
+          "Nicki Minaj",
+          "Lauryn Hill",
+          "Cardi B"
+        ],
+        "hint" : "She is often referred to as the Queen of Rap",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3c\/Lauryn_Hill_at_the_Womens_March_in_Washington_%2834642780962%29.jpg\/220px-Lauryn_Hill_at_the_Womens_March_in_Washington_%2834642780962%29.jpg"
+      },
+      {
+        "answer" : "Jay-Z",
+        "article" : "https:\/\/www.grammy.com\/grammys\/artists\/jay-z",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which rapper has the most Grammy awards?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Jay-Z has the most Grammy Awards of any rapper with a total of 22 awards"
+        ],
+        "answers" : [
+          "Kanye West",
+          "Jay-Z",
+          "Drake",
+          "Eminem"
+        ],
+        "hint" : "He is often referred to as one of the greatest rappers of all time",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/2e\/Jay-Z_in_2014_%28cropped%29.jpg\/220px-Jay-Z_in_2014_%28cropped%29.jpg"
+      },
+      {
+        "answer" : "Akon",
+        "article" : "https:\/\/www.nobelprize.org\/prizes\/peace\/2013\/akon\/facts\/",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which rapper was the first to win a Nobel Peace Prize?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Akon was the first rapper to be awarded the Nobel Peace Prize in 2013 in recognition of his work in providing clean drinking water to millions of people in Africa"
+        ],
+        "answers" : [
+          "Kanye West",
+          "Jay-Z",
+          "Drake",
+          "Akon"
+        ],
+        "hint" : "He is known for his humanitarian efforts around the world",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/d\/d5\/Akon_at_the_Pepsi_Super_Bowl_Fan_Jam_in_2015.jpg\/220px-Akon_at_the_Pepsi_Super_Bowl_Fan_Jam_in_2015.jpg"
+      },
+      {
+        "answer" : "Drake",
+        "article" : "https:\/\/www.billboard.com\/articles\/columns\/hip-hop\/7655088\/drake-first-artist-1-billion-streams-spotify",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which rapper was the first artist to reach 1 billion streams on Spotify?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Drake was the first artist to reach 1 billion streams on Spotify with his hit single 'One Dance' in 2016"
+        ],
+        "answers" : [
+          "Kanye West",
+          "Jay-Z",
+          "Drake",
+          "Eminem"
+        ],
+        "hint" : "He is one of the most successful rappers of all time",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/2d\/Drake_at_OVO_Festival_2011.jpg\/220px-Drake_at_OVO_Festival_2011.jpg"
+      },
+      {
+        "answer" : "Eminem",
+        "article" : "https:\/\/www.billboard.com\/articles\/columns\/hip-hop\/7740205\/eminem-first-artist-1-billion-youtube-views",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which rapper was the first to reach one billion views on YouTube?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Eminem was the first rapper to reach one billion views on YouTube with his hit single 'Love the Way You Lie' in 2010"
+        ],
+        "answers" : [
+          "Kanye West",
+          "Jay-Z",
+          "Drake",
+          "Eminem"
+        ],
+        "hint" : "He is one of the most successful rappers of all time",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3d\/Eminem_at_the_2009_Tribeca_Film_Festival.jpg\/220px-Eminem_at_the_2009_Tribeca_Film_Festival.jpg"
+      },
+      {
+        "answer" : "Jay-Z",
+        "article" : "https:\/\/www.grammy.com\/grammys\/news\/jay-z-be-inducted-songwriters-hall-fame",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which rapper was the first to be inducted into the Songwriters Hall of Fame?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Jay-Z was the first rapper to be inducted into the Songwriters Hall of Fame in 2017"
+        ],
+        "answers" : [
+          "Kanye West",
+          "Jay-Z",
+          "Drake",
+          "Eminem"
+        ],
+        "hint" : "He is one of the most influential rappers of all time",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/2e\/Jay-Z_in_2014_%28cropped%29.jpg\/220px-Jay-Z_in_2014_%28cropped%29.jpg"
+      },
+      {
+        "answer" : "Jay-Z",
+        "article" : "https:\/\/www.grammy.com\/grammys\/news\/jay-zs-reasonable-doubt-achieves-diamond-status",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which rapper was the first to have an album reach diamond status?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Jay-Z was the first rapper to have an album reach diamond status with his album 'Reasonable Doubt' in 1996"
+        ],
+        "answers" : [
+          "Kanye West",
+          "Jay-Z",
+          "Drake",
+          "Eminem"
+        ],
+        "hint" : "His album was released in 1996",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/2e\/Jay-Z_in_2014_%28cropped%29.jpg\/220px-Jay-Z_in_2014_%28cropped%29.jpg"
+      },
+      {
+        "answer" : "Eminem",
+        "article" : "https:\/\/www.bet.com\/music\/2000\/bet-awards\/winners.html",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which rapper was the first to win a BET Award?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Eminem was the first rapper to win a BET Award when he won Best Male Hip Hop Artist in 2000"
+        ],
+        "answers" : [
+          "Kanye West",
+          "Jay-Z",
+          "Drake",
+          "Eminem"
+        ],
+        "hint" : "He is considered one of the greatest rappers of all time",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3d\/Eminem_at_the_2009_Tribeca_Film_Festival.jpg\/220px-Eminem_at_the_2009_Tribeca_Film_Festival.jpg"
+      },
+      {
+        "answer" : "Eminem",
+        "article" : "https:\/\/www.oscars.org\/oscars\/ceremonies\/2003",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which rapper was the first to win an Academy Award?",
+        "topic" : "Fun Facts about Rap Musicians",
+        "explanation" : [
+          "Eminem was the first rapper to win an Academy Award when he won Best Original Song for 'Lose Yourself' in 2003"
+        ],
+        "answers" : [
+          "Kanye West",
+          "Jay-Z",
+          "Drake",
+          "Eminem"
+        ],
+        "hint" : "He won for his song 'Lose Yourself'",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3d\/Eminem_at_the_2009_Tribeca_Film_Festival.jpg\/220px-Eminem_at_the_2009_Tribeca_Film_Festival.jpg"
+      }
+    ],
+    "id" : "0843F646-23D1-4666-92E1-4E71656017D6",
+    "subject" : "Fun Facts about Rap Musicians",
+    "generated" : 705275728.68386495
+  },
+  {
+    "challenges" : [
+      {
+        "answer" : "Abraham Lincoln",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/abraham-lincoln",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was born in a log cabin?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Abraham Lincoln was born in a log cabin in Hardin County, Kentucky, on February 12, 1809."
+        ],
+        "answers" : [
+          "George Washington",
+          "Abraham Lincoln",
+          "John Adams",
+          "Thomas Jefferson"
+        ],
+        "hint" : "He was the 16th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/fa\/Abraham_Lincoln_O-77_matte_collodion_print.jpg"
+      },
+      {
+        "answer" : "Dwight D. Eisenhower",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/dwight-d-eisenhower",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Who was the first U.S. President to appear on television?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Dwight D. Eisenhower was the first U.S. President to appear on television when he spoke at the opening of the 1939 World's Fair in New York on April 30, 1939."
+        ],
+        "answers" : [
+          "Franklin D. Roosevelt",
+          "John F. Kennedy",
+          "Harry S. Truman",
+          "Dwight D. Eisenhower"
+        ],
+        "hint" : "It was during his presidency.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e9\/Dwight_Eisenhower_color_photo.jpg"
+      },
+      {
+        "answer" : "Jimmy Carter",
+        "article" : "https:\/\/www.nobelprize.org\/prizes\/peace\/2002\/carter\/biographical\/",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a Nobel Peace Prize laureate?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Jimmy Carter received the Nobel Peace Prize in 2002 for his work in advancing human rights and world peace."
+        ],
+        "answers" : [
+          "John F. Kennedy",
+          "Lyndon B. Johnson",
+          "Bill Clinton",
+          "Jimmy Carter"
+        ],
+        "hint" : "He was the 35th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4b\/Jimmy_Carter%2C_White_House_photo_portrait%2C_1978.jpg"
+      },
+      {
+        "answer" : "Ronald Reagan",
+        "article" : "https:\/\/www.biography.com\/us-president\/ronald-reagan",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional actor?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Ronald Reagan was a professional actor before becoming president, appearing in over 50 films and television shows."
+        ],
+        "answers" : [
+          "Ronald Reagan",
+          "Gerald Ford",
+          "Richard Nixon",
+          "John F. Kennedy"
+        ],
+        "hint" : "He was the 40th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f8\/Ronald_Reagan_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Andrew Johnson",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/andrew-johnson",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was the first to be impeached?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Andrew Johnson was the first president to be impeached, in 1868, for violating the Tenure of Office Act."
+        ],
+        "answers" : [
+          "Andrew Johnson",
+          "Ulysses S. Grant",
+          "Rutherford B. Hayes",
+          "James Garfield"
+        ],
+        "hint" : "He was the 18th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d1\/Andrew_Johnson_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "James Garfield",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/james-garfield",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional wrestler?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "James Garfield was a professional wrestler before becoming president and was even considered for a position on the Olympic wrestling team."
+        ],
+        "answers" : [
+          "James Garfield",
+          "Chester A. Arthur",
+          "Grover Cleveland",
+          "Benjamin Harrison"
+        ],
+        "hint" : "He was the 20th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1a\/James_Garfield_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Theodore Roosevelt",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/theodore-roosevelt",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional boxer?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Theodore Roosevelt was a professional boxer before becoming president, winning several matches while attending Harvard University."
+        ],
+        "answers" : [
+          "Theodore Roosevelt",
+          "Franklin D. Roosevelt",
+          "William Howard Taft",
+          "Woodrow Wilson"
+        ],
+        "hint" : "He was the 24th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5a\/Theodore_Roosevelt_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Theodore Roosevelt",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/theodore-roosevelt",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional cowboy?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Theodore Roosevelt was a professional cowboy before becoming president, working on a cattle ranch in the Dakota Territory."
+        ],
+        "answers" : [
+          "William Howard Taft",
+          "Calvin Coolidge",
+          "Herbert Hoover",
+          "Theodore Roosevelt"
+        ],
+        "hint" : "He was the 26th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5a\/Theodore_Roosevelt_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Dwight D. Eisenhower",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/dwight-d-eisenhower",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional pilot?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Dwight D. Eisenhower was a professional pilot before becoming president, becoming the first president to fly in a helicopter."
+        ],
+        "answers" : [
+          "John F. Kennedy",
+          "Gerald Ford",
+          "Dwight D. Eisenhower",
+          "Harry S. Truman"
+        ],
+        "hint" : "He was the 33rd president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e9\/Dwight_Eisenhower_color_photo.jpg"
+      },
+      {
+        "answer" : "Dwight D. Eisenhower",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/dwight-d-eisenhower",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional soldier?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Dwight D. Eisenhower was a professional soldier before becoming president, serving in World War II and becoming the Supreme Allied Commander in Europe."
+        ],
+        "answers" : [
+          "Richard Nixon",
+          "John F. Kennedy",
+          "Gerald Ford",
+          "Dwight D. Eisenhower"
+        ],
+        "hint" : "He was the 34th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e9\/Dwight_Eisenhower_color_photo.jpg"
+      },
+      {
+        "answer" : "Grover Cleveland",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/grover-cleveland",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional artist?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Grover Cleveland was a professional artist before becoming president, painting landscapes and portraits in oil and watercolor."
+        ],
+        "answers" : [
+          "Theodore Roosevelt",
+          "Grover Cleveland",
+          "Chester A. Arthur",
+          "Benjamin Harrison"
+        ],
+        "hint" : "He was the 22nd president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5b\/Grover_Cleveland_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Calvin Coolidge",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/calvin-coolidge",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional musician?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Calvin Coolidge was a professional musician before becoming president, playing several instruments including the saxophone, accordion, and flute."
+        ],
+        "answers" : [
+          "Woodrow Wilson",
+          "William Howard Taft",
+          "Calvin Coolidge",
+          "Herbert Hoover"
+        ],
+        "hint" : "He was the 28th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/87\/Calvin_Coolidge_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Herbert Hoover",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/herbert-hoover",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional scientist?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Herbert Hoover was a professional scientist before becoming president, working in mining engineering and geology."
+        ],
+        "answers" : [
+          "Herbert Hoover",
+          "Franklin D. Roosevelt",
+          "Theodore Roosevelt",
+          "Warren G. Harding"
+        ],
+        "hint" : "He was the 30th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f6\/Herbert_Hoover_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Franklin D. Roosevelt",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/franklin-d-roosevelt",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional lawyer?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Franklin D. Roosevelt was a professional lawyer before becoming president, specializing in corporate law and practicing in New York City."
+        ],
+        "answers" : [
+          "John F. Kennedy",
+          "Franklin D. Roosevelt",
+          "Gerald Ford",
+          "Harry S. Truman"
+        ],
+        "hint" : "He was the 32nd president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/0\/0a\/Franklin_D._Roosevelt_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Lyndon B. Johnson",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/lyndon-b-johnson",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional politician?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Lyndon B. Johnson was a professional politician before becoming president, serving in the U.S. House of Representatives and the U.S. Senate."
+        ],
+        "answers" : [
+          "Gerald Ford",
+          "Lyndon B. Johnson",
+          "Richard Nixon",
+          "Jimmy Carter"
+        ],
+        "hint" : "He was the 36th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4b\/Lyndon_B._Johnson_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Richard Nixon",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/richard-nixon",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional journalist?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Richard Nixon was a professional journalist before becoming president, writing several articles that were published in major newspapers."
+        ],
+        "answers" : [
+          "Gerald Ford",
+          "Jimmy Carter",
+          "Ronald Reagan",
+          "Richard Nixon"
+        ],
+        "hint" : "He was the 37th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/f\/f5\/Richard_Nixon_photo_portrait_head_on.jpg"
+      },
+      {
+        "answer" : "Dwight D. Eisenhower",
+        "article" : "https:\/\/www.history.com\/topics\/us-presidents\/dwight-d-eisenhower",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "Which U.S. President was a professional soldier and a professional lawyer?",
+        "topic" : "Fun Facts about U.S. Presidents",
+        "explanation" : [
+          "Dwight D. Eisenhower was a professional soldier and a professional lawyer before becoming president, serving in World War II and practicing law in Kansas."
+        ],
+        "answers" : [
+          "John F. Kennedy",
+          "Dwight D. Eisenhower",
+          "Gerald Ford",
+          "Harry S. Truman"
+        ],
+        "hint" : "He was the 34th president of the United States.",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e9\/Dwight_Eisenhower_color_photo.jpg"
+      }
+    ],
+    "id" : "3B3AF924-2FCE-4979-A591-3108D164A41C",
+    "subject" : "Fun Facts about U.S. Presidents",
+    "generated" : 705275728.68387902
+  },
+  {
+    "challenges" : [
+      {
+        "answer" : "Grains",
+        "article" : "https:\/\/www.healthline.com\/nutrition\/superfood-grains",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which type of food is considered a superfood?",
+        "topic" : "Fun Food Facts",
+        "explanation" : [
+          "Grains are considered a superfood because they are full of antioxidants, vitamins, minerals, and fiber.",
+          "They are also low in calories and fat."
+        ],
+        "answers" : [
+          "Grains",
+          "Nuts",
+          "Fruits",
+          "Vegetables"
+        ],
+        "hint" : "This type of food is usually ground into flour.",
+        "image" : "https:\/\/images.unsplash.com\/photo-1556126831-a9f21b1e1146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        "answer" : "Fish",
+        "article" : "https:\/\/www.healthline.com\/nutrition\/17-omega-3-rich-foods",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which food is rich in omega-3 fatty acids?",
+        "topic" : "Fun Food Facts",
+        "explanation" : [
+          "Fish is rich in omega-3 fatty acids because it contains high levels of DHA and EPA. These fatty acids are important for healthy brain, heart, and eye development.",
+          "Fatty fish like salmon and mackerel are especially high in these healthy fats."
+        ],
+        "answers" : [
+          "Nuts",
+          "Fish",
+          "Eggs",
+          "Berries"
+        ],
+        "hint" : "This type of food is usually eaten raw, but can also be cooked.",
+        "image" : "https:\/\/images.unsplash.com\/photo-1552171848-7edf76ebfef1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        "answer" : "Eggs",
+        "article" : "https:\/\/www.healthline.com\/nutrition\/eggs-nutrition",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which food is considered a good source of protein?",
+        "topic" : "Fun Food Facts",
+        "explanation" : [
+          "Eggs are considered a good source of protein because they are high in essential amino acids and provide all 9 essential amino acids.",
+          "One egg contains 6 grams of protein and is a great source of vitamins and minerals."
+        ],
+        "answers" : [
+          "Nuts",
+          "Fish",
+          "Eggs",
+          "Berries"
+        ],
+        "hint" : "This type of food is usually eaten cooked.",
+        "image" : "https:\/\/images.unsplash.com\/photo-1534422876271-5e3a7f3e3f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        "answer" : "Berries",
+        "article" : "https:\/\/www.healthline.com\/nutrition\/anti-inflammatory-foods#berries",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which food is known for its anti-inflammatory properties?",
+        "topic" : "Fun Food Facts",
+        "explanation" : [
+          "Berries are known for their anti-inflammatory properties because they are packed with antioxidants and polyphenols.",
+          "These compounds help reduce inflammation and protect against oxidative damage."
+        ],
+        "answers" : [
+          "Nuts",
+          "Fish",
+          "Eggs",
+          "Berries"
+        ],
+        "hint" : "This type of food is usually eaten raw.",
+        "image" : "https:\/\/images.unsplash.com\/photo-1526702511630-2b3c3eee7c5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        "answer" : "Legumes",
+        "article" : "https:\/\/www.healthline.com\/nutrition\/legumes",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which type of food is high in fiber?",
+        "topic" : "Fun Food Facts",
+        "explanation" : [
+          "Legumes are high in fiber because they are a great source of both soluble and insoluble fiber.",
+          "They are also rich in protein, vitamins, and minerals."
+        ],
+        "answers" : [
+          "Legumes",
+          "Nuts",
+          "Fruits",
+          "Vegetables"
+        ],
+        "hint" : "This type of food is usually eaten cooked.",
+        "image" : "https:\/\/images.unsplash.com\/photo-1566594850235-9f9d8efa7edf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        "answer" : "Nuts",
+        "article" : "https:\/\/www.healthline.com\/nutrition\/calcium-rich-foods#nuts",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which type of food is high in calcium?",
+        "topic" : "Fun Food Facts",
+        "explanation" : [
+          "Nuts are high in calcium because they contain high amounts of the mineral.",
+          "Almonds, for example, contain about one-quarter of the calcium found in a glass of milk."
+        ],
+        "answers" : [
+          "Legumes",
+          "Nuts",
+          "Fruits",
+          "Vegetables"
+        ],
+        "hint" : "This type of food is usually eaten raw.",
+        "image" : "https:\/\/images.unsplash.com\/photo-1550559090-f1cc8c974f21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      },
+      {
+        "answer" : "Legumes",
+        "article" : "https:\/\/www.healthline.com\/nutrition\/foods-high-in-iron",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which type of food is rich in iron?",
+        "topic" : "Fun Food Facts",
+        "explanation" : [
+          "Legumes are rich in iron because they contain high amounts of the mineral.",
+          "Beans, lentils, and soybeans are especially high in iron and are a great source of plant-based protein."
+        ],
+        "answers" : [
+          "Legumes",
+          "Nuts",
+          "Fruits",
+          "Vegetables"
+        ],
+        "hint" : "This type of food is usually eaten cooked, but can also be eaten raw.",
+        "image" : "https:\/\/images.unsplash.com\/photo-1537492456141-f9e3c0f3e7d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+      }
+    ],
+    "id" : "7AA203D2-9C65-4FE5-A688-FF9C4162A9D8",
+    "subject" : "Fun Food Facts",
+    "generated" : 705275728.68388498
+  },
+  {
+    "challenges" : [
+      {
+        "answer" : "Bryant Park",
+        "article" : "https:\/\/www.bryantpark.org\/history",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the oldest public park in New York City?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "Bryant Park is the oldest public park in New York City, located in Lower Manhattan. It was established in 1847, and has been popular since the 19th century."
+        ],
+        "answers" : [
+          "Central Park",
+          "Union Square Park",
+          "Madison Square Park",
+          "Bryant Park"
+        ],
+        "hint" : "It is located in Lower Manhattan and has been popular since the 19th century",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/f4\/Bryant_Park_NYC_%2845509223815%29.jpg\/1200px-Bryant_Park_NYC_%2845509223815%29.jpg"
+      },
+      {
+        "answer" : "Brooklyn",
+        "article" : "https:\/\/www1.nyc.gov\/site\/planning\/data-maps\/nyc-population\/population-facts.page",
+        "id" : "who:wld date: april 29,2003 4:53PM",
+        "question" : "Which of the following is the most populous borough in New York City?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "Brooklyn is the most populous borough in New York City, home to more than 2.6 million people."
+        ],
+        "answers" : [
+          "Manhattan",
+          "Queens",
+          "Brooklyn",
+          "The Bronx"
+        ],
+        "hint" : "It is home to the most people in NYC",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/79\/Brooklyn_Bridge_view_from_Manhattan_at_night.jpg\/1200px-Brooklyn_Bridge_view_from_Manhattan_at_night.jpg"
+      },
+      {
+        "answer" : "New York City",
+        "article" : "https:\/\/www.nycgo.com\/articles\/baseball-in-new-york-city",
+        "id" : "who:wld date: april 29,2003 4:54PM",
+        "question" : "What is the only place in the United States where you can find four different baseball teams?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "New York City is the only place in the United States where you can find four different baseball teams: the New York Yankees, the New York Mets, the Brooklyn Cyclones, and the Staten Island Yankees."
+        ],
+        "answers" : [
+          "Los Angeles",
+          "Chicago",
+          "New York City",
+          "Houston"
+        ],
+        "hint" : "It is located in New York",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/2\/2a\/Yankees_logo.svg\/1200px-Yankees_logo.svg.png"
+      },
+      {
+        "answer" : "Verrazano-Narrows Bridge",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Verrazzano-Narrows_Bridge",
+        "id" : "who:wld date: april 29,2003 4:55PM",
+        "question" : "What is the longest bridge in New York City?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "The Verrazano-Narrows Bridge is the longest bridge in New York City, connecting the boroughs of Staten Island and Brooklyn."
+        ],
+        "answers" : [
+          "George Washington Bridge",
+          "Brooklyn Bridge",
+          "Verrazano-Narrows Bridge",
+          "Queensboro Bridge"
+        ],
+        "hint" : "It connects two boroughs",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/8\/86\/Verrazano-Narrows_Bridge_at_night.jpg\/1200px-Verrazano-Narrows_Bridge_at_night.jpg"
+      },
+      {
+        "answer" : "The Metropolitan Museum of Art",
+        "article" : "https:\/\/www.metmuseum.org\/about-the-met\/museum-stats",
+        "id" : "who:wld date: april 29,2003 4:56PM",
+        "question" : "What is the most visited museum in NYC?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "The Metropolitan Museum of Art is the most visited museum in NYC, located in Central Park. It has over 5.5 million visitors each year."
+        ],
+        "answers" : [
+          "The Metropolitan Museum of Art",
+          "The Guggenheim Museum",
+          "The Whitney Museum of American Art",
+          "The Museum of Modern Art"
+        ],
+        "hint" : "It is located in Central Park",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/d\/d4\/The_Metropolitan_Museum_of_Art%2C_New_York_-_Oct_2007.jpg\/1200px-The_Metropolitan_Museum_of_Art%2C_New_York_-_Oct_2007.jpg"
+      },
+      {
+        "answer" : "Essex Street Market",
+        "article" : "https:\/\/essexstreetmarket.com\/history\/",
+        "id" : "who:wld date: april 29,2003 4:57PM",
+        "question" : "What is the oldest continuously operated public market in NYC?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "Essex Street Market is the oldest continuously operated public market in NYC, located in Lower Manhattan. It opened in 1940 and has been serving the community ever since."
+        ],
+        "answers" : [
+          "Chelsea Market",
+          "Union Square Greenmarket",
+          "Greenpoint Food Market",
+          "Essex Street Market"
+        ],
+        "hint" : "It is located in Lower Manhattan",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/7\/7b\/Essex-Street-Market-New-York-City.jpg\/1200px-Essex-Street-Market-New-York-City.jpg"
+      },
+      {
+        "answer" : "One World Trade Center",
+        "article" : "https:\/\/www.oneworldtradecenter.com\/about\/",
+        "id" : "who:wld date: april 29,2003 4:58PM",
+        "question" : "What is the tallest building in NYC?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "One World Trade Center is the tallest building in NYC, located in Midtown Manhattan. It stands at a height of 1,776 feet and has 104 floors."
+        ],
+        "answers" : [
+          "One World Trade Center",
+          "Chrysler Building",
+          "Empire State Building",
+          "Bank of America Tower"
+        ],
+        "hint" : "It is located in Midtown Manhattan",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/3\/3d\/One_World_Trade_Center_%28New_York_City%29_from_the_East_River.jpg\/1200px-One_World_Trade_Center_%28New_York_City%29_from_the_East_River.jpg"
+      },
+      {
+        "answer" : "New York City",
+        "article" : "https:\/\/www.nycsubway.org\/wiki\/New_York_City_Subway_History",
+        "id" : "who:wld date: april 29,2003 4:59PM",
+        "question" : "What is the oldest subway system in the United States?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "New York City has the oldest subway system in the United States, opening in 1904. It is one of the largest and busiest systems in the world, with over 472 stations and more than seven million riders daily."
+        ],
+        "answers" : [
+          "Washington D.C.",
+          "Boston",
+          "Chicago",
+          "New York City"
+        ],
+        "hint" : "It is located in NYC",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/d\/dc\/Subway_in_New_York_City.jpg\/1200px-Subway_in_New_York_City.jpg"
+      },
+      {
+        "answer" : "Fraunces Tavern",
+        "article" : "https:\/\/www.frauncestavern.com\/about",
+        "id" : "who:wld date: april 29,2003 5:00PM",
+        "question" : "What is the oldest restaurant in NYC?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "Fraunces Tavern is the oldest restaurant in NYC, located in Lower Manhattan. It opened in 1762 and was a popular gathering place for revolutionaries during the American Revolution."
+        ],
+        "answers" : [
+          "Fraunces Tavern",
+          "Keens Steakhouse",
+          "Old Homestead Steakhouse",
+          "Peter Luger Steak House"
+        ],
+        "hint" : "It is located in Lower Manhattan",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/4\/4f\/Fraunces_Tavern_in_New_York_City.jpg\/1200px-Fraunces_Tavern_in_New_York_City.jpg"
+      },
+      {
+        "answer" : "Lyceum Theatre",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Lyceum_Theatre_(Broadway)",
+        "id" : "who:wld date: april 29,2003 5:01PM",
+        "question" : "What is the oldest continuously operating theater in NYC?",
+        "topic" : "Fun New York City Facts",
+        "explanation" : [
+          "The Lyceum Theatre is the oldest continuously operating theater in NYC, located in Lower Manhattan. It opened in 1903 and has been a popular venue for theatrical performances ever since."
+        ],
+        "answers" : [
+          "Walter Kerr Theatre",
+          "Broadway Theatre",
+          "Lyceum Theatre",
+          "New Amsterdam Theatre"
+        ],
+        "hint" : "It is located in Lower Manhattan",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/b\/b2\/Lyceum_Theatre_%28Broadway%29.jpg\/1200px-Lyceum_Theatre_%28Broadway%29.jpg"
+      }
+    ],
+    "id" : "22B03F79-13F8-4471-8B2D-4CEF5A5C75B3",
+    "subject" : "Fun New York City Facts",
+    "generated" : 705275728.68389404
+  },
+  {
+    "challenges" : [
+      {
+        "answer" : "Mariana Trench",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/mariana-trench\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the deepest ocean trench in the world?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "The Mariana Trench is the deepest ocean trench in the world, located in the western Pacific Ocean near the Mariana Islands. It has a maximum depth of approximately 11,034 meters (36,201 feet)."
+        ],
+        "answers" : [
+          "Mariana Trench",
+          "Marianas Trench",
+          "Mariana's Trench",
+          "Marianas' Trench"
+        ],
+        "hint" : "It is located in the Pacific Ocean.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Mariana-Trench_1600x900.jpg"
+      },
+      {
+        "answer" : "Pacific Ocean",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/pacific-ocean\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the second largest ocean in the world?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "The Pacific Ocean is the world's largest and deepest ocean and covers an area of about 106,400,000 square kilometers (41,100,000 square miles). It is located between the Southern Ocean, Asia, Australia, and the Americas."
+        ],
+        "answers" : [
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Pacific Ocean",
+          "Southern Ocean"
+        ],
+        "hint" : "It covers an area of about 106,400,000 square kilometers.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Pacific-Ocean_1600x900.jpg"
+      },
+      {
+        "answer" : "Four",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/oceans-of-the-world\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "How many oceans are there on Earth?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "There are four oceans on Earth: the Atlantic, Pacific, Indian and Arctic Oceans. They cover approximately 71% of the Earth's surface and contain about 97% of the Earth's water."
+        ],
+        "answers" : [
+          "Two",
+          "Four",
+          "Six",
+          "Eight"
+        ],
+        "hint" : "The answer is a number.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Oceans-of-the-World_1600x900.jpg"
+      },
+      {
+        "answer" : "Blue Whale",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/blue-whale\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the world's largest ocean animal?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "The blue whale is the largest animal on Earth, growing up to 33 meters (110 feet) in length and weighing up to 173 tonnes (190 tons). It is a mammal that lives in the open ocean and can dive to depths of up to 1,000 meters (3,280 feet)."
+        ],
+        "answers" : [
+          "Blue Whale",
+          "Killer Whale",
+          "Humpback Whale",
+          "Sperm Whale"
+        ],
+        "hint" : "It is a mammal.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Blue-Whale_1600x900.jpg"
+      },
+      {
+        "answer" : "Atlantic Ocean",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/atlantic-ocean\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which ocean is the saltiest?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "The Atlantic Ocean is the saltiest of the world's oceans, with a salinity of between 33 and 37 parts per thousand. It is located in the Southern Hemisphere, between Africa, Europe, the Southern Ocean, and the Americas."
+        ],
+        "answers" : [
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Pacific Ocean",
+          "Southern Ocean"
+        ],
+        "hint" : "It is located in the Southern Hemisphere.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Atlantic-Ocean_1600x900.jpg"
+      },
+      {
+        "answer" : "Hudson Bay",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/hudson-bay\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the world's largest estuary?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "The Hudson Bay is the largest estuary in the world, located on the east coast of North America. It is approximately 1.2 million square kilometers (463,000 square miles) in size and covers a large portion of northeastern Canada."
+        ],
+        "answers" : [
+          "Hudson Bay",
+          "Gulf of Mexico",
+          "Chesapeake Bay",
+          "San Francisco Bay"
+        ],
+        "hint" : "It is located on the east coast of North America.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Hudson-Bay_1600x900.jpg"
+      },
+      {
+        "answer" : "Great Barrier Reef",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/great-barrier-reef\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the world's largest coral reef?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "The Great Barrier Reef is the largest coral reef system in the world, located in the Coral Sea off the coast of Australia. It is approximately 2,300 kilometers (1,400 miles) in length and is composed of over 900 individual reefs and thousands of species of plants and animals."
+        ],
+        "answers" : [
+          "Great Barrier Reef",
+          "Red Sea Reef",
+          "Maldives Reef",
+          "Caribbean Reef"
+        ],
+        "hint" : "It is located in the Coral Sea.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Great-Barrier-Reef_1600x900.jpg"
+      },
+      {
+        "answer" : "Gulf Stream",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/gulf-stream\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the world's largest ocean current?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "The Gulf Stream is the world's largest ocean current, located in the Atlantic Ocean. It is a powerful, warm and swift ocean current that originates in the Gulf of Mexico, flows through the Straits of Florida and then up the eastern coast of the United States and Canada before turning east and crossing the Atlantic."
+        ],
+        "answers" : [
+          "Gulf Stream",
+          "North Atlantic Drift",
+          "Antarctic Circumpolar Current",
+          "Kuroshio Current"
+        ],
+        "hint" : "It is located in the Atlantic Ocean.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Gulf-Stream_1600x900.jpg"
+      },
+      {
+        "answer" : "2000 feet",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/submarines\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "How deep can a submarine dive?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "Most modern submarines are capable of diving to depths of up to 2,000 feet (610 meters) below the surface of the ocean. At this depth, the pressure is so great that the hull of the submarine must be extremely strong and reinforced with special high-strength steel."
+        ],
+        "answers" : [
+          "200 feet",
+          "500 feet",
+          "1000 feet",
+          "2000 feet"
+        ],
+        "hint" : "It is measured in feet.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Submarines_1600x900.jpg"
+      },
+      {
+        "answer" : "Stonefish",
+        "article" : "https:\/\/www.nationalgeographic.org\/encyclopedia\/stonefish\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the world's deadliest ocean animal?",
+        "topic" : "Fun Ocean Facts",
+        "explanation" : [
+          "The stonefish is the world's deadliest ocean animal, with venomous spines on its back that can deliver a powerful and potentially fatal sting. It is found in shallow coastal waters throughout the Indo-Pacific region and is well-camouflaged to blend in with its surroundings."
+        ],
+        "answers" : [
+          "Great White Shark",
+          "Barracuda",
+          "Pufferfish",
+          "Stonefish"
+        ],
+        "hint" : "It is a fish.",
+        "image" : "https:\/\/www.nationalgeographic.org\/staticfiles\/NGS\/Shared\/StaticFiles\/Static-Files\/Stonefish_1600x900.jpg"
+      }
+    ],
+    "id" : "94211D86-94B3-4E1C-8C2E-B0CA56D7EE6A",
+    "subject" : "Fun Ocean Facts",
+    "generated" : 705275728.68390203
+  },
+  {
+    "challenges" : [
+      {
+        "answer" : "The Beatles",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/The_Beatles",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the name of the English rock band formed in London in 1962?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "The Beatles were an English rock band formed in Liverpool in 1960. They are regarded as the most influential band of all time.",
+          "The band's members were John Lennon, Paul McCartney, George Harrison, and Ringo Starr."
+        ],
+        "answers" : [
+          "The Rolling Stones",
+          "The Beatles",
+          "The Who",
+          "Queen"
+        ],
+        "hint" : "They were known for hits such as 'I Want to Hold Your Hand' and 'Yesterday'",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9f\/Beatles_Apple_Logo.svg"
+      },
+      {
+        "answer" : "(I Can't Get No) Satisfaction",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Satisfaction_(The_Rolling_Stones_song)",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What was the name of the first number one song released by the Rolling Stones?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "The Rolling Stones released '(I Can't Get No) Satisfaction' as a single in May 1965. It became the band's first number one hit in the United States.",
+          "The song has since become one of the band's most recognizable songs."
+        ],
+        "answers" : [
+          "(I Can't Get No) Satisfaction",
+          "Paint It Black",
+          "Jumpin' Jack Flash",
+          "Honky Tonk Women"
+        ],
+        "hint" : "It was released in 1964 and has become one of the band's most recognizable songs",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/b\/b2\/The_Rolling_Stones_%28I_Can%27t_Get_No%29_Satisfaction.jpg\/220px-The_Rolling_Stones_%28I_Can%27t_Get_No%29_Satisfaction.jpg"
+      },
+      {
+        "answer" : "Freddie Mercury",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Freddie_Mercury",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Who is the lead singer of the band Queen?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "Freddie Mercury was the lead singer of the British rock band Queen. He was known for his powerful vocal range and flamboyant stage presence.",
+          "He wrote many of Queen's biggest hits, including 'Bohemian Rhapsody', 'Killer Queen', and 'We are the Champions'."
+        ],
+        "answers" : [
+          "Freddie Mercury",
+          "Brian May",
+          "Roger Taylor",
+          "John Deacon"
+        ],
+        "hint" : "He was known for his powerful vocal range and flamboyant stage presence",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5b\/Freddie_Mercury_Montreux.jpg"
+      },
+      {
+        "answer" : "My Generation",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/My_Generation_(album)",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What was the name of the first album released by the band The Who?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "The Who's debut album, My Generation, was released in 1965. It contains the band's most famous song, 'My Generation'. The album was critically acclaimed and is considered an influential record in the development of rock music.",
+          "The album also features the hits 'The Kids are Alright' and 'I Can't Explain'."
+        ],
+        "answers" : [
+          "My Generation",
+          "Tommy",
+          "Who's Next",
+          "Quadrophenia"
+        ],
+        "hint" : "It was released in 1965 and contains the song 'My Generation'",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/b\/b6\/My_Generation_The_Who.jpg\/220px-My_Generation_The_Who.jpg"
+      },
+      {
+        "answer" : "Keep Yourself Alive",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Keep_Yourself_Alive",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the name of the first single released by Queen?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "Queen's first single, 'Keep Yourself Alive', was released in 1973. It is a hard rock song and is considered a classic of the genre.",
+          "The single was not a commercial success, but it is remembered fondly by fans as the band's first single."
+        ],
+        "answers" : [
+          "Killer Queen",
+          "Bohemian Rhapsody",
+          "We Will Rock You",
+          "Keep Yourself Alive"
+        ],
+        "hint" : "It was released in 1973 and is a hard rock song",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/5\/5b\/Queen-KeepYourselfAlive.jpg\/220px-Queen-KeepYourselfAlive.jpg"
+      },
+      {
+        "answer" : "The Rolling Stones",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/The_Rolling_Stones_(album)",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the title of the first album released by The Rolling Stones?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "The Rolling Stones' debut album, The Rolling Stones, was released in 1964. It contains the hit single 'Time is on My Side', which was the band's first single to chart in the United States.",
+          "The album is considered an important part of the early development of the British Invasion sound."
+        ],
+        "answers" : [
+          "The Rolling Stones",
+          "Out of Our Heads",
+          "Beggars Banquet",
+          "Let it Bleed"
+        ],
+        "hint" : "It was released in 1964 and contains the hit single 'Time is on My Side'",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/2\/2b\/The_Rolling_Stones.jpg\/220px-The_Rolling_Stones.jpg"
+      },
+      {
+        "answer" : "Tommy",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Tommy_(album)",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What album by The Who is considered to be a rock opera?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "The Who's 1969 album, Tommy, is considered to be a rock opera. It tells the story of a deaf, dumb and blind boy and his journey to self-realization.",
+          "The album was critically acclaimed and is considered an influential record in the development of rock music."
+        ],
+        "answers" : [
+          "Quadrophenia",
+          "Tommy",
+          "Who's Next",
+          "My Generation"
+        ],
+        "hint" : "It was released in 1969 and tells the story of a deaf, dumb and blind boy",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/f\/fa\/Tommy_%28The_Who_album_-_cover_art%29.jpg\/220px-Tommy_%28The_Who_album_-_cover_art%29.jpg"
+      },
+      {
+        "answer" : "Bohemian Rhapsody",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Bohemian_Rhapsody",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the name of the song released by Queen in 1975 that has become one of their most famous songs?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "Queen released 'Bohemian Rhapsody' as a single in 1975. It became one of their most famous songs and is considered a classic of the rock music genre.",
+          "The song is a six-minute suite, consisting of several sections without a chorus, and it is known for its complex vocal and instrumental arrangements."
+        ],
+        "answers" : [
+          "We Will Rock You",
+          "Bohemian Rhapsody",
+          "Another One Bites the Dust",
+          "Killer Queen"
+        ],
+        "hint" : "It is a six-minute suite, consisting of several sections without a chorus",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/2\/2f\/Bohemian_Rhapsody.png\/220px-Bohemian_Rhapsody.png"
+      },
+      {
+        "answer" : "Sticky Fingers",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Sticky_Fingers",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the name of the album released by The Rolling Stones in 1971?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "The Rolling Stones released the album Sticky Fingers in 1971. It contains the hit singles 'Brown Sugar' and 'Wild Horses'. The album was a critical and commercial success, and it is considered one of the band's best albums.",
+          "The album is also known for its controversial cover art featuring a close-up of a male crotch in tight jeans."
+        ],
+        "answers" : [
+          "Out of Our Heads",
+          "Let it Bleed",
+          "Beggars Banquet",
+          "Sticky Fingers"
+        ],
+        "hint" : "It contains the hit singles 'Brown Sugar' and 'Wild Horses'",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/0\/0a\/StickyFingers.jpg\/220px-StickyFingers.jpg"
+      },
+      {
+        "answer" : "The Game",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/The_Game_(Queen_album)",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the name of the album released by Queen in 1979?",
+        "topic" : "Fun Rock and Roll Facts",
+        "explanation" : [
+          "Queen released the album The Game in 1979. It contains the hit single 'Another One Bites the Dust'. The album was a critical and commercial success, and it is considered one of the band's best albums.",
+          "The album is also notable for its use of a diverse range of musical styles, from hard rock to disco."
+        ],
+        "answers" : [
+          "A Night at the Opera",
+          "Jazz",
+          "The Game",
+          "News of the World"
+        ],
+        "hint" : "It contains the hit single 'Another One Bites the Dust'",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/c\/c2\/The_Game_album_cover.jpg\/220px-The_Game_album_cover.jpg"
+      }
+    ],
+    "id" : "EDD70C55-4208-45C0-9A4D-FB53A9A61E1B",
+    "subject" : "Fun Rock and Roll Facts",
+    "generated" : 705275728.68391097
+  },
+  {
+    "challenges" : [
+      {
+        "answer" : "Rome, Italy",
+        "article" : "https:\/\/www.rome.net\/rome-tourism",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the world's most popular tourist destination?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "Rome is a popular tourist destination due to its long history and impressive architecture.",
+          "It's estimated that nearly 7 million people visit Rome each year."
+        ],
+        "answers" : [
+          "Paris, France",
+          "London, England",
+          "Rome, Italy",
+          "New York, USA"
+        ],
+        "hint" : "It's in the Mediterranean.",
+        "image" : "https:\/\/rome.net\/wp-content\/uploads\/2020\/06\/rome-tourism.jpg"
+      },
+      {
+        "answer" : "Hong Kong, China",
+        "article" : "https:\/\/www.skyscrapercity.com\/threads\/hong-kong-skyscraper-listing-database.107313\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which city has the most skyscrapers?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "Hong Kong is the city with the most skyscrapers, with over 7,500 in total.",
+          "The city has the second highest population density in the world and is home to some of the world's tallest buildings."
+        ],
+        "answers" : [
+          "New York, USA",
+          "Hong Kong, China",
+          "Tokyo, Japan",
+          "London, England"
+        ],
+        "hint" : "It's in Asia.",
+        "image" : "https:\/\/www.skyscrapercity.com\/attachments\/hong-kong-skyscraper-listing-database-jpg.660354\/"
+      },
+      {
+        "answer" : "The Nile",
+        "article" : "https:\/\/www.nationalgeographic.com\/environment\/habitats\/rivers\/nile-river\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the longest river in the world?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "The Nile is the longest river in the world, stretching 4,132 miles from its source in Lake Victoria, Uganda, to its mouth in the Mediterranean Sea.",
+          "The Nile is known for its ancient history, as it was home to many civilizations, including ancient Egypt."
+        ],
+        "answers" : [
+          "The Nile",
+          "The Amazon",
+          "The Yangtze",
+          "The Mississippi"
+        ],
+        "hint" : "It's in Africa.",
+        "image" : "https:\/\/www.nationalgeographic.com\/content\/dam\/environment\/photos\/000\/007\/7572.ngsversion.1515992073878.adapt.1900.1.jpg"
+      },
+      {
+        "answer" : "The Sahara Desert",
+        "article" : "https:\/\/www.worldatlas.com\/articles\/the-largest-deserts-in-the-world.html",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the largest desert in the world?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "The Sahara Desert is the largest desert in the world, covering an area of over 9 million square kilometers.",
+          "The Sahara Desert is also one of the hottest places on Earth, with temperatures reaching over 50 degrees Celsius during the day."
+        ],
+        "answers" : [
+          "The Sahara Desert",
+          "The Gobi Desert",
+          "The Mojave Desert",
+          "The Atacama Desert"
+        ],
+        "hint" : "It's in Africa.",
+        "image" : "https:\/\/www.worldatlas.com\/r\/w728-h425-c728x425\/upload\/e2\/2a\/6d\/shutterstock-1091884258.jpg"
+      },
+      {
+        "answer" : "Mount Everest",
+        "article" : "https:\/\/www.nationalgeographic.com\/science\/earth\/surface-of-the-earth\/mount-everest\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the tallest mountain in the world?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "Mount Everest is the tallest mountain in the world, standing at a height of 8,848 meters (29,029 feet).",
+          "Mount Everest is part of the Himalayan mountain range and is located in Nepal and Tibet."
+        ],
+        "answers" : [
+          "Mount Everest",
+          "K2",
+          "Mount Kilimanjaro",
+          "Mount McKinley"
+        ],
+        "hint" : "It's in the Himalayas.",
+        "image" : "https:\/\/www.nationalgeographic.com\/content\/dam\/environment\/photos\/000\/007\/7603.ngsversion.1516017626206.adapt.1900.1.jpg"
+      },
+      {
+        "answer" : "Death Valley, USA",
+        "article" : "https:\/\/www.nationalgeographic.com\/travel\/destinations\/north-america\/united-states\/california\/death-valley-things-to-do\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the hottest place on Earth?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "Death Valley, California, is the hottest place on Earth, with temperatures reaching 134 degrees Fahrenheit (56.7 degrees Celsius) in 1913.",
+          "Death Valley is located in the Mohave Desert and is home to the lowest elevation in North America."
+        ],
+        "answers" : [
+          "Death Valley, USA",
+          "Libya",
+          "Rajasthan, India",
+          "Arizona, USA"
+        ],
+        "hint" : "It's in the Middle East.",
+        "image" : "https:\/\/www.nationalgeographic.com\/content\/dam\/environment\/photos\/000\/007\/7614.ngsversion.1516017629876.adapt.1900.1.jpg"
+      },
+      {
+        "answer" : "Damascus, Syria",
+        "article" : "https:\/\/www.ancient.eu\/Damascus\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the world's oldest city?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "Damascus, Syria, is the world's oldest continuously inhabited city, with a documented history of over 4,000 years.",
+          "The city is known for its ancient architecture and strategic location at the crossroads of the Mediterranean, the Middle East, and Asia."
+        ],
+        "answers" : [
+          "Athens, Greece",
+          "Damascus, Syria",
+          "Rome, Italy",
+          "Beijing, China"
+        ],
+        "hint" : "It's in the Middle East.",
+        "image" : "https:\/\/www.ancient.eu\/uploads\/images\/5997.jpg?v=1557977535"
+      },
+      {
+        "answer" : "Lake Baikal, Russia",
+        "article" : "https:\/\/www.livescience.com\/27554-lake-baikal.html",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the world's deepest lake?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "Lake Baikal is the world's deepest lake, with a maximum depth of 1,642 meters (5,387 feet).",
+          "Lake Baikal is located in Siberia, Russia, and is the largest freshwater lake in the world by volume."
+        ],
+        "answers" : [
+          "Lake Tahoe, USA",
+          "Lake Baikal, Russia",
+          "Lake Huron, Canada",
+          "Lake Superior, USA"
+        ],
+        "hint" : "It's in Europe.",
+        "image" : "https:\/\/www.livescience.com\/images\/i\/000\/000\/972\/iFF\/lake-baikal-aerial-view-russia-gettyimages-kalim-540.jpg?1434750220"
+      },
+      {
+        "answer" : "The Danyang–Kunshan Grand Bridge, China",
+        "article" : "https:\/\/www.smartertravel.com\/longest-bridge-world\/",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "What is the world's longest bridge?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "The Danyang–Kunshan Grand Bridge is the world's longest bridge, stretching 164.8 kilometers (102.4 miles) across the Yangtze River Delta.",
+          "The bridge is located in China and connects the cities of Nanjing and Shanghai."
+        ],
+        "answers" : [
+          "The San Francisco-Oakland Bay Bridge, USA",
+          "The Danyang–Kunshan Grand Bridge, China",
+          "The Akashi Kaikyo Bridge, Japan",
+          "The Golden Gate Bridge, USA"
+        ],
+        "hint" : "It's in China.",
+        "image" : "https:\/\/www.smartertravel.com\/wp-content\/uploads\/2016\/12\/Danyang-Kunshan-Grand-Bridge-in-China-1024x683.jpg"
+      },
+      {
+        "answer" : "Italy",
+        "article" : "https:\/\/whc.unesco.org\/en\/statesparties\/it",
+        "id" : "who:wld date: april 29,2003 4:52PM",
+        "question" : "Which country has the most UNESCO World Heritage Sites?",
+        "topic" : "Fun Vacation Facts",
+        "explanation" : [
+          "Italy has the most UNESCO World Heritage Sites, with 53 sites in total.",
+          "The sites range from cultural to natural, and include the historic cities of Rome and Venice, as well as the Dolomite Mountains and Mount Etna."
+        ],
+        "answers" : [
+          "Italy",
+          "France",
+          "Spain",
+          "Germany"
+        ],
+        "hint" : "It's in Europe.",
+        "image" : "https:\/\/whc.unesco.org\/img\/flags\/it.svg"
+      }
+    ],
+    "id" : "0E9805ED-1DEF-44DA-8D4E-CF98B7711A8A",
+    "subject" : "Fun Vacation Facts",
+    "generated" : 705275728.68391895
+  },
+  {
+    "challenges" : [
+      {
+        "answer" : "Palmyra",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Palmyra",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the oldest World Heritage Site?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "Palmyra is the oldest World Heritage Site, inscribed on the list in 1980. It is located in Syria, and was an important oasis in the ancient world, owing to its strategic location along the Silk Road.",
+          "Palmyra is known for its extensive ruins, including the Temple of Bel, which is a major archaeological site."
+        ],
+        "answers" : [
+          "Great Wall of China",
+          "Petra",
+          "Machu Picchu",
+          "Palmyra"
+        ],
+        "hint" : "It is located in Syria",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/b1\/Palmyra_at_night_%28Shukri_Hassan%29.jpg"
+      },
+      {
+        "answer" : "The Colosseum",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Colosseum",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the most visited World Heritage Site?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "The Colosseum is the most visited World Heritage Site. It is located in Italy and is one of the most iconic structures from the Roman Empire. It was built between 70 and 80 AD and could hold between 50,000 and 80,000 spectators.",
+          "The Colosseum has become a symbol of Rome, and it is now one of the most popular tourist attractions in the world, with millions of visitors each year."
+        ],
+        "answers" : [
+          "The Great Wall of China",
+          "Machu Picchu",
+          "The Colosseum",
+          "Angkor Wat"
+        ],
+        "hint" : "It is located in Italy",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/53\/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
+      },
+      {
+        "answer" : "Yellowstone National Park",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Yellowstone_National_Park",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the largest World Heritage Site?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "Yellowstone National Park is the largest World Heritage Site, covering an area of 8,983 square kilometers. It is located in the United States, in the states of Wyoming, Montana, and Idaho.",
+          "Yellowstone is one of the most popular national parks in the United States, and it is home to a wide variety of wildlife, including grizzly bears, wolves, bison, and elk."
+        ],
+        "answers" : [
+          "Great Barrier Reef",
+          "Taj Mahal",
+          "Yellowstone National Park",
+          "Uluru"
+        ],
+        "hint" : "It is located in Canada",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/3f\/Grand_Prismatic_Spring_%28aerial_view%29.jpg"
+      },
+      {
+        "answer" : "Taj Mahal",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Taj_Mahal",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the most unique World Heritage Site?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "The Taj Mahal is the most unique World Heritage Site. It is located in India and is a white marble mausoleum built in the 17th century. It is widely considered to be one of the most beautiful buildings in the world and is a symbol of love.",
+          "The Taj Mahal attracts millions of visitors each year, making it one of the most popular tourist attractions in India."
+        ],
+        "answers" : [
+          "Taj Mahal",
+          "Great Wall of China",
+          "Galapagos Islands",
+          "Chichen Itza"
+        ],
+        "hint" : "It is located in India",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/4\/4a\/Taj_Mahal%2C_Agra%2C_India.jpg"
+      },
+      {
+        "answer" : "Virunga National Park",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Virunga_National_Park",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the most endangered World Heritage Site?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "Virunga National Park is the most endangered World Heritage Site. It is located in the Democratic Republic of Congo and is home to some of the world's last remaining mountain gorillas. It is also one of Africa's oldest national parks.",
+          "The park is threatened by poaching, illegal mining, and the activities of armed militia, and it has been listed as a World Heritage Site in Danger since 1994."
+        ],
+        "answers" : [
+          "Machu Picchu",
+          "Great Barrier Reef",
+          "Galapagos Islands",
+          "Virunga National Park"
+        ],
+        "hint" : "It is located in the Democratic Republic of Congo",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/84\/Virunga_Park_%286813392426%29.jpg"
+      },
+      {
+        "answer" : "The Forbidden City",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Forbidden_City",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the most recently inscribed World Heritage Site?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "The Forbidden City is the most recently inscribed World Heritage Site. It is located in China and is a palace complex that was the home of emperors of the Ming and Qing dynasties for over 500 years. It is the world's largest palace complex, covering an area of 720,000 square meters.",
+          "The Forbidden City is one of the most visited tourist attractions in China, with millions of visitors each year."
+        ],
+        "answers" : [
+          "Angkor Wat",
+          "Machu Picchu",
+          "The Great Wall of China",
+          "The Forbidden City"
+        ],
+        "hint" : "It is located in China",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9e\/The_Forbidden_City_in_Beijing%2C_China.jpg"
+      },
+      {
+        "answer" : "Angkor Wat",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Angkor_Wat",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the largest World Heritage Site in Asia?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "Angkor Wat is the largest World Heritage Site in Asia. It is located in the modern-day country of Cambodia and was built in the 12th century as a Hindu temple complex. It is now the symbol of Cambodia and is one of the most visited tourist attractions in Southeast Asia.",
+          "Angkor Wat is the largest religious monument in the world, covering an area of 162.6 hectares."
+        ],
+        "answers" : [
+          "Great Wall of China",
+          "Taj Mahal",
+          "Angkor Wat",
+          "Ayers Rock"
+        ],
+        "hint" : "It is located in India",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/2f\/Angkor_Wat_sunrise_edit_2.jpg"
+      },
+      {
+        "answer" : "Machu Picchu",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Machu_Picchu",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the most visited World Heritage Site in South America?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "Machu Picchu is the most visited World Heritage Site in South America. It is located in Peru and is an Incan city that was built in the 15th century. It is one of the most iconic symbols of the Incan Empire and is now one of the most popular tourist attractions in the world.",
+          "Machu Picchu attracts more than one million visitors each year, making it the most visited tourist site in Peru."
+        ],
+        "answers" : [
+          "Galapagos Islands",
+          "Machu Picchu",
+          "Iguazu Falls",
+          "Easter Island"
+        ],
+        "hint" : "It is located in Peru",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/e\/e1\/Machu_Picchu_view.jpg"
+      },
+      {
+        "answer" : "The Colosseum",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Colosseum",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the most visited World Heritage Site in Europe?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "The Colosseum is the most visited World Heritage Site in Europe. It is located in Italy and is one of the most iconic structures from the Roman Empire. It was built between 70 and 80 AD and could hold between 50,000 and 80,000 spectators.",
+          "The Colosseum has become a symbol of Rome, and it is now one of the most popular tourist attractions in the world, with millions of visitors each year."
+        ],
+        "answers" : [
+          "Tower of London",
+          "Stonehenge",
+          "Eiffel Tower",
+          "The Colosseum"
+        ],
+        "hint" : "It is located in Italy",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/53\/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
+      },
+      {
+        "answer" : "Pyramids of Giza",
+        "article" : "https:\/\/en.wikipedia.org\/wiki\/Pyramids_of_Giza",
+        "id" : "who:caf date: april 29,2003 11:18 pm pst",
+        "question" : "What is the most visited World Heritage Site in Africa?",
+        "topic" : "Fun facts about World Heritage Sites",
+        "explanation" : [
+          "The Pyramids of Giza are the most visited World Heritage Site in Africa. They are located in Egypt and are one of the most iconic symbols of Ancient Egypt. The pyramids were built over 4,500 years ago and are believed to have been constructed as tombs for the Pharaohs.",
+          "The Pyramids of Giza attract millions of visitors each year, making them one of the most popular tourist destinations in Egypt."
+        ],
+        "answers" : [
+          "Table Mountain",
+          "Victoria Falls",
+          "Pyramids of Giza",
+          "Mount Kilimanjaro"
+        ],
+        "hint" : "It is located in Egypt",
+        "image" : "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a1\/Giza_Necropolis_panorama_2006.jpg"
+      }
+    ],
+    "id" : "8551C8CC-10A0-45DB-885C-2458BD9B35D1",
+    "subject" : "Fun facts about World Heritage Sites",
+    "generated" : 705275728.68392801
+  }
+]

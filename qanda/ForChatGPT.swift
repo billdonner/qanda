@@ -2,18 +2,6 @@ import SwiftUI
 
 //PROMPT consider the following structure
 struct Challenge :Codable,Hashable,Identifiable,Equatable {
-  internal init(id: String, question: String, topic: String, hint: String, answers: [String], answer: String, explanation: [String], article: String, image: String) {
-    self.id = id
-    self.question = question
-    self.topic = topic
-    self.hint = hint
-    self.answers = answers
-    self.answer = answer
-    self.explanation = explanation
-    self.article = article
-    self.image = image
-  }
-  
   let id : String
   let question: String
   let topic: String
@@ -28,3 +16,16 @@ struct Challenge :Codable,Hashable,Identifiable,Equatable {
 // generate THREE challenges as an array of JSON about "Fun Fish Facts"
 //let json_challenges = [
 
+struct GameData : Codable, Hashable,Identifiable,Equatable {
+  internal init(subject: String, challenges: [Challenge]) {
+    self.subject = subject
+    self.challenges = challenges //.shuffled()  //randomize
+    self.id = UUID().uuidString
+    self.generated = Date()
+  }
+  
+  let id : String
+  let subject: String
+  let challenges: [Challenge]
+  let generated: Date
+}

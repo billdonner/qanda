@@ -8,7 +8,27 @@
 import SwiftUI
 
 import WebKit
-
+// Print JSON to Console
+func printJSon(_ g:GameData) {
+  let encoder = JSONEncoder()
+  encoder.outputFormatting = .prettyPrinted
+  if let jsonData = try? encoder.encode(g) {
+    let jsonString = String(data: jsonData, encoding: .utf8)!
+    print(jsonString)
+  }
+}
+struct ForEachWithIndex<
+  Data: RandomAccessCollection,
+  Content: View
+>: View where Data.Element: Identifiable, Data.Element: Hashable {
+  let data: Data
+  @ViewBuilder let content: (Data.Index, Data.Element) -> Content
+  var body: some View {
+    ForEach(Array(zip(data.indices, data)), id: \.1) { index, element in
+      content(index, element)
+    }
+  }
+}
 struct ImageView: View {
     let imageName: String
     
@@ -63,4 +83,28 @@ struct SupportViews_Previews: PreviewProvider {
     static var previews: some View {
         SupportViews()
     }
+}
+struct ShowScoresView: View {
+  let stv: PerTopicInfo
+  let dataSources : [GameDataSource] = [.localFull,.localBundle,.gameDataSource1,.gameDataSource2]
+  @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.localFull
+  var body: some View {
+    NavigationStack {
+      Text("Score: \(stv.score)")
+      Form {
+        Section {
+          Picker("Source", selection: $gameDataSource) {
+            ForEach(dataSources, id: \.self) { ds in
+              Text(GameDataSource.string(for:ds))
+            }
+          }
+        }
+      }
+    }
+  }
+}
+struct ShowScoresView_Previews: PreviewProvider {
+  static var previews: some View {
+    ShowScoresView(stv:PerTopicInfo(currentQuestionIndex: 1, showingAnswer: true, score: 99))
+  }
 }

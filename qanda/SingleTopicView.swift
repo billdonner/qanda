@@ -6,55 +6,67 @@
 //
 import SwiftUI
 
-struct GameData : Codable, Hashable,Identifiable,Equatable {
-
-  internal init(subject: String, challenges: [Challenge]) {
-    self.subject = subject
-    self.challenges = challenges //.shuffled()  //randomize
-    self.id = UUID().uuidString
-    self.generated = Date()
-  }
+enum GameDataSource : Int {
   
-  let id : String
-  let subject: String
-  let challenges: [Challenge]
-  let generated: Date
+  case localFull // keep first for easiest testing
+  case localBundle
+  case gameDataSource1
+  case gameDataSource2
+  
+ static  func string(for:Self) -> String {
+    switch `for` {
+    case .localBundle:
+      return "local"
+    case .localFull:
+      return "localFull"
+    case .gameDataSource1:
+     return "source1"
+    case .gameDataSource2:
+      return "source2"
+    }
+  }
 }
+
 
 // SwiftUI Code
 
-class TopicStates : ObservableObject {
-  internal init(id: Int = 0, currentQuestionIndex: Int = 0, showingAnswer: Bool = false, score: Int = 0) {
-    self.id = id
-    self.currentQuestionIndex = currentQuestionIndex
-    self.showingAnswer = showingAnswer
-    self.score = score
-  }
-  var id:Int = 0
-  @Published var currentQuestionIndex: Int
-  @Published var showingAnswer: Bool
-  @Published var score:Int
+ class GameState : ObservableObject {
+   let id:String = UUID().uuidString
+   @Published var info:[PerTopicInfo] = []
+   @Published var masterScore:Int = 0
+  // @Published var masterTopicIndex:Int = 0
 }
-enum Choices {
+
+
+
+struct PerTopicInfo {
+  var currentQuestionIndex: Int = 0
+  var showingAnswer : Bool = false
+  var score: Int = 0
+}
+
+
+fileprivate enum Choices {
   case showImage
   case showInfo
   case showScorePage
 }
-struct SheetChoices:Identifiable {
+fileprivate struct SheetChoices:Identifiable {
   let id = UUID()
   let choice:Choices
   let arg: String?
 }
 
+
 struct SingleTopicView: View {
-  @StateObject var stv: TopicStates
+  @StateObject var gs: GameState
+  let index:Int
   let quizData: GameData
-  @State var sheetchoice: SheetChoices? = nil
-  
+  @State  private var sheetchoice: SheetChoices? = nil
   var body: some View {
-    //let _ = printJSon()
     NavigationStack {
       
+      let stv = gs.info[index]
       let finally = (stv.currentQuestionIndex == quizData.challenges.count-1) && stv.showingAnswer
       let qd = quizData.challenges[stv.currentQuestionIndex]
       VStack {
@@ -64,8 +76,11 @@ struct SingleTopicView: View {
           .font(.title).padding()
         ForEach(0 ..< qd.answers.count, id:\.self) { number in
           Button(action: {
-            self.checkAnswer(number)
-            stv.showingAnswer = true
+            if quizData.challenges[stv.currentQuestionIndex].answers[number] == quizData.challenges[stv.currentQuestionIndex].answer {
+              gs.info[index].score += 1
+              gs.masterScore += 1
+            }
+            gs.info[index].showingAnswer = true
           }) {
             Text("\(qd.answers[number])")
           }
@@ -88,9 +103,14 @@ struct SingleTopicView: View {
           ToolbarItemGroup(placement: .bottomBar){
             Button(finally ? "Start Over":"Previous") {
               if finally {
-                self.startOver()
+                gs.info[index].currentQuestionIndex = 0
+                gs.info[index].showingAnswer = false
+                gs.info[index].score = 0
               } else {
-                self.priorQuestion()
+                if stv.currentQuestionIndex > 0 {
+                  gs.info[index].currentQuestionIndex -= 1
+                  gs.info[index].showingAnswer = false
+                }
               }
             }
             .disabled(stv.currentQuestionIndex == 0)
@@ -110,7 +130,12 @@ struct SingleTopicView: View {
             .disabled(qd.article=="" || !stv.showingAnswer)
     
             Button("Next") {
-              self.nextQuestion()
+              if stv.currentQuestionIndex + 1 < quizData.challenges.count {
+                gs.info[index].currentQuestionIndex += 1
+                gs.info[index].showingAnswer = false
+              } //else {
+                // game is over
+              //}
             }
             .disabled(stv.currentQuestionIndex == quizData.challenges.count-1 )
           }
@@ -120,8 +145,8 @@ struct SingleTopicView: View {
       .sheet(item:$sheetchoice){sc in
         switch sc.choice {
         case .showImage :
-        let _ = print ("will show Image" + (sc.arg ?? "") )
           if let s = sc.arg , let url = URL(string: s) {
+            let _ = print ("will show Image" + (sc.arg ?? "") )
             WebView(url:url)
           }
         case .showInfo :
@@ -130,7 +155,8 @@ struct SingleTopicView: View {
             WebView(url:url)
           }
         case .showScorePage :
-          Text ("will show Scores")
+          let _ =  print("will show scores " + (sc.arg ?? "") )
+          ShowScoresView(stv:stv)
         }
       }//sheet
     }
@@ -138,41 +164,9 @@ struct SingleTopicView: View {
 }
 
 
-extension SingleTopicView {
-  func checkAnswer(_ number: Int) {
-    if quizData.challenges[stv.currentQuestionIndex].answers[number] == quizData.challenges[stv.currentQuestionIndex].answer {
-      stv.score += 1
-    }
-  }
-  
-  func nextQuestion() {
-    if stv.currentQuestionIndex + 1 < quizData.challenges.count {
-      stv.currentQuestionIndex += 1
-      stv.showingAnswer = false
-    } else {
-      // game is over
-    }
-  }
-  
-  func priorQuestion() {
-    if stv.currentQuestionIndex > 0 {
-      stv.currentQuestionIndex -= 1
-      stv.showingAnswer = false
-    } else {
-      // g???
-    }
-  }
-  func startOver() {
-    stv.currentQuestionIndex = 0
-    stv.showingAnswer = false
-    stv.score = 0
-  }
-}
-
-
 struct SingleTopicView_Previews: PreviewProvider {
   static var previews: some View {
-    SingleTopicView(stv: TopicStates(),
+    SingleTopicView(gs:  GameState(), index:0 ,
                     quizData: GameData(subject:"Test",challenges: [
                       Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], answer: "ans2", explanation: ["exp1","exp2"], article: "badurl", image: "badurl")]))
   }
