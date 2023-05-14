@@ -7,16 +7,18 @@
 
 import SwiftUI
 
+// MARK :- Build Front Page
 
-
-struct MultiView: View {
+struct TodaysTopics: View {
   
   @StateObject  var gameState: GameState = GameState()
-  
   @State var gameDatum: [GameData] = []
-  
+// @AppStorage("ShadowGameState") var shadowGameState: GameState = GameState()
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.localFull
-  func localBundle() {
+  
+  //MARK : - data loaders
+  
+  private func localBundle() {
     for topic in ["food","vacation","oceans","us_presidents","the_himalayas","world_heritage_sites","new_york_city","rap_artists","rock_and_roll","elvis_presley"] {
       do {
         let prettyTopic = topic.replacingOccurrences(of: "_", with: " ")
@@ -31,37 +33,33 @@ struct MultiView: View {
       }
     }// for topic in
   }
-  func localFileBundle(_ name:String )  {
+  
+  private func localFileBundle(_ name:String )  {
     let u = Bundle.main.url(forResource: name , withExtension: "json")
     guard let u = u  else { print("cant find gamedata json file \(name)"); return  }
     do {
       let data = try Data(contentsOf: u)
       gameDatum = try JSONDecoder().decode([GameData].self,from:data)
     } catch {
-          print("Cant load GameData from local full , \(error)")
-        }
-      }
+      print("Cant load GameData from local full , \(error)")
+    }
+  }
   
-  
-  func fileBundle(_ url:String ) async  {
+  private  func fileBundle(_ url:String ) async  {
     func downloadFile(from url: URL ) async throws -> Data {
       let (data, _) = try await URLSession.shared.data(from: url)
       return data
     }
-    
     guard let url = URL(string:url) else { print ("bad url \(url)"); return }
-     // Task {
-        do{
-          let data = try await downloadFile(from:url)
-          gameDatum = try JSONDecoder().decode([GameData].self,from:data)
-        }
-        catch {
-          print("Cant load GameData from \(url)")
-        }
-      //}
+    // Task {
+    do{
+      let data = try await downloadFile(from:url)
+      gameDatum = try JSONDecoder().decode([GameData].self,from:data)
+    }
+    catch {
+      print("Cant load GameData from \(url)")
+    }
   }
-  
-
   
   var body: some View {
     NavigationStack {
@@ -70,68 +68,52 @@ struct MultiView: View {
       Spacer()
       VStack {
         ForEachWithIndex (data:gameDatum) { index, qanda in
-          NavigationLink(destination:
-                          SingleTopicView(gs: gameState, index: index,  quizData: qanda)
-          ) {
+          NavigationLink(destination:  SingleTopicView(gs: gameState, index: index,  quizData: qanda)) {
             HStack {
               Text(qanda.subject).font(.title).lineLimit(2)
             }
           }
         }
       }
-      
-      
-      
-      
       .navigationBarTitle("20,000 Questions")
       Spacer()
         .task {
-        if gameDatum.count == 0 { // first time only
-            switch gameDataSource {
-            case .localBundle:
-              localBundle()
-            case .localFull:
-              localFileBundle("gamedata01")
-            case .gameDataSource1:
-           await  fileBundle("https://billdonner.com/fs/gd/gamedata01.json")
-          
-            case .gameDataSource2:
-          await  fileBundle("https://billdonner.com/fs/gd/gamedata02.json")
-            
-            }
-//            while gameDatum == [] {
-//               sleep(1)
-//            }
-         
-            var stvs : [PerTopicInfo] = []
-            let xx = gameDatum.enumerated()
-            for (_,_ ) in  xx {
-              stvs.append(PerTopicInfo())
-            }
-          gameState.info = stvs
-         }
-        }
+      if gameDatum.count == 0 { // first time only
+          switch gameDataSource {
+          case .localBundle:
+            localBundle()
+          case .localFull:
+            localFileBundle("gamedata01")
+          case .gameDataSource1:
+            await  fileBundle("https://billdonner.com/fs/gd/gamedata01.json")
+          case .gameDataSource2:
+            await  fileBundle("https://billdonner.com/fs/gd/gamedata02.json")
+          }
+//              var stvs : [PerTopicInfo] = [] //
+//              for (_,_ ) in  gameDatum.enumerated() {
+//                stvs.append(PerTopicInfo())
+//              }
+        gameState.info = Array(repeating:PerTopicInfo(), count:gameDatum.count )
+            } //
+    }// task
     }
   }
 }
 
-struct MultiView_Previews: PreviewProvider {
+struct TodaysTopics_Previews: PreviewProvider {
   static var previews: some View {
-//    MultiView(gameDatum: [ GameData(subject:"Test",challenges: [
-//      Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint",
-//                answers:[ "ans1","ans2"], answer: "ans2",
-//                explanation: ["exp1","exp2"], article: "badurl", image: "badurl")])])
-    MultiView()
-    .navigationTitle("20,000 Questions")
+    TodaysTopics()
+     // .navigationTitle("20,000 Questions")
   }
 }
 
 @main
 struct qandaApp: App {
   
+  @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.localFull
   var body: some Scene {
     WindowGroup {
-      MultiView()
+      TodaysTopics()
     }
   }
 }
