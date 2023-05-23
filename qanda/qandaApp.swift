@@ -71,6 +71,7 @@ struct TodaysTopics: View {
           NavigationLink(destination:  SingleTopicView(gs: gameState, index: index,  quizData: qanda)) {
             HStack {
               Text(qanda.subject).font(.title).lineLimit(2)
+              Text("\(qanda.challenges.count)").font(.footnote)
             }
           }
         }
@@ -85,14 +86,11 @@ struct TodaysTopics: View {
           case .localFull:
             localFileBundle("gamedata01")
           case .gameDataSource1:
-            await  fileBundle("https://billdonner.com/fs/gd/gamedata01.json")
+            await  fileBundle("https://billdonner.com/fs/gd/gamedata-ios0.json")
           case .gameDataSource2:
             await  fileBundle("https://billdonner.com/fs/gd/gamedata02.json")
           }
-//              var stvs : [PerTopicInfo] = [] //
-//              for (_,_ ) in  gameDatum.enumerated() {
-//                stvs.append(PerTopicInfo())
-//              }
+
         gameState.info = Array(repeating:PerTopicInfo(), count:gameDatum.count )
             } //
     }// task
