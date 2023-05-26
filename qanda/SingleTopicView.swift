@@ -1,9 +1,4 @@
-//
-//  FishQuiz.swift
-//  qanda
-//
-//  Created by bill donner on 4/19/23.
-//
+
 import SwiftUI
 
 enum GameDataSource : Int {
@@ -76,7 +71,7 @@ struct SingleTopicView: View {
           .font(.title).padding()
         ForEach(0 ..< qd.answers.count, id:\.self) { number in
           Button(action: {
-            if quizData.challenges[stv.currentQuestionIndex].answers[number] == quizData.challenges[stv.currentQuestionIndex].answer {
+            if quizData.challenges[stv.currentQuestionIndex].answers[number] == quizData.challenges[stv.currentQuestionIndex].correct {
               gs.info[index].score += 1
               gs.masterScore += 1
             }
@@ -87,9 +82,9 @@ struct SingleTopicView: View {
           .padding()
         }
         if stv.showingAnswer {
-          Text("Answer: \(qd.answer)")
+          Text("Answer: \(qd.correct)")
             .font(.title).padding()
-          Text("Explanation:" + qd.explanation.map{$0}.joined()).font(.headline).padding()
+          Text("Explanation:" + qd.explanation).font(.headline).padding()
         }
         //        Spacer()
       }// vstack
@@ -168,7 +163,7 @@ struct SingleTopicView_Previews: PreviewProvider {
   static var previews: some View {
     SingleTopicView(gs:  GameState(), index:0 ,
                     quizData: GameData(subject:"Test",challenges: [
-                      Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], answer: "ans2", explanation: ["exp1","exp2"], article: "badurl", image: "badurl")]))
+                      Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], correct: "ans2", explanation:  "exp1" , article: "badurl", image: "badurl")]))
   }
 }
 

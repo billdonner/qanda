@@ -7,8 +7,8 @@ struct Challenge :Codable,Hashable,Identifiable,Equatable {
   let topic: String
   let hint:String // a hint to show if the user needs help
   let answers: [String]
-  let answer: String // which answer is correct
-  let explanation: [String] // reasoning behind the correctAnswer
+  let correct: String // which answer is correct
+  let explanation: String // reasoning behind the correctAnswer
   let article: String // URL of article about the correct Answer
   let image:String // URL of image of correct Answer
 }
