@@ -92,7 +92,7 @@ struct TodaysTopics: View {
   
   @StateObject  var gameState: GameState = GameState()
   @State var gameDatum: [GameData] = []
-  @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.localFull
+  @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   
   //MARK : - data loaders
   
@@ -389,7 +389,7 @@ struct SupportViews_Previews: PreviewProvider {
 struct ShowScoresView: View {
   let stv: PerTopicInfo
   let dataSources : [GameDataSource] = [.gameDataSource1,.gameDataSource2,.localFull,.localBundle]
-  @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.localFull
+  @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   var body: some View {
     NavigationStack {
       Form {
@@ -413,8 +413,3 @@ struct ShowScoresView_Previews: PreviewProvider {
     ShowScoresView(stv:PerTopicInfo(currentQuestionIndex: 1, showingAnswer: true, score: 99))
   }
 }
-
- 
-
-
-
