@@ -6,21 +6,10 @@
 //
 
 import SwiftUI
-//PROMPT consider the following structure
-struct Challenge :Codable,Hashable,Identifiable,Equatable {
-  let id : String
-  let question: String
-  let topic: String
-  let hint:String // a hint to show if the user needs help
-  let answers: [String]
-  let correct: String // which answer is correct
-  let explanation: String // reasoning behind the correctAnswer
-  let article: String // URL of article about the correct Answer
-  let image:String // URL of image of correct Answer
-}
-//let id = "wld date: april 29,2003 9:52AM"
-// generate THREE challenges as an array of JSON about "Fun Fish Facts"
-//let json_challenges = [
+import q20kshare
+
+let PRIMARY_REMOTE = "https://billdonner.com/fs/gd/readyforios.json"
+let SECONDARY_REMOTE = "https://billdonner.com/fs/gd/gamedata02.json"
 
 struct GameData : Codable, Hashable,Identifiable,Equatable {
   internal init(subject: String, challenges: [Challenge]) {
@@ -49,9 +38,9 @@ enum GameDataSource : Int {
     case .localFull:
       return "localFull"
     case .gameDataSource1:
-     return "source1"
+     return PRIMARY_REMOTE
     case .gameDataSource2:
-      return "source2"
+      return SECONDARY_REMOTE
     }
   }
 }
@@ -164,9 +153,9 @@ struct TodaysTopics: View {
           case .localFull:
             localFileBundle("gamedata01")
           case .gameDataSource1:
-            await  fileBundle("https://billdonner.com/fs/gd/readyforios.json")
+            await  fileBundle(PRIMARY_REMOTE)
           case .gameDataSource2:
-            await  fileBundle("https://billdonner.com/fs/gd/gamedata02.json")
+            await  fileBundle(SECONDARY_REMOTE)
           }
 
         gameState.info = Array(repeating:PerTopicInfo(), count:gameDatum.count )
@@ -191,8 +180,6 @@ struct qandaApp: App {
     }
   }
 }
-
-
 
 struct SingleTopicView: View {
   @StateObject var gs: GameState
@@ -299,16 +286,6 @@ struct SingleTopicView: View {
   }
 }
 
-
-struct SingleTopicView_Previews: PreviewProvider {
-  static var previews: some View {
-    SingleTopicView(gs:  GameState(), index:0 ,
-                    quizData: GameData(subject:"Test",challenges: [
-                      Challenge(id: "idstring", question: "question???", topic: "Test Topic", hint: "hint", answers:[ "ans1","ans2"], correct: "ans2", explanation:  "exp1" , article: "badurl", image: "badurl")]))
-  }
-}
-
-
 import WebKit
 // Print JSON to Console
 func printJSon(_ g:GameData) {
@@ -404,6 +381,7 @@ struct ShowScoresView: View {
             }
           }
         }
+        Text("Be sure to Restart the app for change of input source to take effect").font(.footnote)
       }.navigationTitle("Freeport Eyes Only")
     }
   }

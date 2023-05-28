@@ -10,6 +10,7 @@
 		8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823695529ED0AF900A16E14 /* qandaApp.swift */; };
 		8823695A29ED0AFA00A16E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695929ED0AFA00A16E14 /* Assets.xcassets */; };
 		8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */; };
+		884DDEA92A241EDA00DD138F /* q20kshare in Frameworks */ = {isa = PBXBuildFile; productRef = 884DDEA82A241EDA00DD138F /* q20kshare */; };
 		887565B129FEC5AD0030AE77 /* vacation.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A929FEA3D60030AE77 /* vacation.json */; };
 		887565B229FEC9940030AE77 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A829FEA3B30030AE77 /* food.json */; };
 		887565B329FECA7F0030AE77 /* oceans.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A729FEA3710030AE77 /* oceans.json */; };
@@ -59,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884DDEA92A241EDA00DD138F /* q20kshare in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +144,9 @@
 			dependencies = (
 			);
 			name = qanda;
+			packageProductDependencies = (
+				884DDEA82A241EDA00DD138F /* q20kshare */,
+			);
 			productName = qanda;
 			productReference = 8823695229ED0AF900A16E14 /* qanda.app */;
 			productType = "com.apple.product-type.application";
@@ -190,6 +195,9 @@
 				Base,
 			);
 			mainGroup = 8823694929ED0AF900A16E14;
+			packageReferences = (
+				884DDEA72A241EDA00DD138F /* XCRemoteSwiftPackageReference "q20kshare" */,
+			);
 			productRefGroup = 8823695329ED0AF900A16E14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -471,6 +479,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		884DDEA72A241EDA00DD138F /* XCRemoteSwiftPackageReference "q20kshare" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/billdonner/q20kshare";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		884DDEA82A241EDA00DD138F /* q20kshare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 884DDEA72A241EDA00DD138F /* XCRemoteSwiftPackageReference "q20kshare" */;
+			productName = q20kshare;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8823694A29ED0AF900A16E14 /* Project object */;
 }
