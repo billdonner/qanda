@@ -41,6 +41,7 @@
 		8823695529ED0AF900A16E14 /* qandaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qandaApp.swift; sourceTree = "<group>"; };
 		8823695929ED0AFA00A16E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		884DDEAA2A242B7100DD138F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8875659B29FD82EF0030AE77 /* validator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = validator; sourceTree = BUILT_PRODUCTS_DIR; };
 		887565A629FEA3420030AE77 /* us_presidents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = us_presidents.json; sourceTree = "<group>"; };
 		887565A729FEA3710030AE77 /* oceans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = oceans.json; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		8823694929ED0AF900A16E14 = {
 			isa = PBXGroup;
 			children = (
+				884DDEAA2A242B7100DD138F /* README.md */,
 				887565A529FEA30D0030AE77 /* dataFromCarol */,
 				8823695429ED0AF900A16E14 /* qanda */,
 				8823695329ED0AF900A16E14 /* Products */,

@@ -81,6 +81,8 @@ struct TodaysTopics: View {
   
   @StateObject  var gameState: GameState = GameState()
   @State var gameDatum: [GameData] = []
+  
+ @State var showSettings = false
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   
   //MARK : - data loaders
@@ -128,6 +130,7 @@ struct TodaysTopics: View {
     }
   }
   
+  
   var body: some View {
     NavigationStack {
       Spacer()
@@ -142,7 +145,11 @@ struct TodaysTopics: View {
             }
           }
         }
-      }
+      }.navigationBarItems(trailing:     Button {
+        showSettings = true
+      } label: {
+        Image(systemName: "gearshapegamedata")
+      })
       .navigationBarTitle("20,000 Questions")
       Spacer()
         .task {
@@ -161,6 +168,8 @@ struct TodaysTopics: View {
         gameState.info = Array(repeating:PerTopicInfo(), count:gameDatum.count )
             } //
     }// task
+    }.sheet(isPresented: $showSettings) {
+    SettingsView (stv: gameState.info[0])//????
     }
   }
 }
@@ -269,17 +278,14 @@ struct SingleTopicView: View {
         switch sc.choice {
         case .showImage :
           if let s = sc.arg , let url = URL(string: s) {
-            let _ = print ("will show Image" + (sc.arg ?? "") )
             WebView(url:url)
           }
         case .showInfo :
           if let s = sc.arg, let url = URL(string: s) {
-           let _ =  print("will show article " + (sc.arg ?? "") )
             WebView(url:url)
           }
         case .showScorePage :
-          let _ =  print("will show scores " + (sc.arg ?? "") )
-          ShowScoresView(stv:stv)
+          SettingsView(stv:stv)
         }
       }//sheet
     }
@@ -363,7 +369,7 @@ struct SupportViews_Previews: PreviewProvider {
         SupportViews()
     }
 }
-struct ShowScoresView: View {
+struct SettingsView: View {
   let stv: PerTopicInfo
   let dataSources : [GameDataSource] = [.gameDataSource1,.gameDataSource2,.localFull,.localBundle]
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
@@ -380,14 +386,18 @@ struct ShowScoresView: View {
               Text(GameDataSource.string(for:ds))
             }
           }
-        }
+       
         Text("Be sure to Restart the app for change of input source to take effect").font(.footnote)
+        }
+        Section {
+        
+        }
       }.navigationTitle("Freeport Eyes Only")
     }
   }
 }
 struct ShowScoresView_Previews: PreviewProvider {
   static var previews: some View {
-    ShowScoresView(stv:PerTopicInfo(currentQuestionIndex: 1, showingAnswer: true, score: 99))
+    SettingsView(stv:PerTopicInfo(currentQuestionIndex: 1, showingAnswer: true, score: 99))
   }
 }
