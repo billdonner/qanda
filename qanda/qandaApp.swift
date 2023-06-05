@@ -8,13 +8,13 @@
 import SwiftUI
 import q20kshare
 
-let PRIMARY_REMOTE = "https://billdonner.com/fs/gd/readyforios.json"
-let SECONDARY_REMOTE = "https://billdonner.com/fs/gd/gamedata02.json"
-
+let PRIMARY_REMOTE = "https://billdonner.com/fs/gd/readyforios01.json"
+let SECONDARY_REMOTE = "https://billdonner.com/fs/gd/readyforios02.json"
+let TERTIARY_REMOTE = "https://billdonner.com/fs/gd/readyforios03.json"
 struct GameData : Codable, Hashable,Identifiable,Equatable {
   internal init(subject: String, challenges: [Challenge]) {
     self.subject = subject
-    self.challenges = challenges //.shuffled()  //randomize
+    self.challenges = challenges.shuffled()  //randomize
     self.id = UUID().uuidString
     self.generated = Date()
   }
@@ -27,20 +27,21 @@ struct GameData : Codable, Hashable,Identifiable,Equatable {
 enum GameDataSource : Int {
   
   case localFull // keep first for easiest testing
-  case localBundle
   case gameDataSource1
   case gameDataSource2
+  case gameDataSource3
   
  static  func string(for:Self) -> String {
     switch `for` {
-    case .localBundle:
-      return "local"
+  
     case .localFull:
       return "localFull"
     case .gameDataSource1:
      return PRIMARY_REMOTE
     case .gameDataSource2:
       return SECONDARY_REMOTE
+    case .gameDataSource3:
+      return TERTIARY_REMOTE
     }
   }
 }
@@ -67,6 +68,7 @@ enum Choices {
   case showImage
   case showInfo
   case showScorePage
+  case showHintBottomSheet
 }
  struct SheetChoices:Identifiable {
   let id = UUID()
@@ -87,21 +89,21 @@ struct TodaysTopics: View {
   
   //MARK : - data loaders
   
-  private func localBundle() {
-    for topic in ["food","vacation","oceans","us_presidents","the_himalayas","world_heritage_sites","new_york_city","rap_artists","rock_and_roll","elvis_presley"] {
-      do {
-        let prettyTopic = topic.replacingOccurrences(of: "_", with: " ")
-        let u = Bundle.main.url(forResource: topic , withExtension: "json")
-        guard let u = u  else { print("cant find json file \(topic)"); continue }
-        let data = try Data(contentsOf: u)
-        let challenges = try JSONDecoder().decode([Challenge].self, from: data)
-        gameDatum.append(GameData(subject:prettyTopic,challenges: challenges) )
-      }
-      catch {
-        print("Cant load local json for topic \(topic) --  \(error))")
-      }
-    }// for topic in
-  }
+//  private func localBundle() {
+//    for topic in ["food","vacation","oceans","us_presidents","the_himalayas","world_heritage_sites","new_york_city","rap_artists","rock_and_roll","elvis_presley"] {
+//      do {
+//        let prettyTopic = topic.replacingOccurrences(of: "_", with: " ")
+//        let u = Bundle.main.url(forResource: topic , withExtension: "json")
+//        guard let u = u  else { print("cant find json file \(topic)"); continue }
+//        let data = try Data(contentsOf: u)
+//        let challenges = try JSONDecoder().decode([Challenge].self, from: data)
+//        gameDatum.append(GameData(subject:prettyTopic,challenges: challenges) )
+//      }
+//      catch {
+//        print("Cant load local json for topic \(topic) --  \(error))")
+//      }
+//    }// for topic in
+//  }
   
   private func localFileBundle(_ name:String )  {
     let u = Bundle.main.url(forResource: name , withExtension: "json")
@@ -137,32 +139,35 @@ struct TodaysTopics: View {
       Text("Today's Topics:")
       Spacer()
       VStack {
-        ForEachWithIndex (data:gameDatum) { index, qanda in
-          NavigationLink(destination:  SingleTopicView(gs: gameState, index: index,  quizData: qanda)) {
-            HStack {
-              Text(qanda.subject).font(.title).lineLimit(2)
-              Text("\(qanda.challenges.count)").font(.footnote)
+        ScrollView {
+          ForEachWithIndex (data:gameDatum) { index, qanda in
+            NavigationLink(destination:  ChallengeView(gs: gameState, index: index,  quizData: qanda)) {
+              HStack {
+                Text(qanda.subject).font(.title).lineLimit(2)
+                Text("\(qanda.challenges.count)").font(.footnote)
+              }
             }
           }
         }
+        Spacer()
       }.navigationBarItems(trailing:     Button {
         showSettings = true
       } label: {
-        Image(systemName: "gearshapegamedata")
+        Image(systemName: "gearshape")
       })
       .navigationBarTitle("20,000 Questions")
       Spacer()
         .task {
       if gameDatum.count == 0 { // first time only
           switch gameDataSource {
-          case .localBundle:
-            localBundle()
           case .localFull:
             localFileBundle("gamedata01")
           case .gameDataSource1:
             await  fileBundle(PRIMARY_REMOTE)
           case .gameDataSource2:
             await  fileBundle(SECONDARY_REMOTE)
+          case .gameDataSource3:
+            await  fileBundle(TERTIARY_REMOTE)
           }
 
         gameState.info = Array(repeating:PerTopicInfo(), count:gameDatum.count )
@@ -190,107 +195,7 @@ struct qandaApp: App {
   }
 }
 
-struct SingleTopicView: View {
-  @StateObject var gs: GameState
-  let index:Int
-  let quizData: GameData
-  @State  private var sheetchoice: SheetChoices? = nil
-  var body: some View {
-    NavigationStack {
-      
-      let stv = gs.info[index]
-      let finally = (stv.currentQuestionIndex == quizData.challenges.count-1) && stv.showingAnswer
-      let qd = quizData.challenges[stv.currentQuestionIndex]
-      VStack {
-        Text("Question \(stv.currentQuestionIndex+1)")
-          .font(.subheadline)
-        Text(qd.question)
-          .font(.title).padding()
-        ForEach(0 ..< qd.answers.count, id:\.self) { number in
-          Button(action: {
-            if quizData.challenges[stv.currentQuestionIndex].answers[number] == quizData.challenges[stv.currentQuestionIndex].correct {
-              gs.info[index].score += 1
-              gs.masterScore += 1
-            }
-            gs.info[index].showingAnswer = true
-          }) {
-            Text("\(qd.answers[number])")
-          }
-          .padding()
-        }
-        if stv.showingAnswer {
-          Text("Answer: \(qd.correct)")
-            .font(.title).padding()
-          Text("Explanation:" + qd.explanation).font(.headline).padding()
-        }
-        //        Spacer()
-      }// vstack
-      .navigationBarItems(trailing: Button("\(finally ? "Final " : "")Score: \(stv.score)") {
-        sheetchoice = SheetChoices(choice:.showScorePage,arg:"")
-      }
-        .navigationBarTitle(Text(quizData.subject + "\(finally ? " Finally Done " : "")"))
-                          
-                          
-        .toolbar {
-          ToolbarItemGroup(placement: .bottomBar){
-            Button(finally ? "Start Over":"Previous") {
-              if finally {
-                gs.info[index].currentQuestionIndex = 0
-                gs.info[index].showingAnswer = false
-                gs.info[index].score = 0
-              } else {
-                if stv.currentQuestionIndex > 0 {
-                  gs.info[index].currentQuestionIndex -= 1
-                  gs.info[index].showingAnswer = false
-                }
-              }
-            }
-            .disabled(stv.currentQuestionIndex == 0)
-            
-            Button {
-              sheetchoice = SheetChoices(choice:.showImage,arg:qd.image)
-            } label: {
-              Image(systemName: "photo")
-            }
-            .disabled(qd.image=="" || !stv.showingAnswer)
-            Spacer()
-            Button {
-              sheetchoice = SheetChoices(choice:.showInfo,arg:qd.article)
-            } label: {
-              Image(systemName: "info")
-            }
-            .disabled(qd.article=="" || !stv.showingAnswer)
-    
-            Button("Next") {
-              if stv.currentQuestionIndex + 1 < quizData.challenges.count {
-                gs.info[index].currentQuestionIndex += 1
-                gs.info[index].showingAnswer = false
-              } //else {
-                // game is over
-              //}
-            }
-            .disabled(stv.currentQuestionIndex == quizData.challenges.count-1 )
-          }
-        }// toolbar
-      )
-      
-      .sheet(item:$sheetchoice){sc in
-        switch sc.choice {
-        case .showImage :
-          if let s = sc.arg , let url = URL(string: s) {
-            WebView(url:url)
-          }
-        case .showInfo :
-          if let s = sc.arg, let url = URL(string: s) {
-            WebView(url:url)
-          }
-        case .showScorePage :
-          SettingsView(stv:stv)
-        }
-      }//sheet
-    }
-  }
-}
+
 
 import WebKit
 // Print JSON to Console
@@ -371,7 +276,7 @@ struct SupportViews_Previews: PreviewProvider {
 }
 struct SettingsView: View {
   let stv: PerTopicInfo
-  let dataSources : [GameDataSource] = [.gameDataSource1,.gameDataSource2,.localFull,.localBundle]
+  let dataSources : [GameDataSource] = [.gameDataSource1,.gameDataSource2,.gameDataSource3,.localFull]
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   var body: some View {
     NavigationStack {

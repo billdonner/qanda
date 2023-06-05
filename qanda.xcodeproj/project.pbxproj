@@ -7,21 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		881FE8562A2D308C00FE3847 /* HintBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881FE8552A2D308C00FE3847 /* HintBottomSheetView.swift */; };
+		881FE8582A2D380900FE3847 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881FE8572A2D380900FE3847 /* ChallengeView.swift */; };
 		8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823695529ED0AF900A16E14 /* qandaApp.swift */; };
 		8823695A29ED0AFA00A16E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695929ED0AFA00A16E14 /* Assets.xcassets */; };
 		8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */; };
-		884DDEA92A241EDA00DD138F /* q20kshare in Frameworks */ = {isa = PBXBuildFile; productRef = 884DDEA82A241EDA00DD138F /* q20kshare */; };
-		887565B129FEC5AD0030AE77 /* vacation.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A929FEA3D60030AE77 /* vacation.json */; };
-		887565B229FEC9940030AE77 /* food.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A829FEA3B30030AE77 /* food.json */; };
-		887565B329FECA7F0030AE77 /* oceans.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A729FEA3710030AE77 /* oceans.json */; };
-		887565B429FECA860030AE77 /* the_himalayas.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AE29FEA4800030AE77 /* the_himalayas.json */; };
-		887565B529FECA8A0030AE77 /* world_heritage_sites.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AF29FEA4C20030AE77 /* world_heritage_sites.json */; };
-		887565B629FECA8E0030AE77 /* new_york_city.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AD29FEA4520030AE77 /* new_york_city.json */; };
-		887565B729FECA940030AE77 /* rap_artists.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AC29FEA4320030AE77 /* rap_artists.json */; };
-		887565B829FECA990030AE77 /* rock_and_roll.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AB29FEA4190030AE77 /* rock_and_roll.json */; };
-		887565B929FECA9E0030AE77 /* elvis_presley.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565AA29FEA3EE0030AE77 /* elvis_presley.json */; };
-		887565BA29FECAA80030AE77 /* us_presidents.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565A629FEA3420030AE77 /* us_presidents.json */; };
-		887565EA2A0AB09E0030AE77 /* gamedata01.json in Resources */ = {isa = PBXBuildFile; fileRef = 887565E92A0AB09E0030AE77 /* gamedata01.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,23 +27,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		881FE8552A2D308C00FE3847 /* HintBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintBottomSheetView.swift; sourceTree = "<group>"; };
+		881FE8572A2D380900FE3847 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
 		8823695229ED0AF900A16E14 /* qanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8823695529ED0AF900A16E14 /* qandaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qandaApp.swift; sourceTree = "<group>"; };
 		8823695929ED0AFA00A16E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		884DDEAA2A242B7100DD138F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8875659B29FD82EF0030AE77 /* validator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = validator; sourceTree = BUILT_PRODUCTS_DIR; };
-		887565A629FEA3420030AE77 /* us_presidents.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = us_presidents.json; sourceTree = "<group>"; };
-		887565A729FEA3710030AE77 /* oceans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = oceans.json; sourceTree = "<group>"; };
-		887565A829FEA3B30030AE77 /* food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = food.json; sourceTree = "<group>"; };
-		887565A929FEA3D60030AE77 /* vacation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vacation.json; sourceTree = "<group>"; };
-		887565AA29FEA3EE0030AE77 /* elvis_presley.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = elvis_presley.json; sourceTree = "<group>"; };
-		887565AB29FEA4190030AE77 /* rock_and_roll.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rock_and_roll.json; sourceTree = "<group>"; };
-		887565AC29FEA4320030AE77 /* rap_artists.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = rap_artists.json; sourceTree = "<group>"; };
-		887565AD29FEA4520030AE77 /* new_york_city.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = new_york_city.json; sourceTree = "<group>"; };
-		887565AE29FEA4800030AE77 /* the_himalayas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = the_himalayas.json; sourceTree = "<group>"; };
-		887565AF29FEA4C20030AE77 /* world_heritage_sites.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = world_heritage_sites.json; sourceTree = "<group>"; };
-		887565E92A0AB09E0030AE77 /* gamedata01.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = gamedata01.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +42,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884DDEA92A241EDA00DD138F /* q20kshare in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				884DDEAA2A242B7100DD138F /* README.md */,
-				887565A529FEA30D0030AE77 /* dataFromCarol */,
 				8823695429ED0AF900A16E14 /* qanda */,
 				8823695329ED0AF900A16E14 /* Products */,
 			);
@@ -98,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				8823695529ED0AF900A16E14 /* qandaApp.swift */,
+				881FE8552A2D308C00FE3847 /* HintBottomSheetView.swift */,
+				881FE8572A2D380900FE3847 /* ChallengeView.swift */,
 				8823695929ED0AFA00A16E14 /* Assets.xcassets */,
 				8823695B29ED0AFA00A16E14 /* Preview Content */,
 			);
@@ -110,24 +91,6 @@
 				8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		887565A529FEA30D0030AE77 /* dataFromCarol */ = {
-			isa = PBXGroup;
-			children = (
-				887565E92A0AB09E0030AE77 /* gamedata01.json */,
-				887565A629FEA3420030AE77 /* us_presidents.json */,
-				887565A829FEA3B30030AE77 /* food.json */,
-				887565A929FEA3D60030AE77 /* vacation.json */,
-				887565AA29FEA3EE0030AE77 /* elvis_presley.json */,
-				887565AB29FEA4190030AE77 /* rock_and_roll.json */,
-				887565AC29FEA4320030AE77 /* rap_artists.json */,
-				887565AD29FEA4520030AE77 /* new_york_city.json */,
-				887565AF29FEA4C20030AE77 /* world_heritage_sites.json */,
-				887565AE29FEA4800030AE77 /* the_himalayas.json */,
-				887565A729FEA3710030AE77 /* oceans.json */,
-			);
-			path = dataFromCarol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,7 +110,6 @@
 			);
 			name = qanda;
 			packageProductDependencies = (
-				884DDEA82A241EDA00DD138F /* q20kshare */,
 			);
 			productName = qanda;
 			productReference = 8823695229ED0AF900A16E14 /* qanda.app */;
@@ -216,18 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */,
-				887565EA2A0AB09E0030AE77 /* gamedata01.json in Resources */,
 				8823695A29ED0AFA00A16E14 /* Assets.xcassets in Resources */,
-				887565B929FECA9E0030AE77 /* elvis_presley.json in Resources */,
-				887565B729FECA940030AE77 /* rap_artists.json in Resources */,
-				887565B429FECA860030AE77 /* the_himalayas.json in Resources */,
-				887565B229FEC9940030AE77 /* food.json in Resources */,
-				887565B829FECA990030AE77 /* rock_and_roll.json in Resources */,
-				887565B629FECA8E0030AE77 /* new_york_city.json in Resources */,
-				887565BA29FECAA80030AE77 /* us_presidents.json in Resources */,
-				887565B329FECA7F0030AE77 /* oceans.json in Resources */,
-				887565B529FECA8A0030AE77 /* world_heritage_sites.json in Resources */,
-				887565B129FEC5AD0030AE77 /* vacation.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +189,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				881FE8562A2D308C00FE3847 /* HintBottomSheetView.swift in Sources */,
 				8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */,
+				881FE8582A2D380900FE3847 /* ChallengeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,14 +445,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		884DDEA82A241EDA00DD138F /* q20kshare */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 884DDEA72A241EDA00DD138F /* XCRemoteSwiftPackageReference "q20kshare" */;
-			productName = q20kshare;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8823694A29ED0AF900A16E14 /* Project object */;
 }
