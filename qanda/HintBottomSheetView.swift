@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import q20kshare
 
 struct HintBottomSheetView : View {
   let hint:String
@@ -15,12 +16,13 @@ struct HintBottomSheetView : View {
       Spacer()
       HStack{
         //Text("Hint:").font(.title3)
-        Text(hint).font(.largeTitle)
+        Text(hint).font(.headline)
       }
       Spacer()
     }
     .frame(maxWidth:.infinity)
-    .background(Color(white: 0.7))
+    .background(.blue).opacity(0.7)
+    .foregroundColor(.white)
     .ignoresSafeArea()
   }
   

@@ -12,19 +12,8 @@
 		8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823695529ED0AF900A16E14 /* qandaApp.swift */; };
 		8823695A29ED0AFA00A16E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695929ED0AFA00A16E14 /* Assets.xcassets */; };
 		8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */; };
+		882FFB3B2A2E18D30038E9A8 /* q20kshare in Frameworks */ = {isa = PBXBuildFile; productRef = 882FFB3A2A2E18D30038E9A8 /* q20kshare */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8875659929FD82EF0030AE77 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		881FE8552A2D308C00FE3847 /* HintBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintBottomSheetView.swift; sourceTree = "<group>"; };
@@ -34,7 +23,6 @@
 		8823695929ED0AFA00A16E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		884DDEAA2A242B7100DD138F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8875659B29FD82EF0030AE77 /* validator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = validator; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +30,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8875659829FD82EF0030AE77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				882FFB3B2A2E18D30038E9A8 /* q20kshare in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +50,6 @@
 			isa = PBXGroup;
 			children = (
 				8823695229ED0AF900A16E14 /* qanda.app */,
-				8875659B29FD82EF0030AE77 /* validator */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,27 +91,11 @@
 			);
 			name = qanda;
 			packageProductDependencies = (
+				882FFB3A2A2E18D30038E9A8 /* q20kshare */,
 			);
 			productName = qanda;
 			productReference = 8823695229ED0AF900A16E14 /* qanda.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8875659A29FD82EF0030AE77 /* validator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8875659F29FD82EF0030AE77 /* Build configuration list for PBXNativeTarget "validator" */;
-			buildPhases = (
-				8875659729FD82EF0030AE77 /* Sources */,
-				8875659829FD82EF0030AE77 /* Frameworks */,
-				8875659929FD82EF0030AE77 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = validator;
-			productName = validator;
-			productReference = 8875659B29FD82EF0030AE77 /* validator */;
-			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -145,9 +110,6 @@
 					8823695129ED0AF900A16E14 = {
 						CreatedOnToolsVersion = 14.3;
 					};
-					8875659A29FD82EF0030AE77 = {
-						CreatedOnToolsVersion = 14.3;
-					};
 				};
 			};
 			buildConfigurationList = 8823694D29ED0AF900A16E14 /* Build configuration list for PBXProject "qanda" */;
@@ -160,14 +122,13 @@
 			);
 			mainGroup = 8823694929ED0AF900A16E14;
 			packageReferences = (
-				884DDEA72A241EDA00DD138F /* XCRemoteSwiftPackageReference "q20kshare" */,
+				882FFB392A2E18D30038E9A8 /* XCRemoteSwiftPackageReference "q20kshare" */,
 			);
 			productRefGroup = 8823695329ED0AF900A16E14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8823695129ED0AF900A16E14 /* qanda */,
-				8875659A29FD82EF0030AE77 /* validator */,
 			);
 		};
 /* End PBXProject section */
@@ -192,13 +153,6 @@
 				881FE8562A2D308C00FE3847 /* HintBottomSheetView.swift in Sources */,
 				8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */,
 				881FE8582A2D380900FE3847 /* ChallengeView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8875659729FD82EF0030AE77 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,32 +331,6 @@
 			};
 			name = Release;
 		};
-		887565A029FD82EF0030AE77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X2PQYA6S48;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		887565A129FD82EF0030AE77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X2PQYA6S48;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -424,19 +352,10 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8875659F29FD82EF0030AE77 /* Build configuration list for PBXNativeTarget "validator" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				887565A029FD82EF0030AE77 /* Debug */,
-				887565A129FD82EF0030AE77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		884DDEA72A241EDA00DD138F /* XCRemoteSwiftPackageReference "q20kshare" */ = {
+		882FFB392A2E18D30038E9A8 /* XCRemoteSwiftPackageReference "q20kshare" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/billdonner/q20kshare";
 			requirement = {
@@ -445,6 +364,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		882FFB3A2A2E18D30038E9A8 /* q20kshare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 882FFB392A2E18D30038E9A8 /* XCRemoteSwiftPackageReference "q20kshare" */;
+			productName = q20kshare;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8823694A29ED0AF900A16E14 /* Project object */;
 }
