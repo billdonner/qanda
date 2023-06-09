@@ -70,18 +70,18 @@ struct ChallengeView: View {
             .disabled(stv.currentQuestionIndex == 0)
             
             Button {
-              sheetchoice = SheetChoices(choice:.showImage,arg:qd.image)
+              sheetchoice = SheetChoices(choice:.thumbsDown,arg:"https://freeport.software")
             } label: {
               Image(systemName: "hand.thumbsdown")
             }
-            .disabled(qd.image=="" || !stv.showingAnswer)
+            .disabled(  !stv.showingAnswer)
             Spacer()
             Button {
-              sheetchoice = SheetChoices(choice:.showInfo,arg:qd.article)
+              sheetchoice = SheetChoices(choice:.thumbsUp,arg:"https://freeport.software")
             } label: {
               Image(systemName: "hand.thumbsup")
             }
-            .disabled(qd.article=="" || !stv.showingAnswer)
+            .disabled( !stv.showingAnswer)
     
             Button("Next") {
               if stv.currentQuestionIndex + 1 < quizData.challenges.count {
@@ -98,12 +98,12 @@ struct ChallengeView: View {
       
       .sheet(item:$sheetchoice){sc in
         switch sc.choice {
-        case .showImage :
-          if let s = sc.arg , let url = URL(string: s) {
+        case .thumbsUp :
+          if let s = sc.arg, let url = URL(string: s) {
             WebView(url:url)
           }
-        case .showInfo :
-          if let s = sc.arg, let url = URL(string: s) {
+        case .thumbsDown :
+          if  let s = sc.arg, let url = URL(string: s) {
             WebView(url:url)
           }
         case .showScorePage :
