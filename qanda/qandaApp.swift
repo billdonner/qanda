@@ -26,8 +26,8 @@ struct GameData : Codable, Hashable,Identifiable,Equatable {
   let generated: Date
 }
 enum GameDataSource : Int {
-  
-  case localFull // keep first for easiest testing
+//
+//  case localFull // keep first for easiest testing
   case gameDataSource1
   case gameDataSource2
   case gameDataSource3
@@ -35,8 +35,8 @@ enum GameDataSource : Int {
   static  func string(for:Self) -> String {
     switch `for` {
       
-    case .localFull:
-      return "localFull"
+//    case .localFull:
+//      return "localFull"
     case .gameDataSource1:
       return PRIMARY_REMOTE
     case .gameDataSource2:
@@ -170,7 +170,7 @@ struct WebView_Previews: PreviewProvider {
 
 struct SettingsView: View {
   let stv: PerTopicInfo
-  let dataSources : [GameDataSource] = [.gameDataSource1,.gameDataSource2,.gameDataSource3,.localFull]
+  let dataSources : [GameDataSource] = [.gameDataSource1,.gameDataSource2,.gameDataSource3]
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   var body: some View {
     NavigationStack {

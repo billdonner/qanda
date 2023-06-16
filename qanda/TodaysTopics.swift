@@ -19,17 +19,17 @@ struct TodaysTopics: View {
   
   
   
-  private func localFileBundle(_ name:String )  {
-    let u = Bundle.main.url(forResource: name , withExtension: "json")
-    guard let u = u  else { print("cant find gamedata json file \(name)"); return  }
-    do {
-      let data = try Data(contentsOf: u)
-      gameDatum = try JSONDecoder().decode([GameData].self,from:data)
-    } catch {
-      print("Cant load GameData from local full , \(error)")
-    }
-  }
-  
+//  private func localFileBundle(_ name:String )  {
+//    let u = Bundle.main.url(forResource: name , withExtension: "json")
+//    guard let u = u  else { print("cant find gamedata json file \(name)"); return  }
+//    do {
+//      let data = try Data(contentsOf: u)
+//      gameDatum = try JSONDecoder().decode([GameData].self,from:data)
+//    } catch {
+//      print("Cant load GameData from local full , \(error)")
+//    }
+//  }
+//
   private  func fileBundle(_ url:String ) async  {
     func downloadFile(from url: URL ) async throws -> Data {
       let (data, _) = try await URLSession.shared.data(from: url)
@@ -74,8 +74,8 @@ struct TodaysTopics: View {
         .task {
           if gameDatum.count == 0 { // first time only
             switch gameDataSource {
-            case .localFull:
-              localFileBundle("gamedata01")
+//            case .localFull:
+//              localFileBundle("gamedata01")
             case .gameDataSource1:
               await  fileBundle(PRIMARY_REMOTE)
             case .gameDataSource2:
