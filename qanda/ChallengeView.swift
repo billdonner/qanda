@@ -20,11 +20,20 @@ struct ChallengeView: View {
       let finally = (stv.currentQuestionIndex == quizData.challenges.count-1) && stv.showingAnswer
       let qd = quizData.challenges[stv.currentQuestionIndex]
       VStack {
-        Text("Question \(stv.currentQuestionIndex+1)")
-          .font(.subheadline)
+        HStack{
+          Text("Question \(stv.currentQuestionIndex+1)")
+            .font(.subheadline)
+          Spacer()
+          Button(action:{
+            sheetchoice = SheetChoices(choice:.showChallengeInfoPage(qd))
+          },label:{Image(systemName:"info.circle")})
+        }.padding()
         ScrollView {
-          Text(qd.question)
-            .font(.title).padding()
+          HStack{
+            Text(qd.question)
+              .font(.title).padding()
+        
+          }
           ForEach(0 ..< qd.answers.count, id:\.self) { number in
             Button(action: {
               if quizData.challenges[stv.currentQuestionIndex].answers[number] == quizData.challenges[stv.currentQuestionIndex].correct {
@@ -48,7 +57,7 @@ struct ChallengeView: View {
         //        Spacer()
       }// vstack
       .navigationBarItems(trailing: Button("\(finally ? "Final " : "")Score: \(stv.score)") {
-        sheetchoice = SheetChoices(choice:.showHintBottomSheet,arg:qd.hint)
+        sheetchoice = SheetChoices(choice:.showHintBottomSheet( qd.hint))
       }
         .navigationBarTitle(Text(quizData.subject + "\(finally ? " Finally Done " : "")"))
                           
@@ -70,14 +79,14 @@ struct ChallengeView: View {
             .disabled(stv.currentQuestionIndex == 0)
             
             Button {
-              sheetchoice = SheetChoices(choice:.thumbsDown,arg:"https://freeport.software")
+              sheetchoice = SheetChoices(choice:.thumbsDown(URL(string:"https://freeport.software")!))
             } label: {
               Image(systemName: "hand.thumbsdown")
             }
             .disabled(  !stv.showingAnswer)
             Spacer()
             Button {
-              sheetchoice = SheetChoices(choice:.thumbsUp,arg:"https://freeport.software")
+                sheetchoice = SheetChoices(choice:.thumbsUp(URL(string:"https://freeport.software")!))
             } label: {
               Image(systemName: "hand.thumbsup")
             }
@@ -98,18 +107,17 @@ struct ChallengeView: View {
       
       .sheet(item:$sheetchoice){sc in
         switch sc.choice {
-        case .thumbsUp :
-          if let s = sc.arg, let url = URL(string: s) {
+        case .thumbsUp(let url) :
             WebView(url:url)
-          }
-        case .thumbsDown :
-          if  let s = sc.arg, let url = URL(string: s) {
+         
+        case .thumbsDown(let url) :
             WebView(url:url)
-          }
+        
+        case .showChallengeInfoPage(let challenge):
+          ChallengeInfoPageView(challenge:challenge)
         case .showScorePage :
           SettingsView(stv:stv)
-        case .showHintBottomSheet:
-          if let s = sc.arg {
+        case .showHintBottomSheet(let s):
             HintBottomSheetView ( hint: s)
               .presentationDetents([.fraction(0.15)])
           }
@@ -117,7 +125,6 @@ struct ChallengeView: View {
       }//sheet
     }
   }
-}
 
 struct ChallengeView_Previews: PreviewProvider {
     static var previews: some View {

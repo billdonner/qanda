@@ -62,15 +62,23 @@ class GameState : ObservableObject {
 }
 
 enum Choices {
-  case thumbsDown
-  case thumbsUp
+  case thumbsDown(URL)
+  case thumbsUp(URL)
   case showScorePage
-  case showHintBottomSheet
+  case showChallengeInfoPage(Challenge)
+  case showHintBottomSheet(String)
 }
 struct SheetChoices:Identifiable {
+  internal init(choice: Choices,  challenge: Challenge? = nil, url: URL? = nil) {
+    self.choice = choice
+    self.challenge = challenge
+    self.url = url
+  }
+  
   let id = UUID()
   let choice:Choices
-  let arg: String?
+  let challenge: Challenge?
+  let url: URL?
 }
 
 @main
