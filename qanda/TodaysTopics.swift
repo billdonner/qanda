@@ -20,7 +20,7 @@ struct TodaysTopics: View {
 
   private  func fileBundle(_ url:String ) async  {
     func downloadFile(from url: URL ) async throws -> Data {
-      let (data, _) = try await URLSession.shared.data(from: url)
+       let data = try Data(contentsOf:url)
       return data
     }
     guard let url = URL(string:url) else { print ("bad url \(url)"); return }
@@ -65,11 +65,11 @@ struct TodaysTopics: View {
 //            case .localFull:
 //              localFileBundle("gamedata01")
             case .gameDataSource1:
-              await  fileBundle(PRIMARY_REMOTE)
+              await fileBundle(PRIMARY_REMOTE)
             case .gameDataSource2:
-              await  fileBundle(SECONDARY_REMOTE)
+               await fileBundle(SECONDARY_REMOTE)
             case .gameDataSource3:
-              await  fileBundle(TERTIARY_REMOTE)
+               await  fileBundle(TERTIARY_REMOTE)
             }
             
             gameState.info = Array(repeating:PerTopicInfo(), count:gameDatum.count )
