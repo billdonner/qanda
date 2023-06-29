@@ -17,19 +17,7 @@ struct TodaysTopics: View {
   @State var showSettings = false
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   
-  
-  
-//  private func localFileBundle(_ name:String )  {
-//    let u = Bundle.main.url(forResource: name , withExtension: "json")
-//    guard let u = u  else { print("cant find gamedata json file \(name)"); return  }
-//    do {
-//      let data = try Data(contentsOf: u)
-//      gameDatum = try JSONDecoder().decode([GameData].self,from:data)
-//    } catch {
-//      print("Cant load GameData from local full , \(error)")
-//    }
-//  }
-//
+
   private  func fileBundle(_ url:String ) async  {
     func downloadFile(from url: URL ) async throws -> Data {
       let (data, _) = try await URLSession.shared.data(from: url)
