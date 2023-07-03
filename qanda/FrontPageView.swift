@@ -9,7 +9,7 @@ import SwiftUI
 
 // MARK :- Build Front Page
 
-struct TodaysTopics: View {
+struct FrontPageView: View {
   
   @StateObject  var gameState: GameState = GameState()
   @State var gameDatum: [GameData] = []
@@ -18,7 +18,7 @@ struct TodaysTopics: View {
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   
 
-  private  func fileBundle(_ url:String ) async  {
+  private  func fileBundle2(_ url:String ) async  {
     func downloadFile(from url: URL ) async throws -> Data {
        let data = try Data(contentsOf:url)
       return data
@@ -33,6 +33,27 @@ struct TodaysTopics: View {
       print("Cant load GameData from \(url), \(error)")
     }
   }
+  private  func fileBundle(_ url:String ) async  {
+    func downloadFile(from url: URL ) async throws -> Data {
+      let (data, _) = try await URLSession.shared.data(from: url)
+      return data
+    }
+    guard let url = URL(string:url) else { print ("bad url \(url)"); return }
+    // Task {
+    do{
+      let start_time = Date()
+      let data = try await downloadFile(from:url)
+      gameDatum = try JSONDecoder().decode([GameData].self,from:data)
+      let elapsed = Date().timeIntervalSince(start_time)
+    
+      let challengeCount = gameDatum.reduce(0,{$0 + $1.challenges.count})
+      print("Loaded \(gameDatum.count) topics, \(challengeCount) challenges in \(elapsed) secs")
+    }
+    catch {
+      print("Cant load GameData from \(url), \(error)")
+    }
+  }
+  
   
   
   var body: some View {
@@ -83,6 +104,6 @@ struct TodaysTopics: View {
 
 struct TodaysTopics_Previews: PreviewProvider {
   static var previews: some View {
-    TodaysTopics()
+    FrontPageView()
   }
 }

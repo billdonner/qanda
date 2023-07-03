@@ -13,7 +13,7 @@
 		8823695A29ED0AFA00A16E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695929ED0AFA00A16E14 /* Assets.xcassets */; };
 		8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */; };
 		882FFB3B2A2E18D30038E9A8 /* q20kshare in Frameworks */ = {isa = PBXBuildFile; productRef = 882FFB3A2A2E18D30038E9A8 /* q20kshare */; };
-		882FFB3E2A33DFD10038E9A8 /* TodaysTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FFB3D2A33DFD10038E9A8 /* TodaysTopics.swift */; };
+		882FFB3E2A33DFD10038E9A8 /* FrontPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882FFB3D2A33DFD10038E9A8 /* FrontPageView.swift */; };
 		8844C7182A44998900A88E42 /* ChallengeInfoPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8844C7172A44998900A88E42 /* ChallengeInfoPageView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,9 +24,10 @@
 		8823695529ED0AF900A16E14 /* qandaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qandaApp.swift; sourceTree = "<group>"; };
 		8823695929ED0AFA00A16E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		882FFB3D2A33DFD10038E9A8 /* TodaysTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysTopics.swift; sourceTree = "<group>"; };
+		882FFB3D2A33DFD10038E9A8 /* FrontPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageView.swift; sourceTree = "<group>"; };
 		8844C7172A44998900A88E42 /* ChallengeInfoPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeInfoPageView.swift; sourceTree = "<group>"; };
 		884DDEAA2A242B7100DD138F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		88E83BD22A4F8B6300D55B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +62,10 @@
 		8823695429ED0AF900A16E14 /* qanda */ = {
 			isa = PBXGroup;
 			children = (
+				88E83BD22A4F8B6300D55B17 /* Info.plist */,
 				8823695529ED0AF900A16E14 /* qandaApp.swift */,
 				881FE8552A2D308C00FE3847 /* HintBottomSheetView.swift */,
-				882FFB3D2A33DFD10038E9A8 /* TodaysTopics.swift */,
+				882FFB3D2A33DFD10038E9A8 /* FrontPageView.swift */,
 				881FE8572A2D380900FE3847 /* ChallengeView.swift */,
 				8844C7172A44998900A88E42 /* ChallengeInfoPageView.swift */,
 				8823695929ED0AFA00A16E14 /* Assets.xcassets */,
@@ -160,7 +162,7 @@
 				8844C7182A44998900A88E42 /* ChallengeInfoPageView.swift in Sources */,
 				8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */,
 				881FE8582A2D380900FE3847 /* ChallengeView.swift in Sources */,
-				882FFB3E2A33DFD10038E9A8 /* TodaysTopics.swift in Sources */,
+				882FFB3E2A33DFD10038E9A8 /* FrontPageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +294,8 @@
 				DEVELOPMENT_TEAM = X2PQYA6S48;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = qanda/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -322,6 +326,8 @@
 				DEVELOPMENT_TEAM = X2PQYA6S48;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = qanda/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

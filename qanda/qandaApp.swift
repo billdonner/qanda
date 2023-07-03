@@ -85,8 +85,9 @@ struct SheetChoices:Identifiable {
 struct qandaApp: App {
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   var body: some Scene {
+    let _ = print(( UIApplication.appName ?? "???") +  " " + ( UIApplication.appVersion ?? "???"))
     WindowGroup {
-      TodaysTopics()
+      FrontPageView()
     }
   }
 }
@@ -98,6 +99,9 @@ extension UIApplication {
     guard let x=x, let y=y else {
       return nil }
     return x + "." + y
+  }
+  static var appName: String? {
+    return  Bundle.main.object(forInfoDictionaryKey: "CFBundleName") as? String
   }
 }
 
@@ -124,7 +128,7 @@ struct ForEachWithIndex<
     }
   }
 }
-struct ImageView: View {
+struct InfoImageView: View {
   let imageName: String
   
   var body: some View {
@@ -198,8 +202,6 @@ struct SettingsView: View {
            
           }
           Section {
-            
-            
             Text("Be sure to Restart the app for change of input source to take effect").font(.footnote)
             
           }
