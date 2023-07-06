@@ -15,7 +15,6 @@ struct ChallengeView: View {
   @State  private var sheetchoice: SheetChoices? = nil
   var body: some View {
     NavigationStack {
-      
       let stv = gs.info[index]
       let finally = (stv.currentQuestionIndex == quizData.challenges.count-1) && stv.showingAnswer
       let qd = quizData.challenges[stv.currentQuestionIndex]
@@ -32,7 +31,6 @@ struct ChallengeView: View {
           HStack{
             Text(qd.question)
               .font(.title).padding()
-        
           }
           ForEach(0 ..< qd.answers.count, id:\.self) { number in
             Button(action: {
@@ -60,8 +58,6 @@ struct ChallengeView: View {
         sheetchoice = SheetChoices(choice:.showHintBottomSheet( qd.hint))
       }
         .navigationBarTitle(Text(quizData.subject + "\(finally ? " Finally Done " : "")"))
-                          
-                          
         .toolbar {
           ToolbarItemGroup(placement: .bottomBar){
             Button(finally ? "Start Over":"Previous") {
@@ -77,7 +73,6 @@ struct ChallengeView: View {
               }
             }
             .disabled(stv.currentQuestionIndex == 0)
-            
             Button {
               sheetchoice = SheetChoices(choice:.thumbsDown(URL(string:"https://freeport.software")!))
             } label: {
@@ -91,7 +86,6 @@ struct ChallengeView: View {
               Image(systemName: "hand.thumbsup")
             }
             .disabled( !stv.showingAnswer)
-    
             Button("Next") {
               if stv.currentQuestionIndex + 1 < quizData.challenges.count {
                 gs.info[index].currentQuestionIndex += 1
@@ -104,15 +98,12 @@ struct ChallengeView: View {
           }
         }// toolbar
       )
-      
       .sheet(item:$sheetchoice){sc in
         switch sc.choice {
         case .thumbsUp(let url) :
             WebView(url:url)
-         
         case .thumbsDown(let url) :
             WebView(url:url)
-        
         case .showChallengeInfoPage(let challenge):
           ChallengeInfoPageView(challenge:challenge)
         case .showScorePage :

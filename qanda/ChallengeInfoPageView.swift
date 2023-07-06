@@ -130,4 +130,4 @@ struct ChallengeInfoPageView_Previews: PreviewProvider {
   static var previews: some View {
     ChallengeInfoPageView(challenge:challenge)
   }
-}
+  }

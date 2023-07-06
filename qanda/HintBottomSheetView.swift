@@ -27,9 +27,3 @@ struct HintBottomSheetView : View {
   }
   
 }
-struct HintBottomSheetView_Previews: PreviewProvider {
-  static var previews: some View {
-    HintBottomSheetView(hint: "Take it slow")
-  }
-  
-}

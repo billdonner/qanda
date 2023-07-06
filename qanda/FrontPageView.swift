@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import q20kshare
 
 // MARK :- Build Front Page
 
@@ -99,11 +100,5 @@ struct FrontPageView: View {
     }.sheet(isPresented: $showSettings) {
       SettingsView (stv: gameState.info[0])//????
     }
-  }
-}
-
-struct TodaysTopics_Previews: PreviewProvider {
-  static var previews: some View {
-    FrontPageView()
   }
 }

@@ -12,19 +12,7 @@ let PRIMARY_REMOTE = "https://billdonner.com/fs/gd/readyforios01.json"
 let SECONDARY_REMOTE = "https://billdonner.com/fs/gd/readyforios02.json"
 let TERTIARY_REMOTE = "https://billdonner.com/fs/gd/readyforios03.json"
 
-struct GameData : Codable, Hashable,Identifiable,Equatable {
-  internal init(subject: String, challenges: [Challenge]) {
-    self.subject = subject
-    self.challenges = challenges.shuffled()  //randomize
-    self.id = UUID().uuidString
-    self.generated = Date()
-  }
-  
-  let id : String
-  let subject: String
-  let challenges: [Challenge]
-  let generated: Date
-}
+
 enum GameDataSource : Int {
 //
 //  case localFull // keep first for easiest testing
@@ -34,9 +22,6 @@ enum GameDataSource : Int {
   
   static  func string(for:Self) -> String {
     switch `for` {
-      
-//    case .localFull:
-//      return "localFull"
     case .gameDataSource1:
       return PRIMARY_REMOTE
     case .gameDataSource2:
@@ -81,16 +66,6 @@ struct SheetChoices:Identifiable {
   let url: URL?
 }
 
-@main
-struct qandaApp: App {
-  @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
-  var body: some Scene {
-    let _ = print(( UIApplication.appName ?? "???") +  " " + ( UIApplication.appVersion ?? "???"))
-    WindowGroup {
-      FrontPageView()
-    }
-  }
-}
 //"CFBundleVersion"
 extension UIApplication {
   static var appVersion: String? {
@@ -106,7 +81,6 @@ extension UIApplication {
 }
 
 
-import WebKit
 // Print JSON to Console
 func printJSon(_ g:GameData) {
   let encoder = JSONEncoder()
@@ -139,79 +113,16 @@ struct InfoImageView: View {
       .clipped()
   }
 }
-struct WebView: View {
-  let url:URL
-  @Environment(\.presentationMode) var presentationMode
-  var body: some View {
-    ZStack {
-      WebViewx(url:url)
-      Button(action: {
-        presentationMode.wrappedValue.dismiss()
-      }) {
-        VStack {
-          HStack{ Spacer() ;  Image(systemName: "xmark.circle").padding()}
-          Spacer()
-        }
-      }
-    }
-  }
-}
-
-struct WebViewx: UIViewRepresentable {
-  
-  let url:URL
-  
-  func makeUIView(context: Context) -> WKWebView {
-    let webView = WKWebView()
-    webView.load(URLRequest(url: url))
-    return webView
-  }
-  
-  func updateUIView(_ uiView: WKWebView, context: Context) {
-    uiView.load(URLRequest(url: url))
-  }
-}
-struct WebView_Previews: PreviewProvider {
-  static var previews: some View {
-    WebView(url: URL(string:"https://www.apple.com")!)
-      .edgesIgnoringSafeArea(.all)
-  }
-}
 
 
 
-struct SettingsView: View {
-  let stv: PerTopicInfo
-  let dataSources : [GameDataSource] = [.gameDataSource1,.gameDataSource2,.gameDataSource3]
+@main
+struct qandaApp: App {
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
-  var body: some View {
-    NavigationStack {
-      VStack{
-        let zz = UIApplication.appVersion ?? "??"
-        Form {
-          
-          Text("Score: \(stv.score)").font(.title)
-          
-          Section {
-            
-            Picker("Source", selection: $gameDataSource) {
-              ForEach(dataSources, id: \.self) { ds in
-                Text(GameDataSource.string(for:ds))
-              }
-            }
-           
-          }
-          Section {
-            Text("Be sure to Restart the app for change of input source to take effect").font(.footnote)
-            
-          }
-        }.navigationTitle("Freeport " + zz)
-      }
+  var body: some Scene {
+    let _ = print(( UIApplication.appName ?? "???") +  " " + ( UIApplication.appVersion ?? "???"))
+    WindowGroup {
+      FrontPageView()
     }
-  }
-}
-struct SettingsView_Previews: PreviewProvider {
-  static var previews: some View {
-    SettingsView(stv:PerTopicInfo(currentQuestionIndex: 1, showingAnswer: true, score: 99))
   }
 }
