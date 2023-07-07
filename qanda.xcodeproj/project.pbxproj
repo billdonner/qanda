@@ -17,6 +17,7 @@
 		8844C7182A44998900A88E42 /* ChallengeInfoPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8844C7172A44998900A88E42 /* ChallengeInfoPageView.swift */; };
 		889D081E2A5778CA00EED127 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D081D2A5778CA00EED127 /* SettingsView.swift */; };
 		889D08202A57794B00EED127 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D081F2A57794B00EED127 /* WebView.swift */; };
+		889D08222A5891E500EED127 /* ThumbsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889D08212A5891E500EED127 /* ThumbsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		884DDEAA2A242B7100DD138F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		889D081D2A5778CA00EED127 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		889D081F2A57794B00EED127 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		889D08212A5891E500EED127 /* ThumbsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbsView.swift; sourceTree = "<group>"; };
 		88E83BD22A4F8B6300D55B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +70,7 @@
 			children = (
 				88E83BD22A4F8B6300D55B17 /* Info.plist */,
 				8823695529ED0AF900A16E14 /* qandaApp.swift */,
+				889D08212A5891E500EED127 /* ThumbsView.swift */,
 				889D081F2A57794B00EED127 /* WebView.swift */,
 				889D081D2A5778CA00EED127 /* SettingsView.swift */,
 				881FE8552A2D308C00FE3847 /* HintBottomSheetView.swift */,
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				881FE8562A2D308C00FE3847 /* HintBottomSheetView.swift in Sources */,
+				889D08222A5891E500EED127 /* ThumbsView.swift in Sources */,
 				8844C7182A44998900A88E42 /* ChallengeInfoPageView.swift in Sources */,
 				8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */,
 				889D081E2A5778CA00EED127 /* SettingsView.swift in Sources */,

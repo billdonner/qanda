@@ -74,14 +74,14 @@ struct ChallengeView: View {
             }
             .disabled(stv.currentQuestionIndex == 0)
             Button {
-              sheetchoice = SheetChoices(choice:.thumbsDown(URL(string:"https://freeport.software")!))
+              sheetchoice = SheetChoices(choice:.thumbsDown(quizData.challenges[stv.currentQuestionIndex]))
             } label: {
               Image(systemName: "hand.thumbsdown")
             }
-            .disabled(  !stv.showingAnswer)
+           .disabled(  !stv.showingAnswer)
             Spacer()
             Button {
-                sheetchoice = SheetChoices(choice:.thumbsUp(URL(string:"https://freeport.software")!))
+                sheetchoice = SheetChoices(choice:.thumbsUp(quizData.challenges[stv.currentQuestionIndex]))
             } label: {
               Image(systemName: "hand.thumbsup")
             }
@@ -94,16 +94,16 @@ struct ChallengeView: View {
                 // game is over
               //}
             }
-            .disabled(stv.currentQuestionIndex == quizData.challenges.count-1 )
+         .disabled(stv.currentQuestionIndex == quizData.challenges.count-1 )
           }
         }// toolbar
       )
       .sheet(item:$sheetchoice){sc in
         switch sc.choice {
-        case .thumbsUp(let url) :
-            WebView(url:url)
-        case .thumbsDown(let url) :
-            WebView(url:url)
+        case .thumbsUp(let challenge) :
+            ThumbsUpView(challenge:challenge)
+        case .thumbsDown(let challenge) :
+            ThumbsDownView(challenge:challenge)
         case .showChallengeInfoPage(let challenge):
           ChallengeInfoPageView(challenge:challenge)
         case .showScorePage :

@@ -47,8 +47,8 @@ class GameState : ObservableObject {
 }
 
 enum Choices {
-  case thumbsDown(URL)
-  case thumbsUp(URL)
+  case thumbsDown(Challenge)
+  case thumbsUp(Challenge)
   case showScorePage
   case showChallengeInfoPage(Challenge)
   case showHintBottomSheet(String)
