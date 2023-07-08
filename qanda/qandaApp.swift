@@ -32,18 +32,25 @@ enum GameDataSource : Int {
   }
 }
 
-struct PerTopicInfo {
+struct TopicState {
   var currentQuestionIndex: Int = 0
   var showingAnswer : Bool = false
   var score: Int = 0
 }
-
+//class foo:Observable {
+//  internal init(a: Int, b: String) {
+//    self.a = a
+//    self.b = b
+//  }
+//  
+//  var a: Int
+//  var b: String
+//}
 
 class GameState : ObservableObject {
   let id:String = UUID().uuidString
-  @Published var info:[PerTopicInfo] = []
+  @Published var topicState:[TopicState] = []
   @Published var masterScore:Int = 0
-  // @Published var masterTopicIndex:Int = 0
 }
 
 enum Choices {
@@ -102,9 +109,9 @@ struct ForEachWithIndex<
     }
   }
 }
+
 struct InfoImageView: View {
   let imageName: String
-  
   var body: some View {
     Image(imageName)
       .resizable()

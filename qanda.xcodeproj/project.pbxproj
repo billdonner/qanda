@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		881FE8562A2D308C00FE3847 /* HintBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881FE8552A2D308C00FE3847 /* HintBottomSheetView.swift */; };
-		881FE8582A2D380900FE3847 /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881FE8572A2D380900FE3847 /* ChallengeView.swift */; };
+		881FE8582A2D380900FE3847 /* SoloTopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881FE8572A2D380900FE3847 /* SoloTopicView.swift */; };
 		8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823695529ED0AF900A16E14 /* qandaApp.swift */; };
 		8823695A29ED0AFA00A16E14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695929ED0AFA00A16E14 /* Assets.xcassets */; };
 		8823695D29ED0AFA00A16E14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8823695C29ED0AFA00A16E14 /* Preview Assets.xcassets */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		881FE8552A2D308C00FE3847 /* HintBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HintBottomSheetView.swift; sourceTree = "<group>"; };
-		881FE8572A2D380900FE3847 /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		881FE8572A2D380900FE3847 /* SoloTopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoloTopicView.swift; sourceTree = "<group>"; };
 		8823695229ED0AF900A16E14 /* qanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8823695529ED0AF900A16E14 /* qandaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qandaApp.swift; sourceTree = "<group>"; };
 		8823695929ED0AFA00A16E14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				889D081D2A5778CA00EED127 /* SettingsView.swift */,
 				881FE8552A2D308C00FE3847 /* HintBottomSheetView.swift */,
 				882FFB3D2A33DFD10038E9A8 /* FrontPageView.swift */,
-				881FE8572A2D380900FE3847 /* ChallengeView.swift */,
+				881FE8572A2D380900FE3847 /* SoloTopicView.swift */,
 				8844C7172A44998900A88E42 /* ChallengeInfoPageView.swift */,
 				8823695929ED0AFA00A16E14 /* Assets.xcassets */,
 				8823695B29ED0AFA00A16E14 /* Preview Content */,
@@ -172,7 +172,7 @@
 				8844C7182A44998900A88E42 /* ChallengeInfoPageView.swift in Sources */,
 				8823695629ED0AF900A16E14 /* qandaApp.swift in Sources */,
 				889D081E2A5778CA00EED127 /* SettingsView.swift in Sources */,
-				881FE8582A2D380900FE3847 /* ChallengeView.swift in Sources */,
+				881FE8582A2D380900FE3847 /* SoloTopicView.swift in Sources */,
 				882FFB3E2A33DFD10038E9A8 /* FrontPageView.swift in Sources */,
 				889D08202A57794B00EED127 /* WebView.swift in Sources */,
 			);

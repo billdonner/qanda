@@ -13,16 +13,17 @@ import q20kshare
 struct FrontPageView: View {
   
   @StateObject  var gameState: GameState = GameState()
-  @State var gameDatum: [GameData] = []
+  @State
+  private var gameDatum: [GameData] = []
   
   @State var showSettings = false
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   
-@State var isDownloading = false
+  @State var isDownloading = false
   
   private  func fileBundle2(_ url:String ) async  {
     func downloadFile(from url: URL ) async throws -> Data {
-       let data = try Data(contentsOf:url)
+      let data = try Data(contentsOf:url)
       return data
     }
     guard let url = URL(string:url) else { print ("bad url \(url)"); return }
@@ -65,11 +66,11 @@ struct FrontPageView: View {
         }.opacity(isDownloading ? 1.0 : 0.0)
         VStack {
           ScrollView {
-            ForEachWithIndex (data:gameDatum) { index, qanda in
-              NavigationLink(destination:  ChallengeView(gs: gameState, index: index,  quizData: qanda)) {
+            ForEachWithIndex (data:gameDatum) { index, quizData in
+              NavigationLink(destination:  SoloTopicView(gs: gameState, topicIndex: index,  gameData: quizData)) {
                 HStack {
-                  Text(qanda.subject).font(.title).lineLimit(2)
-                  Text("\(qanda.challenges.count)").font(.footnote)
+                  Text(quizData.subject).font(.title).lineLimit(2)
+                  Text("\(quizData.challenges.count)").font(.footnote)
                 }
               }
             }
@@ -93,13 +94,13 @@ struct FrontPageView: View {
               case .gameDataSource3:
                 await  loadFrom(TERTIARY_REMOTE)
               }
-              gameState.info = Array(repeating:PerTopicInfo(), count:gameDatum.count )
+              gameState.topicState = Array(repeating:TopicState(), count:gameDatum.count )
               isDownloading = false
-            } //
+            } // first
           }// task
       }
       .sheet(isPresented: $showSettings) {
-        SettingsView (stv: gameState.info[0])//????
+        SettingsView (stv: gameState.topicState[0])//????
       }
     }
   }

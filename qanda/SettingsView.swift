@@ -7,7 +7,7 @@
 
 import SwiftUI 
 struct SettingsView: View {
-  let stv: PerTopicInfo
+  let stv: TopicState
   let dataSources : [GameDataSource] = [.gameDataSource1,.gameDataSource2,.gameDataSource3]
   @AppStorage("GameDataSource") var gameDataSource: GameDataSource = GameDataSource.gameDataSource1
   var body: some View {
@@ -34,6 +34,6 @@ struct SettingsView: View {
 }
 struct SettingsView_Previews: PreviewProvider {
   static var previews: some View {
-    SettingsView(stv:PerTopicInfo(currentQuestionIndex: 1, showingAnswer: true, score: 99))
+    SettingsView(stv:TopicState(currentQuestionIndex: 1, showingAnswer: true, score: 99))
   }
 }
